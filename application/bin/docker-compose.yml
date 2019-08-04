@@ -1,6 +1,5 @@
 dev.ontheroad.jp-wordpress:
-    #image: toybox/wordpress:4.5.2-apache
-    image: local:wordpress-4.5.2-apache
+    image: wordpress:5.2.2-php7.2-apache
     volumes:
         - /etc/localtime:/etc/localtime:ro
         - /home/nobita/workspace/docker-toybox/stack/ontheroad.jp/dev/data/wordpress/docroot:/var/www/html
