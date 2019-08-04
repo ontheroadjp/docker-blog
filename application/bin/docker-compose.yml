@@ -1,0 +1,49 @@
+dev.ontheroad.jp-wordpress:
+    #image: toybox/wordpress:4.5.2-apache
+    image: local:wordpress-4.5.2-apache
+    volumes:
+        - /etc/localtime:/etc/localtime:ro
+        - /home/nobita/workspace/docker-toybox/stack/ontheroad.jp/dev/data/wordpress/docroot:/var/www/html
+    links:
+        - dev.ontheroad.jp-wordpress-db:mysql
+    log_driver: "json-file"
+    log_opt:
+        max-size: "3m"
+        max-file: "7"
+    environment:
+        - VIRTUAL_HOST=dev.ontheroad.jp
+        - LETSENCRYPT_HOST=dev.ontheroad.jp
+        - LETSENCRYPT_EMAIL=dev@ontheroad.jp
+        - PROXY_CACHE=true
+        - TOYBOX_UID=1000
+        - TOYBOX_GID=1000
+        - WORDPRESS_DB_NAME=toybox_wordpress
+        - WORDPRESS_DB_USER=toybox
+        - WORDPRESS_DB_PASSWORD=toybox
+        - WORDPRESS_TABLE_PREFIX=wp_dev_
+        - DOCROOT=/var/www/html
+        - EXEC_REPLACE_DB=0
+        - FQDN_REPLACED=
+        - REMOTE_WP_DIR=
+    ports:
+        - "80"
+
+dev.ontheroad.jp-wordpress-db:
+    #    image: toybox/mariadb:10.1.14
+    image: nutsllc/toybox-mariadb:10.1.14
+    volumes:
+        - /etc/localtime:/etc/localtime:ro
+        - /home/nobita/workspace/docker-toybox/stack/ontheroad.jp/dev/data/mariadb:/var/lib/mysql
+        - /home/nobita/workspace/docker-toybox/stack/ontheroad.jp/dev/build/wp-sync/data:/docker-entrypoint-initdb.d
+    log_driver: "json-file"
+    log_opt:
+        max-size: "3m"
+        max-file: "7"
+    environment:
+        - MYSQL_ROOT_PASSWORD=root
+        - MYSQL_DATABASE=toybox_wordpress
+        - MYSQL_USER=toybox
+        - MYSQL_PASSWORD=toybox
+        - TERM=xterm
+        - TOYBOX_UID=1000
+        - TOYBOX_GID=1000

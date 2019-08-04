@@ -1,0 +1,71 @@
+proxy-nginx:
+    restart: always
+    #restart: unless-stopped
+    image: toybox/nginx:1.9.15
+    volumes:
+        - "/etc/localtime:/etc/localtime:ro"
+        - "/home/nobita/workspace/docker-blog/proxy/data/nginx/conf.d:/etc/nginx/conf.d"
+        - "/home/nobita/workspace/docker-blog/proxy/data/nginx/vhost.d:/etc/nginx/vhost.d"
+        - "/home/nobita/workspace/docker-blog/proxy/data/nginx/docroot:/usr/share/nginx/html"
+        - "/home/nobita/workspace/docker-blog/proxy/data/nginx/certs:/etc/nginx/certs"
+    log_driver: "json-file"
+    log_opt:
+        max-size: "3m"
+        max-file: "7"
+    environment:
+        - TOYBOX_UID=1000
+        - TOYBOX_GID=1000
+          #        - DOCKER_HOST=tcp://172.17.0.1:2376
+          #        - DOCKER_CERT_PATH=/certs
+          #        - DOCKER_TLS_VERIFY=1
+    ports:
+        - "80:80"
+        - "443:443"
+
+proxy-docker-gen:
+    restart: always
+    #restart: unless-stopped
+    image: jwilder/docker-gen
+    container_name: proxy-docker-gen
+    links:
+        - proxy-nginx
+    volumes_from:
+        - proxy-nginx
+    volumes:
+        - "/etc/localtime:/etc/localtime:ro"
+        - "/var/run/docker.sock:/tmp/docker.sock:ro"
+        - "/home/nobita/workspace/docker-blog/containers/proxy/docker-gen/docker-gen.conf:/docker-gen.conf"
+        - "/home/nobita/workspace/docker-blog/containers/proxy/docker-gen/templates:/etc/docker-gen/templates"
+    log_driver: "json-file"
+    log_opt:
+        max-size: "3m"
+        max-file: "7"
+    #        environment:
+    #            - DOCKER_HOST=tcp://172.17.0.1:2376
+    #            - DOCKER_CERT_PATH=/certs
+    #            - DOCKER_TLS_VERIFY=1
+    #            - security-opt=label:type:docker_t
+    command: -config /docker-gen.conf
+    #command: -notify-sighup toybox_proxy-nginx_1 -watch -only-exposed /etc/docker-gen/templates/nginx.tmpl /etc/nginx/conf.d/default.conf
+    #command: -tlscacert=/home/nobita/.docker/ca.pem -tlscert=/home/nobita/.docker/cert.pem -tlskey=/home/nobita/.docker/key.pem -notify-sighup toybox_proxy-nginx_1 -watch -only-exposed /etc/docker-gen/templates/nginx.tmpl /etc/nginx/conf.d/default.conf
+
+proxy-letsencrypt:
+    restart: always
+    #restart: unless-stopped
+    image: jrcs/letsencrypt-nginx-proxy-companion
+    links:
+        - proxy-nginx
+    volumes_from:
+        - proxy-nginx
+    volumes:
+        - "/etc/localtime:/etc/localtime:ro"
+        - "/var/run/docker.sock:/var/run/docker.sock:ro"
+        - "/home/nobita/workspace/docker-blog/proxy/data/nginx/certs:/etc/nginx/certs:rw"
+    log_driver: "json-file"
+    log_opt:
+        max-size: "3m"
+        max-file: "7"
+    environment:
+        - NGINX_DOCKER_GEN_CONTAINER=proxy-docker-gen
+        #- ACME_CA_URI=https://acme-staging.api.letsencrypt.org/directory
+        - ACME_CA_URI=https://acme-v01.api.letsencrypt.org/directory
