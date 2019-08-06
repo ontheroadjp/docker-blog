@@ -1,12 +1,12 @@
 proxy-nginx:
     restart: always
-    image: nginx:1.17.2-alpine
+    image: nutsllc/toybox-nginx:1.15.7-alpine
     volumes:
         - "/etc/localtime:/etc/localtime:ro"
-        - "/home/nobita/workspace/docker-blog/proxy/data/nginx/conf.d:/etc/nginx/conf.d"
-        - "/home/nobita/workspace/docker-blog/proxy/data/nginx/vhost.d:/etc/nginx/vhost.d"
-        - "/home/nobita/workspace/docker-blog/proxy/data/nginx/docroot:/usr/share/nginx/html"
-        - "/home/nobita/workspace/docker-blog/proxy/data/nginx/certs:/etc/nginx/certs"
+        - "~/workspace/docker-blog/proxy/data/nginx/docroot:/usr/share/nginx/html"
+        - "~/workspace/docker-blog/proxy/data/nginx/conf.d:/etc/nginx/conf.d"
+        - "~/workspace/docker-blog/proxy/data/nginx/vhost.d:/etc/nginx/vhost.d"
+        - "~/workspace/docker-blog/proxy/data/nginx/certs:/etc/nginx/certs"
     log_driver: "json-file"
     log_opt:
         max-size: "3m"
@@ -29,8 +29,8 @@ proxy-docker-gen:
     volumes:
         - "/etc/localtime:/etc/localtime:ro"
         - "/var/run/docker.sock:/tmp/docker.sock:ro"
-        - "/home/nobita/workspace/docker-blog/containers/proxy/docker-gen/docker-gen.conf:/docker-gen.conf"
-        - "/home/nobita/workspace/docker-blog/containers/proxy/docker-gen/templates:/etc/docker-gen/templates"
+        - "~/workspace/docker-blog/containers/proxy/docker-gen/docker-gen.conf:/docker-gen.conf"
+        - "~/workspace/docker-blog/containers/proxy/docker-gen/templates:/etc/docker-gen/templates"
     log_driver: "json-file"
     log_opt:
         max-size: "3m"
@@ -47,7 +47,7 @@ proxy-letsencrypt:
     volumes:
         - "/etc/localtime:/etc/localtime:ro"
         - "/var/run/docker.sock:/var/run/docker.sock:ro"
-        - "/home/nobita/workspace/docker-blog/proxy/data/nginx/certs:/etc/nginx/certs:rw"
+        - "~/workspace/docker-blog/proxy/data/nginx/certs:/etc/nginx/certs:rw"
     log_driver: "json-file"
     log_opt:
         max-size: "3m"
