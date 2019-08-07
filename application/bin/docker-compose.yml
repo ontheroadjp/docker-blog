@@ -1,49 +1,63 @@
 dev.ontheroad.jp-wordpress:
-    image: wordpress:5.2.2-php7.2-apache
+    image: nutsllc/toybox-nginx:1.15.7-alpine
     volumes:
         - /etc/localtime:/etc/localtime:ro
-        - ~/workspace/docker-blog/application/data/wordpress/docroot:/var/www/html
-          #- ${TOYBOX_HOME}/application/data/wordpress/docroot:/var/www/html
+        - ~/workspace/docker-blog/application/data/wordpress/docroot:/usr/share/nginx/html
+        - ~/workspace/docker-blog/application/data/nginx/conf.d:/etc/nginx/conf.d
     links:
-        - wordpress-db:mysql
+        - php-fpm
+
     log_driver: "json-file"
     log_opt:
         max-size: "3m"
         max-file: "7"
     environment:
+        - TOYBOX_UID=1000
+        - TOYBOX_GID=1000
         - VIRTUAL_HOST=dev.ontheroad.jp
         - LETSENCRYPT_HOST=dev.ontheroad.jp
         - LETSENCRYPT_EMAIL=dev@ontheroad.jp
+        - PHP_FPM_HOST=php-fpm:9000 
         #- PROXY_CACHE=true
-        #- TOYBOX_UID=1000
-        #- TOYBOX_GID=1000
-        - WORDPRESS_DB_NAME=toybox_wordpress
-        - WORDPRESS_DB_USER=toybox
-        - WORDPRESS_DB_PASSWORD=toybox
-        - WORDPRESS_TABLE_PREFIX=wp_dev_
-        #- DOCROOT=/var/www/html
+
+        #- DOCROOT=/usr/share/nginx/html
         #- EXEC_REPLACE_DB=0
         #- FQDN_REPLACED=
         #- REMOTE_WP_DIR=
     ports:
         - "80"
 
+php-fpm:
+    image: nutsllc/toybox-php:7.0-fpm
+    volumes:
+        - /etc/localtime:/etc/localtime:ro
+        - ~/workspace/docker-blog/application/data/wordpress/docroot:/usr/share/nginx/html
+    links:
+        - wordpress-db:mysql
+    environment:
+        - TOYBOX_UID=1000
+        - TOYBOX_GID=1000
+        - ALL_PHP_MODULES=enable
+        - WORDPRESS_DB_NAME=toybox_wordpress
+        - WORDPRESS_DB_USER=toybox
+        - WORDPRESS_DB_PASSWORD=toybox
+        - WORDPRESS_TABLE_PREFIX=wp_dev_
+
 wordpress-db:
-    #image: nutsllc/toybox-mariadb:10.1.14
-    image: mariadb:10.1.14
+    image: nutsllc/toybox-mariadb:10.1.14
     volumes:
         - /etc/localtime:/etc/localtime:ro
         - ~/workspace/docker-blog/application/data/mariadb:/var/lib/mysql
-        - ~/workspace/docker-blog/application/build/wp-sync/data:/docker-entrypoint-initdb.d
+          #- ~/workspace/docker-blog/application/build/wp-sync/data:/docker-entrypoint-initdb.d
     log_driver: "json-file"
     log_opt:
         max-size: "3m"
         max-file: "7"
     environment:
+        - TOYBOX_UID=1000
+        - TOYBOX_GID=1000
         - MYSQL_ROOT_PASSWORD=root
         - MYSQL_DATABASE=toybox_wordpress
         - MYSQL_USER=toybox
         - MYSQL_PASSWORD=toybox
         - TERM=xterm
-        #- TOYBOX_UID=1000
-        #- TOYBOX_GID=1000
