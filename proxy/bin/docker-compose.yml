@@ -1,6 +1,7 @@
-proxy-nginx:
+nginx:
     restart: always
     image: nutsllc/toybox-nginx:1.15.7-alpine
+    container_name: toybox-proxy-nginx
     volumes:
         - "/etc/localtime:/etc/localtime:ro"
         - "~/workspace/docker-blog/proxy/data/html:/usr/share/nginx/html"
@@ -18,14 +19,14 @@ proxy-nginx:
         - "80:80"
         - "443:443"
 
-proxy-docker-gen:
+docker-gen:
     restart: always
     image: jwilder/docker-gen
-    container_name: proxy-docker-gen
+    container_name: toybox-proxy-nginx-gen
     links:
-        - proxy-nginx
+        - nginx
     volumes_from:
-        - proxy-nginx
+        - nginx
     volumes:
         - "/etc/localtime:/etc/localtime:ro"
         - "/var/run/docker.sock:/tmp/docker.sock:ro"
@@ -37,13 +38,14 @@ proxy-docker-gen:
         max-file: "7"
     command: -config /docker-gen.conf
 
-proxy-letsencrypt:
+letsencrypt:
     restart: always
     image: jrcs/letsencrypt-nginx-proxy-companion
+    container_name: toybox-proxy-letsencrypt
     links:
-        - proxy-nginx
+        - nginx
     volumes_from:
-        - proxy-nginx
+        - nginx
     volumes:
         - "/etc/localtime:/etc/localtime:ro"
         - "/var/run/docker.sock:/var/run/docker.sock:ro"
@@ -53,6 +55,6 @@ proxy-letsencrypt:
         max-size: "3m"
         max-file: "7"
     environment:
-        - NGINX_DOCKER_GEN_CONTAINER=proxy-docker-gen
+        - NGINX_DOCKER_GEN_CONTAINER=toybox-proxy-nginx-gen
         #- ACME_CA_URI=https://acme-staging.api.letsencrypt.org/directory
         - ACME_CA_URI=https://acme-v01.api.letsencrypt.org/directory
