@@ -1,7 +1,8 @@
 .DS_Store
 application/data/
 proxy/data/
-proxy/conf/conf.d/*
-proxy/conf/certs/*
+proxy/conf/conf.d/
+proxy/conf/certs/*.*
+
 wpclone/wordpress/Search-Replace-DB
 wpclone/mariadb/*.sql
