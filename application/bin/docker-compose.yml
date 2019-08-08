@@ -2,8 +2,8 @@ dev.ontheroad.jp-wordpress:
     image: nutsllc/toybox-nginx:1.15.7-alpine
     volumes:
         - /etc/localtime:/etc/localtime:ro
-        - ~/workspace/docker-blog/application/data/wordpress/docroot:/usr/share/nginx/html
-        - ~/workspace/docker-blog/application/data/nginx/conf.d:/etc/nginx/conf.d
+        - ~/workspace/docker-blog/application/data/html:/usr/share/nginx/html
+        - ~/workspace/docker-blog/application/conf/conf.d:/etc/nginx/conf.d
     links:
         - php-fpm
 
@@ -18,7 +18,7 @@ dev.ontheroad.jp-wordpress:
         - LETSENCRYPT_HOST=dev.ontheroad.jp
         - LETSENCRYPT_EMAIL=dev@ontheroad.jp
         - PHP_FPM_HOST=php-fpm:9000 
-        #- PROXY_CACHE=true
+        - PROXY_CACHE=true
 
         #- DOCROOT=/usr/share/nginx/html
         #- EXEC_REPLACE_DB=0
@@ -31,7 +31,7 @@ php-fpm:
     image: nutsllc/toybox-php:7.0-fpm
     volumes:
         - /etc/localtime:/etc/localtime:ro
-        - ~/workspace/docker-blog/application/data/wordpress/docroot:/usr/share/nginx/html
+        - ~/workspace/docker-blog/application/data/html:/usr/share/nginx/html
     links:
         - wordpress-db:mysql
     environment:
@@ -48,7 +48,6 @@ wordpress-db:
     volumes:
         - /etc/localtime:/etc/localtime:ro
         - ~/workspace/docker-blog/application/data/mariadb:/var/lib/mysql
-          #- ~/workspace/docker-blog/application/build/wp-sync/data:/docker-entrypoint-initdb.d
     log_driver: "json-file"
     log_opt:
         max-size: "3m"
