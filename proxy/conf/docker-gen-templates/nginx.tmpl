@@ -220,14 +220,13 @@ server {
     send_timeout                600;
 
     add_header X-Cache $upstream_cache_status;
-    #proxy_ignore_headers X-Accel-Redirect X-Accel-Expires Cache-Control Expires Set-Cookie;
+    proxy_ignore_headers X-Accel-Redirect X-Accel-Expires Cache-Control Expires Set-Cookie;
+    #proxy_ignore_headers Cache-Control;
 
 	location / {
 		proxy_pass {{ trim $proto }}://{{ trim $host }};
         {{ if ($proxy_cache) }}
         proxy_cache {{ $host }};
-        #proxy_cache_key $scheme$proxy_host$uri$is_args$args;
-        #proxy_cache_key $scheme://$proxy_host$request_uri;
         set $mobilef '';
         if ($http_user_agent ~* '(iPhone|iPod|incognito|webmate|Android.*Mobile|Windows.*Phone|dream|CUPCAKE|blackberry9500|blackberry9530|blackberry9520|blackberry9550|blackberry 9800|webOS|s8000|bada|Googlebot-Mobile|incognito|webmate)') {
              set $mobilef 'mobile.';
