@@ -15,6 +15,7 @@ nginx:
     environment:
         - TOYBOX_UID=1000
         - TOYBOX_GID=1000
+        - PROXY_CACHE=true
     ports:
         - "80:80"
         - "443:443"
