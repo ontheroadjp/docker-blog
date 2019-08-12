@@ -19,7 +19,8 @@ $ git clone https://github.com/ontheroadjp/docker-blog.git
 ```
 ### Settings
 
-Edit ''path/to/installdir/application/bin/.env''.
+Copy ``path/to/installdir/application/bin/.env.example`` to the same directory as ``.env``.  
+Edit ``.env`` file.  
 example below.
 
 ```bash
@@ -61,9 +62,9 @@ $ docker-compose up -d
 
 It will start three containers. Nginx, docker-gen and letsencrypt-nginx-proxy-companion container.
 
-Nginx: Proxy Server enabled the proxy cache
-docker-gen: Generate nginx conf files dynamically.
-letsencrypt-nginx-proxy-companion: create and update TLS cirtification.
+* Nginx: Proxy Server enabled the proxy cache
+* docker-gen: Generate nginx conf files dynamically.
+* letsencrypt-nginx-proxy-companion: create and update TLS cirtification.
 
 #### Start WordPress Container
 ```bash
@@ -73,9 +74,9 @@ $ docker-compose up -d
 
 It will start three containers. Nginx, PHP-FPM and MariaDB container.
 
-Nginx: Web Server
-PHP-FPM: PHP-FPM module that is installed WordPress.
-MariaDB: Database for WordPress.
+* Nginx: Web Server
+* PHP-FPM: PHP-FPM module that is installed WordPress.
+* MariaDB: Database for WordPress.
 
 ## License
 
