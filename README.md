@@ -11,7 +11,7 @@ Docker containers management by dynamic proxy.
 
 ### Installation
 
-* Download the latest release of docker-blog.
+Download the latest release of docker-blog.
 
 ```
 $ cd /path/to/download
