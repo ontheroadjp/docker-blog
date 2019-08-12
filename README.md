@@ -1,6 +1,6 @@
-# docker-toybox
+# docker-blog
 
-Docker containers management by dynamic proxy.
+Setup and Running Docker containers SSL dynamic proxy(Nginx) and WordPress.
 
 ## Requirements
 
@@ -19,15 +19,14 @@ $ git clone https://github.com/ontheroadjp/docker-blog.git
 ```
 ### Settings
 
-Copy ``path/to/installdir/application/bin/.env.example`` to the same directory as ``.env``.  
-Edit ``.env`` file.  
-example below.
+Copy ``path/to/download/docker-blog/application/bin/.env.example`` to the same directory as ``.env``.  
+Edit ``.env`` file.  example below.
 
 ```bash
 # ---------------------------------------------
 # Application Settings
 # ---------------------------------------------
-APPLICATION_HOME=/path/to/installdir/docker-blog/application
+APPLICATION_HOME=/path/to/download/docker-blog/application
 UID=1000
 GID=1000
 ```
