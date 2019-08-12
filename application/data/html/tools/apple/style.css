@@ -1,0 +1,162 @@
+body {
+	-webkit-text-size-adjust: 100%;
+	font-size: 16px;
+}
+
+h1 {
+	margin:0;
+	padding:0;
+	font-size:18px;
+	display: inline;
+}
+
+.socialbuttons {
+	margin:10px 0;
+	float:right;
+}
+
+header img {
+	vertical-align:middle;
+}
+
+.searchform {
+	position: relative;
+	background:#000;
+	padding:5px 0 5px 2px;
+	height: 50px;
+}
+
+.searchform input.searchbar {
+	position: absolute;
+	top: 5px;
+	left: 5px;
+	line-height: 1.8em;
+	width: 94%;
+}
+
+.searchform select.input_country {
+	position: absolute;
+	bottom: 5px;
+	left: 5px;
+}
+.searchform select.input_entity {
+	position: absolute;
+	bottom: 5px;
+	left: 90px;
+}
+
+.searchform input.submit {
+	position: absolute;
+	bottom: 5px;
+	left: 175px;
+}
+
+
+img{
+	height: auto;
+	width:auto;
+}
+
+textarea {
+	cursor: pointer;
+	width: 99%;
+}
+
+#wrapper {
+	width: 100%
+}
+
+ #content {
+	width: 100%
+	margin: 0;
+	padding: 0;
+}
+
+
+#sidebar {
+	display: none;
+	margin: 0;
+	padding: 0;
+}
+
+footer {
+	background-color: #000;
+	color: #fff;
+	text-align: center;
+	font-size: 10px;
+}
+
+footer a {
+	color: #fff;
+}
+
+footer a:hover {
+	color: #fff;
+}
+
+/* iPHone4,iPhone5,iPhone5s,iPhone6,iPhone6 Plus 320px 以上 */
+@media  screen and (min-width: 320px) {
+	.searchform input.searchbar {
+
+	}
+}
+
+/* タブレット（1） 600px 以上 */
+/* @media  screen and (min-width: 500px) and (max-width: 800px) { */
+@media  screen and (min-width: 600px) {
+
+	.searchform {
+		position: static;
+/* 		background:#000;
+		padding:5px 0 5px 2px; */
+		height: 18px;
+	}
+	
+	.searchform input.searchbar {
+		position: static;
+/* 		top: 5px;
+		left: 5px; */
+		line-height: 1em;
+		width: 47%;
+	}
+	
+	.searchform select.input_country {
+		position: static;
+/* 		bottom: 5px;
+		left: 5px; */
+	}
+	.searchform select.input_entity {
+		position: static;
+/* 		bottom: 5px;
+		left: 90px; */
+	}
+	
+	.searchform input.submit {
+		position: static;
+/* 		bottom: 5px;
+		left: 175px; */
+	}
+}
+
+/* タブレット（２） 800px 以上　*/
+/* @media  screen and (min-width: 500px) and (max-width: 800px) { */
+@media  screen and (min-width: 800px) {
+	#content {
+		float: left;
+		width: 66%;
+		padding: 0 5px 0 0;
+	}
+
+	#sidebar {
+		display: block;
+		float: right;
+		width: 33%;
+		margin: 0;
+		padding: 0;
+	}
+}
+
+/* PC */
+@media screen and (min-width: 800px) {
+
+}

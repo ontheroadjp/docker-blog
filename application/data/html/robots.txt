@@ -1,0 +1,48 @@
+
+User-agent: Googlebot
+ 
+Disallow: /wp-content/
+Disallow: /trackback/
+Disallow: /wp-admin/
+Disallow: /feed/
+#Disallow: /archives/
+#Disallow: /tag/
+#Disallow: /category/
+Disallow: /page/
+Disallow: /tools/apple/itunessearch.php*
+Disallow: /tools/apple/itunessearch_music.php*
+Disallow: /en/
+
+Disallow: /index.php
+
+#Disallow: /*?
+#Disallow: /*.php$
+Disallow: /*.js$
+Disallow: /*.inc$
+Disallow: /*.css$
+Disallow: */feed/
+Disallow: */trackback/
+
+Disallow: /en/
+Disallow: /cn/
+Disallow: /zu/
+Disallow: /ko/
+
+User-agent: Googlebot-Image
+
+Disallow: /wp-includes/
+Allow: /wp-content/uploads/
+ 
+User-agent: Mediapartners-Google*
+Disallow:
+ 
+User-agent: ia_archiver
+Disallow: /
+ 
+User-agent: duggmirror
+Disallow: /
+
+
+Sitemap: http://dev.ontheroad.jp/sitemap.xml.gz
+
+

@@ -1,0 +1,94 @@
+O:8:"stdClass":23:{s:2:"ID";s:4:"9125";s:11:"post_author";s:1:"1";s:9:"post_date";s:19:"2012-11-09 12:48:22";s:13:"post_date_gmt";s:19:"2012-11-09 03:48:22";s:12:"post_content";s:6049:"<p>
+多くの WEB サイトは Google 検索からの流入が多いと思いますが、このブログでも 90% 以上が Google からのアクセスです。<br>
+<br>
+なので、アクセスを安定的に増やすためには Google に気に入られるようにサイトを構築する必用がある訳ですが、 Google が自分のサイトをどう評価しているのかを確認するために、<a href="https://accounts.google.com/ServiceLogin?service=sitemaps&passive=1209600&continue=https://www.google.com/webmasters/tools/?hl%3Dja&followup=https://www.google.com/webmasters/tools/?hl%3Dja&hl=ja" target="_blank">ウェブマスターツール</a>というものが用意されています。<br>
+</p>
+
+<h3>久しぶりにウェブマスターツールを見てみた</h3>
+<p>
+久しぶりにウェブマスターツールを見てみたら、順調に当ブログのページが Google にインデックスされているようです。<br>
+<br>
+ちなみにインデックスされたページを確認するのは、[健全性] − [インデックス ステータス] で確認できます。<br>
+<br>
+<img src="http://dev.ontheroad.jp/wp-content/uploads/2012/11/indexstatus_01.gif" alt="" title="indexstatus_01" width="620" height="270" class="alignnone size-full wp-image-9126" /><br>
+<br>
+っで、インデックスされたページ以外にも、左上の詳細ボタンをクリックすると詳細を見ることができます。<br>
+<br>
+そしたら・・・<br>
+<br>
+<img src="http://dev.ontheroad.jp/wp-content/uploads/2012/11/indexstatus_02.gif" alt="" title="indexstatus_02" width="620" height="270" class="alignnone size-full wp-image-9127" /><br>
+<br>
+「未選択」（緑色のグラフ）が急増しています。<br>
+<br>
+おいおい、未選択ってなんだよと思って Google のヘルプを見てみたら、
+</p>
+
+<blockquote>
+未選択: 他のページと類似している、別の URL にリダイレクトされるなどの理由により、インデックス登録されていないページです。詳しくは、こちらをご覧ください。
+</blockquote>
+
+<p>
+とのこと。<br>
+<br>
+参考：<a href="https://support.google.com/webmasters/bin/answer.py?hl=ja&answer=2642366" target="_blank">インデックス ステータス - ウェブマスター ツール ヘルプ</a><br>
+<br>
+うーん。よくわからん。ってかそもそも未選択が7,516ページってなってるけど、このブログにはそんなにもページ数がないし。<br>
+<br>
+さらに、「クロール済み」にチェックを入れて更新ボタンをクリックすると・・・<br>
+<br>
+
+<img src="http://dev.ontheroad.jp/wp-content/uploads/2012/11/indexstatus_03.gif" alt="" title="indexstatus_03" width="620" height="270" class="alignnone size-full wp-image-9128" /><br>
+<br>
+クロール済みのページ数は 4,921ページしかないし。<br>
+<br>
+通常、「クロール済み」のページ数が一番多くて、そのうちのいくらかが、「インデックス済み」や「未選択」になるんじゃないのかなぁ？<br>
+<br>
+クロールしてないのに未選択って・・。<br>
+ますますわからん。<br>
+<br>
+困った。<br>
+<br>
+ウェブマスターツールのインデックスステータスは1週間に1回更新されるようで、10月28日までは順調です。<br>
+<br>
+翌週の11月4日に未選択が急増していますが、10/28～11/4 までに何かが起こったようです。<br>
+</p>
+
+<h3>何が起こったのか？</h3>
+<p>
+思い当るフシはいくつかあります。<br>
+<br>
+まず、ページの&lt;title> タグの内容を修正しました。<br>
+<br>
+今まで「ブログ記事タイトル | ブログ名」というのを &lt;title> タグに入れていましたが、ただでさえブログ名が長いのに、記事タイトルとつなげちゃうと長すぎると思って、「ブログ記事タイトル」のみにしてみました。<br>
+<br>
+あんまり関係なさそうだけど、とりあえず元の長ったらしいタイトルに戻しました。<br>
+<br>
+また、先日二次利用フリー化された「ブラックジャックによろしく」の英語版を公開しました。<br>
+<br>
+関連記事：<a href="http://dev.ontheroad.jp/archives/9014" target="_blank">医療系英語学習にも最適！？漫画「ブラックジャックによろしく」全13巻の無料配信（英語版）を作ってみた</a><br>
+<br>
+その他はいつもどおり記事を投稿しているくらいで、特に変わったことはしてません。<br>
+<br>
+それ以外に日常と違ったことと言えば六本木で財布を拾ったくらいでしょうか。
+</p>
+
+<h3>PHP で作成したページが怪しい？？</h3>
+<p>
+「<a href="http://dev.ontheroad.jp/special/blackjack/index.php?lang=en" target="_blank">ブラックジャックによろしく</a>」は PHP で作成したページで、トップページ＋全127話なので、128ページあります。日本語版含めて256ページをひとつの PHP ファイルで表示しています。<br>
+<br>
+表示内容はパラメーターで変えている訳ですが、これが怪しい。<br>
+<br>
+でも、以前から公開していた「<a href="http://dev.ontheroad.jp/special/blackjack/index.php?lang=ja" target="_blank">ブラックジャックによろしく（日本語版）</a>」も（パラメーターは増やしたけど）同じ仕組みだったし、<a href="http://dev.ontheroad.jp/tools/apple/itunessearch.php" target="_blank">iOS, Mac OS X アプリ検索 & ブログ用タグ生成ツール</a>なんかも仕組みは同じ。<br>
+<br>
+うーん。なんなんだろ。<br>
+<br>
+だけど、思い当たるフシはこのくらいしかないし。<br>
+<br>
+どうしたものか。ちょっと対策を考えてみたいと思います。<br>
+<br>
+でわでわ。
+</p>
+
+";s:10:"post_title";s:142:"Google ウェブマスターツールでインデックスステータスを確認したら「未選択」のページが急増していた件";s:12:"post_excerpt";s:199:"<!--:ja-->SEO とか良くわかりませんが、ブログのアクセスが増えることは嬉しいですね♪モティベーションもあがります。<br>
+<br>
+が！・・・。<!--:-->";s:11:"post_status";s:7:"publish";s:14:"comment_status";s:4:"open";s:11:"ping_status";s:4:"open";s:13:"post_password";s:0:"";s:9:"post_name";s:196:"google-%e3%82%a6%e3%82%a7%e3%83%96%e3%83%9e%e3%82%b9%e3%82%bf%e3%83%bc%e3%83%84%e3%83%bc%e3%83%ab%e3%81%a7%e3%82%a4%e3%83%b3%e3%83%87%e3%83%83%e3%82%af%e3%82%b9%e3%82%b9%e3%83%86%e3%83%bc%e3%82%bf";s:7:"to_ping";s:0:"";s:6:"pinged";s:0:"";s:13:"post_modified";s:19:"2012-11-09 12:45:14";s:17:"post_modified_gmt";s:19:"2012-11-09 03:45:14";s:21:"post_content_filtered";s:0:"";s:11:"post_parent";s:1:"0";s:4:"guid";s:31:"http://dev.ontheroad.jp/?p=9125";s:10:"menu_order";s:1:"0";s:9:"post_type";s:4:"post";s:14:"post_mime_type";s:0:"";s:13:"comment_count";s:1:"0";}

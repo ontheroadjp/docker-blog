@@ -1,0 +1,931 @@
+
+
+
+<!DOCTYPE html>
+<html lang="ja">
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+<meta name="twitter:card" content="photo"><meta name="twitter:description" content="Macのこと、WordPressのこと、一眼レフカメラのこと、を中心に（ひ）が気ままに書き綴ってるブログ。"><title>「イベントの記事まとめ(#1) | MacBook Air とWordPressでこうなった</title>
+<meta name="description" content="ブログ「MacBook Air とWordPressでこうなった」の「イベント」の記事まとめ(#1) />
+<meta name="keywords" content="Apple,apple,MacBook Air,macbookair,WordPress,wordpress,EOS,eos,一眼レフ" />
+
+
+<!-- --------------------- CSS ------------------------ -->
+<link rel="stylesheet" type="text/css" href="https://dev.ontheroad.jp/wp-content/themes/channel/style.css" />
+
+<!-- -------------------- wp_head() ---------------------- -->
+<link rel='dns-prefetch' href='//dev.ontheroad.jp' />
+<link rel='dns-prefetch' href='//s.w.org' />
+<link rel="alternate" type="application/rss+xml" title="MacBook Air とWordPressでこうなった &raquo; イベント タグのフィード" href="https://dev.ontheroad.jp/archives/tag/event/feed" />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/12.0.0-1\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/12.0.0-1\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/dev.ontheroad.jp\/wp-includes\/js\/wp-emoji-release.min.js?ver=5.2.2"}};
+			!function(a,b,c){function d(a,b){var c=String.fromCharCode;l.clearRect(0,0,k.width,k.height),l.fillText(c.apply(this,a),0,0);var d=k.toDataURL();l.clearRect(0,0,k.width,k.height),l.fillText(c.apply(this,b),0,0);var e=k.toDataURL();return d===e}function e(a){var b;if(!l||!l.fillText)return!1;switch(l.textBaseline="top",l.font="600 32px Arial",a){case"flag":return!(b=d([55356,56826,55356,56819],[55356,56826,8203,55356,56819]))&&(b=d([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]),!b);case"emoji":return b=d([55357,56424,55356,57342,8205,55358,56605,8205,55357,56424,55356,57340],[55357,56424,55356,57342,8203,55358,56605,8203,55357,56424,55356,57340]),!b}return!1}function f(a){var c=b.createElement("script");c.src=a,c.defer=c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var g,h,i,j,k=b.createElement("canvas"),l=k.getContext&&k.getContext("2d");for(j=Array("flag","emoji"),c.supports={everything:!0,everythingExceptFlag:!0},i=0;i<j.length;i++)c.supports[j[i]]=e(j[i]),c.supports.everything=c.supports.everything&&c.supports[j[i]],"flag"!==j[i]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[j[i]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(h=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",h,!1),a.addEventListener("load",h,!1)):(a.attachEvent("onload",h),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),g=c.source||{},g.concatemoji?f(g.concatemoji):g.wpemoji&&g.twemoji&&(f(g.twemoji),f(g.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+	<link rel='stylesheet' id='yarppWidgetCss-css'  href='https://dev.ontheroad.jp/wp-content/plugins/yet-another-related-posts-plugin/style/widget.css?ver=5.2.2' type='text/css' media='all' />
+<link rel='stylesheet' id='pdrp_styles-css'  href='https://dev.ontheroad.jp/wp-content/plugins/photo-dropper/interface/css/public.css?ver=5.2.2' type='text/css' media='all' />
+<link rel='stylesheet' id='wp-block-library-css'  href='https://dev.ontheroad.jp/wp-includes/css/dist/block-library/style.min.css?ver=5.2.2' type='text/css' media='all' />
+<link rel='stylesheet' id='wp-pagenavi-css'  href='https://dev.ontheroad.jp/wp-content/plugins/wp-pagenavi/pagenavi-css.css?ver=2.70' type='text/css' media='all' />
+<link rel='stylesheet' id='amazonjs-css'  href='https://dev.ontheroad.jp/wp-content/plugins/amazonjs/css/amazonjs.css?ver=0.9' type='text/css' media='all' />
+<script type='text/javascript'>
+/* <![CDATA[ */
+var wpp_params = {"sampling_active":"0","sampling_rate":"100","ajax_url":"https:\/\/dev.ontheroad.jp\/wp-json\/wordpress-popular-posts\/v1\/popular-posts\/","ID":"","token":"51e5db11a6","debug":""};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://dev.ontheroad.jp/wp-content/plugins/wordpress-popular-posts/public/js/wpp-4.2.0.min.js?ver=4.2.2'></script>
+<link rel='https://api.w.org/' href='https://dev.ontheroad.jp/wp-json/' />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://dev.ontheroad.jp/xmlrpc.php?rsd" />
+<style data-context="foundation-flickity-css">/*! Flickity v2.0.2
+http://flickity.metafizzy.co
+---------------------------------------------- */.flickity-enabled{position:relative}.flickity-enabled:focus{outline:0}.flickity-viewport{overflow:hidden;position:relative;height:100%}.flickity-slider{position:absolute;width:100%;height:100%}.flickity-enabled.is-draggable{-webkit-tap-highlight-color:transparent;tap-highlight-color:transparent;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none}.flickity-enabled.is-draggable .flickity-viewport{cursor:move;cursor:-webkit-grab;cursor:grab}.flickity-enabled.is-draggable .flickity-viewport.is-pointer-down{cursor:-webkit-grabbing;cursor:grabbing}.flickity-prev-next-button{position:absolute;top:50%;width:44px;height:44px;border:none;border-radius:50%;background:#fff;background:hsla(0,0%,100%,.75);cursor:pointer;-webkit-transform:translateY(-50%);transform:translateY(-50%)}.flickity-prev-next-button:hover{background:#fff}.flickity-prev-next-button:focus{outline:0;box-shadow:0 0 0 5px #09f}.flickity-prev-next-button:active{opacity:.6}.flickity-prev-next-button.previous{left:10px}.flickity-prev-next-button.next{right:10px}.flickity-rtl .flickity-prev-next-button.previous{left:auto;right:10px}.flickity-rtl .flickity-prev-next-button.next{right:auto;left:10px}.flickity-prev-next-button:disabled{opacity:.3;cursor:auto}.flickity-prev-next-button svg{position:absolute;left:20%;top:20%;width:60%;height:60%}.flickity-prev-next-button .arrow{fill:#333}.flickity-page-dots{position:absolute;width:100%;bottom:-25px;padding:0;margin:0;list-style:none;text-align:center;line-height:1}.flickity-rtl .flickity-page-dots{direction:rtl}.flickity-page-dots .dot{display:inline-block;width:10px;height:10px;margin:0 8px;background:#333;border-radius:50%;opacity:.25;cursor:pointer}.flickity-page-dots .dot.is-selected{opacity:1}</style><style data-context="foundation-slideout-css">.slideout-menu{position:fixed;left:0;top:0;bottom:0;right:auto;z-index:0;width:256px;overflow-y:auto;-webkit-overflow-scrolling:touch;display:none}.slideout-menu.pushit-right{left:auto;right:0}.slideout-panel{position:relative;z-index:1;will-change:transform}.slideout-open,.slideout-open .slideout-panel,.slideout-open body{overflow:hidden}.slideout-open .slideout-menu{display:block}.pushit{display:none}</style><style>.ios7.web-app-mode.has-fixed header{ background-color: rgba(190,98,98,.88);}</style>
+<!-- -------------------- Javascript ---------------------- -->
+<script type="text/javascript" src="https://dev.ontheroad.jp/wp-content/themes/channel/lib/smoothscroll.js" aync></script>
+
+<!-- --------------------- その他 ------------------------ -->
+<link rel="alternate" type="application/rss+xml" title="MacBook Air とWordPressでこうなった RSS Feed" href="https://dev.ontheroad.jp/feed" />
+<link rel="alternate" type="application/atom+xml" title="MacBook Air とWordPressでこうなった Atom Feed" href="https://dev.ontheroad.jp/feed/atom" />
+<link rel="pingback" href="https://dev.ontheroad.jp/xmlrpc.php" />
+<link rel="shortcut icon" href="https://dev.ontheroad.jp/wp-content/themes/channel/images/favicon.ico" />
+
+
+<!-- ------------------- Google Analitics ------------------ -->
+<script>
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+	ga('create', 'UA-29132526-1', 'ontheroad.jp');
+	ga('require', 'displayfeatures');
+	ga('send', 'pageview');
+	ga("send", "event", "AmazonJS", "Click", "ASIN TITLE");
+</script>
+
+<!-- ------------------------- OGP ------------------------- -->
+<meta property="og:locale" content="ja_JP">
+<meta property="fb:admins" content="100002003889575" />
+<meta property="fb:app_id" content="171242856322655" />
+<meta property="og:site_name" content="MacBook Air とWordPressでこうなった" />
+
+<meta property="og:title" content="イベント | MacBook Air とWordPressでこうなった" />
+<meta property="og:type" content="blog" />
+<meta property="og:image" content="https://dev.ontheroad.jp/wp-content/uploads/2014/09/c6a435e95911afcf38c8e66ddaf47f24-50x50.jpg" />
+<meta property="og:url" content="https://dev.ontheroad.jp/archives/tag/event" />
+<meta property="og:description" content="しがない個人ブログなので好きな事をつらつら書いてます。" />
+
+</head><body>
+
+<!-- ----------------------- #Wrapper ------------------------ -->
+<div id="wrapper">
+
+<!-- ----------------------- #Top Navi ----------------------- -->
+<div id="top">
+<div id='topnav'>
+<div class="left">
+<li><a href="https://dev.ontheroad.jp">HOME</a></li><li class="page_item page-item-2"><a href="https://dev.ontheroad.jp/about">ABOUT</a></li>
+<li class="page_item page-item-21"><a href="https://dev.ontheroad.jp/contact">CONTACT</a></li>
+<li class="page_item page-item-512"><a href="https://dev.ontheroad.jp/tools-2">Tools</a></li>
+<li class="page_item page-item-2406"><a href="https://dev.ontheroad.jp/sitemap_by_category">記事一覧（カテゴリ別）</a></li>
+<li class="page_item page-item-3021"><a href="https://dev.ontheroad.jp/alfred">Alfred まとめ</a></li>
+<li class="page_item page-item-4259"><a href="https://dev.ontheroad.jp/search">検索結果</a></li>
+</div><!--end: left-->
+
+<div class="right"><!-- デフォルトの検索フォーム
+<form method="get" id="searchform" action="https://dev.ontheroad.jp/">
+<div id="search">
+<input class="searchinput" type="text" value="Search..." onclick="this.value='';" name="s" id="s" />
+<input type="submit" class="searchsubmit" value="GO"/>
+</div>
+</form>
+-->
+
+<!-- Google カスタムサーチ -->
+<form action="http://dev.ontheroad.jp/search" id="cse-search-box">
+<div>
+<input type="hidden" name="cx" value="partner-pub-9420456297086074:1786924076" />
+<input type="hidden" name="cof" value="FORID:10" />
+<input type="hidden" name="ie" value="UTF-8" />
+<input type="text" name="q" size="25" />
+<input type="submit" name="sa" value="検索" />
+</div>
+</form>
+
+<!-- （人気のクエリのコード）-->
+<script type="text/javascript" src="http://www.google.com/cse/query_renderer.js"></script>
+<div id="queries"></div>
+<script src="http://www.google.com/cse/api/partner-pub-9420456297086074/cse/1786924076/queries/js?oe=UTF-8&amp;callback=(new+PopularQueryRenderer(document.getElementById(%22queries%22))).render"></script>
+<!-- Google カスタムサーチ -->
+
+</div>
+
+</div><!-- end: topnavi -->
+</div><!--end: top-->
+
+<!-- ----------------------- #Header ----------------------- -->
+<header id="header">
+<div class="logo"><a href="https://dev.ontheroad.jp">MacBook Air とWordPressでこうなった</a></div>
+<div class="description">しがない個人ブログなので好きな事をつらつら書いてます。</div>
+</header><!--end: header-->
+
+<!-- ----------------------- #Menu ------------------------- -->
+<nav id="menu">
+<div class="left">
+
+<ul><li><a href="https://dev.ontheroad.jp">HOME</a></li><li><a href="https://dev.ontheroad.jp/archives/category/pc">PC</a><ul><li><a href="https://dev.ontheroad.jp/archives/category/pc/mac">Mac</a></li></ul></li><li><a href="https://dev.ontheroad.jp/archives/category/mobile">モバイル</a><ul><li><a href="https://dev.ontheroad.jp/archives/category/mobile/ios_iphone">iOS</a></li><li><a href="https://dev.ontheroad.jp/archives/category/mobile/android">Android</a></li></ul></li><li><a href="https://dev.ontheroad.jp/archives/category/development-blog">開発・ブログ運営</a><ul><li><a href="https://dev.ontheroad.jp/archives/category/development-blog/wordpress">WordPress</a></li><li><a href="https://dev.ontheroad.jp/archives/category/development-blog/html2">HTML/CSS</a></li><li><a href="https://dev.ontheroad.jp/archives/category/development-blog/javascript">JavaScript</a></li><li><a href="https://dev.ontheroad.jp/archives/category/development-blog/php2">PHP</a></li><li><a href="https://dev.ontheroad.jp/archives/category/development-blog/database">データベース</a></li><li><a href="https://dev.ontheroad.jp/archives/category/development-blog/server">サーバー</a></li><li><a href="https://dev.ontheroad.jp/archives/category/development-blog/web_api">WEB API</a></li><li><a href="https://dev.ontheroad.jp/archives/category/development-blog/cloud_social">クラウド/ソーシャル</a></li><li><a href="https://dev.ontheroad.jp/archives/category/development-blog/performance_tuning">WEB パフォーマンス</a></li></ul></li><li><a href="https://dev.ontheroad.jp/archives/category/camera">カメラ</a><ul><li><a href="https://dev.ontheroad.jp/archives/category/camera/photo_materials">カメラ機材</a></li><li><a href="https://dev.ontheroad.jp/archives/category/camera/photo_technich">撮影テクニック</a></li><li><a href="https://dev.ontheroad.jp/archives/category/camera/develop_raw">RAW 現像</a></li><li><a href="https://dev.ontheroad.jp/archives/category/camera/photo_data_management">写真データ管理</a></li></ul></li><li><a href="https://dev.ontheroad.jp/archives/category/etc">その他</a><ul><li><a href="https://dev.ontheroad.jp/archives/category/etc/tweet">つぶやき</a></li></ul></li></ul></div><!--end: left -->
+</nav><!--end: menu-->
+
+<!-- <div id="wrapper"> のみとじてない -->
+
+
+
+
+<!-- ------------------------ パンくずリスト ------------------------ -->
+
+<ol class="topic-path">
+	<li class="first"><a href="https://dev.ontheroad.jp">HOME</a></li>
+	<li>「イベント」の記事まとめ</li></ol>
+
+<!-- ------------------------ バナー広告 ------------------------ -->
+<!--
+<div class="big_bunner">
+</div>
+-->
+
+<div id="col1">
+
+<!-- ------------------------ アイキャッチ画像 ------------------------ -->
+	<h2 class="archive_title">「イベント」の記事まとめ</h2>
+
+<div class="archive_header">
+
+<p></p>
+</div>
+
+
+
+<!-- <h2>このタグが付いている記事の最新エントリ</h2> -->
+<p>7日以内に更新された記事には <img src="https://dev.ontheroad.jp/wp-content/themes/channel/images/new_icon.png" alt="New" /> が表示されます。</p>
+
+
+
+
+
+
+<div id="post_big">
+<div id="postbox_big">
+	<h3><a href="https://dev.ontheroad.jp/archives/13289" rel="bookmark" title="Permanent Link to 本日から3日間！バスケの試合を被写体に発売前の EOS 7D Mark II で撮影体験ができるイベント開催">本日から3日間！バスケの試合を被写体に発売前の EOS 7D Mark II で撮影体験ができるイベント開催</a></h3>
+		<div class="thumbnail">
+		<a href="https://dev.ontheroad.jp/archives/13289" rel="bookmark" title="Permanent Link to 本日から3日間！バスケの試合を被写体に発売前の EOS 7D Mark II で撮影体験ができるイベント開催">
+			<img width="300" height="300" src="https://dev.ontheroad.jp/wp-content/uploads/2014/09/c6a435e95911afcf38c8e66ddaf47f24.jpg" class="attachment-full size-full wp-post-image" alt="&quot;本日から3日間！バスケの試合を被写体に発売前の EOS 7D Mark II で撮影体験ができるイベント開催&quot;" srcset="https://dev.ontheroad.jp/wp-content/uploads/2014/09/c6a435e95911afcf38c8e66ddaf47f24.jpg 300w, https://dev.ontheroad.jp/wp-content/uploads/2014/09/c6a435e95911afcf38c8e66ddaf47f24-50x50.jpg 50w, https://dev.ontheroad.jp/wp-content/uploads/2014/09/c6a435e95911afcf38c8e66ddaf47f24-82x82.jpg 82w, https://dev.ontheroad.jp/wp-content/uploads/2014/09/c6a435e95911afcf38c8e66ddaf47f24-110x110.jpg 110w, https://dev.ontheroad.jp/wp-content/uploads/2014/09/c6a435e95911afcf38c8e66ddaf47f24-80x80.jpg 80w, https://dev.ontheroad.jp/wp-content/uploads/2014/09/c6a435e95911afcf38c8e66ddaf47f24-150x150.jpg 150w" sizes="(max-width: 300px) 100vw, 300px" />		</a>
+	</div>
+	<div class="header">Posted by <a href="https://dev.ontheroad.jp/archives/author/hancock_jp" title="（ひ） の投稿" rel="author">（ひ）</a> on 2014年09月26日</div>
+	<div class="info">発売前の EOS 7D Mark II でバスケの試合を被写体に撮影するチャンスですよ！</div>
+	<div class="meta">
+		<span class="continue"> 
+			<a href="https://dev.ontheroad.jp/archives/13289" rel="bookmark" title="Continue reading 本日から3日間！バスケの試合を被写体に発売前の EOS 7D Mark II で撮影体験ができるイベント開催">Continue</a> 
+		</span> 
+		<span class="comment"><a href="https://dev.ontheroad.jp/archives/13289#respond">0 Comment</a><br /></span>
+	</div>
+</div><!-- end: postbox_big -->
+</div><!-- end: post_big -->
+
+
+
+
+<div id="post_big">
+<div id="postbox_big">
+	<h3><a href="https://dev.ontheroad.jp/archives/12095" rel="bookmark" title="Permanent Link to 宇宙博 2014  を EOS7D ＋ EF28mm F1.8 USM で撮影してみた">宇宙博 2014  を EOS7D ＋ EF28mm F1.8 USM で撮影してみた</a></h3>
+		<div class="thumbnail">
+		<a href="https://dev.ontheroad.jp/archives/12095" rel="bookmark" title="Permanent Link to 宇宙博 2014  を EOS7D ＋ EF28mm F1.8 USM で撮影してみた">
+			<img width="326" height="326" src="https://dev.ontheroad.jp/wp-content/uploads/2014/08/SPACE_EXPO_2014_logo.jpg" class="attachment-full size-full wp-post-image" alt="&quot;宇宙博 2014  を EOS7D ＋ EF28mm F1.8 USM で撮影してみた&quot;" srcset="https://dev.ontheroad.jp/wp-content/uploads/2014/08/SPACE_EXPO_2014_logo.jpg 326w, https://dev.ontheroad.jp/wp-content/uploads/2014/08/SPACE_EXPO_2014_logo-50x50.jpg 50w, https://dev.ontheroad.jp/wp-content/uploads/2014/08/SPACE_EXPO_2014_logo-82x82.jpg 82w, https://dev.ontheroad.jp/wp-content/uploads/2014/08/SPACE_EXPO_2014_logo-110x110.jpg 110w, https://dev.ontheroad.jp/wp-content/uploads/2014/08/SPACE_EXPO_2014_logo-80x80.jpg 80w" sizes="(max-width: 326px) 100vw, 326px" />		</a>
+	</div>
+	<div class="header">Posted by <a href="https://dev.ontheroad.jp/archives/author/hancock_jp" title="（ひ） の投稿" rel="author">（ひ）</a> on 2014年08月18日</div>
+	<div class="info">室内の薄暗い展示室でも高感度がダメダメな EOS 7D でも結構撮れました。室内撮影用に買った EF28mm だけど、家以外の屋内施設でも威力を発揮します！</div>
+	<div class="meta">
+		<span class="continue"> 
+			<a href="https://dev.ontheroad.jp/archives/12095" rel="bookmark" title="Continue reading 宇宙博 2014  を EOS7D ＋ EF28mm F1.8 USM で撮影してみた">Continue</a> 
+		</span> 
+		<span class="comment"><a href="https://dev.ontheroad.jp/archives/12095#respond">0 Comment</a><br /></span>
+	</div>
+</div><!-- end: postbox_big -->
+</div><!-- end: post_big -->
+
+
+
+
+	<!-- ---------------------------- 広告（中段） ----------------------------------------------- -->
+			<div class="left adsense">
+
+		<iframe src="http://rcm-jp.amazon.co.jp/e/cm?t=ontheroad0a-22&o=9&p=12&l=ur1&category=kindlebooks&banner=12NJVSNGQT7WYTTCM182&f=ifr" width="300" height="250" scrolling="no" border="0" marginwidth="0" style="border:none;" frameborder="0"></iframe>
+
+		</div>
+
+		<div class="left adsense">
+
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- （dev）レクタングル（中） 300x250（アーカイブ_中_右） -->
+<ins class="adsbygoogle"
+     style="display:inline-block;width:300px;height:250px"
+     data-ad-client="ca-pub-9420456297086074"
+     data-ad-slot="4374741906"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+		</div>
+		<div class="clear"></div><br />
+	
+	<div id="post">
+	<div id="postbox">
+		<h3><a href="https://dev.ontheroad.jp/archives/12032" rel="bookmark" title="Permanent Link to 事前にチェック！予選グループ D の日程とか（2014 FIFA サッカーブラジルワールドカップ ）">事前にチェック！予選グループ D の日程とか（2014 FIFA サッカーブラジルワールドカップ ）</a></h3>
+		<div class="header">Posted by <a href="https://dev.ontheroad.jp/archives/author/hancock_jp" title="（ひ） の投稿" rel="author">（ひ）</a> on 2014年05月07日</div>
+				<div class="thumbnail">
+			<a href="https://dev.ontheroad.jp/archives/12032" rel="bookmark" title="Permanent Link to 事前にチェック！予選グループ D の日程とか（2014 FIFA サッカーブラジルワールドカップ ）">
+				<img width="110" height="110" src="https://dev.ontheroad.jp/wp-content/uploads/2014/08/2014_FIFA_Soccer_World_cup_logo-110x110.jpg" class="attachment-110x110 size-110x110 wp-post-image" alt="&quot;事前にチェック！予選グループ D の日程とか（2014 FIFA サッカーブラジルワールドカップ ）&quot;" srcset="https://dev.ontheroad.jp/wp-content/uploads/2014/08/2014_FIFA_Soccer_World_cup_logo-110x110.jpg 110w, https://dev.ontheroad.jp/wp-content/uploads/2014/08/2014_FIFA_Soccer_World_cup_logo-50x50.jpg 50w, https://dev.ontheroad.jp/wp-content/uploads/2014/08/2014_FIFA_Soccer_World_cup_logo-80x80.jpg 80w" sizes="(max-width: 110px) 100vw, 110px" />			</a>
+		</div>
+		<div class="info">FIFA ブラジルワールドカップ 予選 D グループの概要・日程・試合会場です。</div>
+		<div class="clear"></div>
+		<div class="meta">
+			<span class="continue"> 
+				<a href="https://dev.ontheroad.jp/archives/12032" rel="bookmark" title="Continue reading 事前にチェック！予選グループ D の日程とか（2014 FIFA サッカーブラジルワールドカップ ）">Continue</a> 
+			</span> 
+			<span class="comment"><a href="https://dev.ontheroad.jp/archives/12032#respond">0 Comment</a><br /></span>
+		</div>
+
+	</div><!--end: postbox-->
+	</div><!--end: post-->
+
+
+
+
+	<!-- ---------------------------- 広告（中段） ----------------------------------------------- -->
+	
+	<div id="post">
+	<div id="postbox">
+		<h3><a href="https://dev.ontheroad.jp/archives/12030" rel="bookmark" title="Permanent Link to 事前にチェック！予選グループ C の日程とか（2014 FIFA サッカーブラジルワールドカップ ）">事前にチェック！予選グループ C の日程とか（2014 FIFA サッカーブラジルワールドカップ ）</a></h3>
+		<div class="header">Posted by <a href="https://dev.ontheroad.jp/archives/author/hancock_jp" title="（ひ） の投稿" rel="author">（ひ）</a> on 2014年05月07日</div>
+				<div class="thumbnail">
+			<a href="https://dev.ontheroad.jp/archives/12030" rel="bookmark" title="Permanent Link to 事前にチェック！予選グループ C の日程とか（2014 FIFA サッカーブラジルワールドカップ ）">
+				<img width="110" height="110" src="https://dev.ontheroad.jp/wp-content/uploads/2014/08/2014_FIFA_Soccer_World_cup_logo-110x110.jpg" class="attachment-110x110 size-110x110 wp-post-image" alt="&quot;事前にチェック！予選グループ C の日程とか（2014 FIFA サッカーブラジルワールドカップ ）&quot;" srcset="https://dev.ontheroad.jp/wp-content/uploads/2014/08/2014_FIFA_Soccer_World_cup_logo-110x110.jpg 110w, https://dev.ontheroad.jp/wp-content/uploads/2014/08/2014_FIFA_Soccer_World_cup_logo-50x50.jpg 50w, https://dev.ontheroad.jp/wp-content/uploads/2014/08/2014_FIFA_Soccer_World_cup_logo-80x80.jpg 80w" sizes="(max-width: 110px) 100vw, 110px" />			</a>
+		</div>
+		<div class="info">FIFA ブラジルワールドカップ 予選 C グループの概要・日程・試合会場です。</div>
+		<div class="clear"></div>
+		<div class="meta">
+			<span class="continue"> 
+				<a href="https://dev.ontheroad.jp/archives/12030" rel="bookmark" title="Continue reading 事前にチェック！予選グループ C の日程とか（2014 FIFA サッカーブラジルワールドカップ ）">Continue</a> 
+			</span> 
+			<span class="comment"><a href="https://dev.ontheroad.jp/archives/12030#respond">0 Comment</a><br /></span>
+		</div>
+
+	</div><!--end: postbox-->
+	</div><!--end: post-->
+
+
+
+
+	<!-- ---------------------------- 広告（中段） ----------------------------------------------- -->
+	
+	<div id="post">
+	<div id="postbox">
+		<h3><a href="https://dev.ontheroad.jp/archives/12028" rel="bookmark" title="Permanent Link to 事前にチェック！予選グループ B の日程とか（2014 FIFA サッカーブラジルワールドカップ ）">事前にチェック！予選グループ B の日程とか（2014 FIFA サッカーブラジルワールドカップ ）</a></h3>
+		<div class="header">Posted by <a href="https://dev.ontheroad.jp/archives/author/hancock_jp" title="（ひ） の投稿" rel="author">（ひ）</a> on 2014年05月07日</div>
+				<div class="thumbnail">
+			<a href="https://dev.ontheroad.jp/archives/12028" rel="bookmark" title="Permanent Link to 事前にチェック！予選グループ B の日程とか（2014 FIFA サッカーブラジルワールドカップ ）">
+				<img width="110" height="110" src="https://dev.ontheroad.jp/wp-content/uploads/2014/08/2014_FIFA_Soccer_World_cup_logo-110x110.jpg" class="attachment-110x110 size-110x110 wp-post-image" alt="&quot;事前にチェック！予選グループ B の日程とか（2014 FIFA サッカーブラジルワールドカップ ）&quot;" srcset="https://dev.ontheroad.jp/wp-content/uploads/2014/08/2014_FIFA_Soccer_World_cup_logo-110x110.jpg 110w, https://dev.ontheroad.jp/wp-content/uploads/2014/08/2014_FIFA_Soccer_World_cup_logo-50x50.jpg 50w, https://dev.ontheroad.jp/wp-content/uploads/2014/08/2014_FIFA_Soccer_World_cup_logo-80x80.jpg 80w" sizes="(max-width: 110px) 100vw, 110px" />			</a>
+		</div>
+		<div class="info">FIFA ブラジルワールドカップ 予選 B グループの概要・日程・試合会場です。</div>
+		<div class="clear"></div>
+		<div class="meta">
+			<span class="continue"> 
+				<a href="https://dev.ontheroad.jp/archives/12028" rel="bookmark" title="Continue reading 事前にチェック！予選グループ B の日程とか（2014 FIFA サッカーブラジルワールドカップ ）">Continue</a> 
+			</span> 
+			<span class="comment"><a href="https://dev.ontheroad.jp/archives/12028#respond">0 Comment</a><br /></span>
+		</div>
+
+	</div><!--end: postbox-->
+	</div><!--end: post-->
+
+
+
+
+	<!-- ---------------------------- 広告（中段） ----------------------------------------------- -->
+	
+	<div id="post">
+	<div id="postbox">
+		<h3><a href="https://dev.ontheroad.jp/archives/12026" rel="bookmark" title="Permanent Link to 事前にチェック！予選グループ A の日程とか（2014 FIFA サッカーブラジルワールドカップ ）">事前にチェック！予選グループ A の日程とか（2014 FIFA サッカーブラジルワールドカップ ）</a></h3>
+		<div class="header">Posted by <a href="https://dev.ontheroad.jp/archives/author/hancock_jp" title="（ひ） の投稿" rel="author">（ひ）</a> on 2014年05月07日</div>
+				<div class="thumbnail">
+			<a href="https://dev.ontheroad.jp/archives/12026" rel="bookmark" title="Permanent Link to 事前にチェック！予選グループ A の日程とか（2014 FIFA サッカーブラジルワールドカップ ）">
+				<img width="110" height="110" src="https://dev.ontheroad.jp/wp-content/uploads/2014/08/2014_FIFA_Soccer_World_cup_logo-110x110.jpg" class="attachment-110x110 size-110x110 wp-post-image" alt="&quot;事前にチェック！予選グループ A の日程とか（2014 FIFA サッカーブラジルワールドカップ ）&quot;" srcset="https://dev.ontheroad.jp/wp-content/uploads/2014/08/2014_FIFA_Soccer_World_cup_logo-110x110.jpg 110w, https://dev.ontheroad.jp/wp-content/uploads/2014/08/2014_FIFA_Soccer_World_cup_logo-50x50.jpg 50w, https://dev.ontheroad.jp/wp-content/uploads/2014/08/2014_FIFA_Soccer_World_cup_logo-80x80.jpg 80w" sizes="(max-width: 110px) 100vw, 110px" />			</a>
+		</div>
+		<div class="info">FIFA ブラジルワールドカップ 予選 A グループの概要・日程・試合会場です。</div>
+		<div class="clear"></div>
+		<div class="meta">
+			<span class="continue"> 
+				<a href="https://dev.ontheroad.jp/archives/12026" rel="bookmark" title="Continue reading 事前にチェック！予選グループ A の日程とか（2014 FIFA サッカーブラジルワールドカップ ）">Continue</a> 
+			</span> 
+			<span class="comment"><a href="https://dev.ontheroad.jp/archives/12026#respond">0 Comment</a><br /></span>
+		</div>
+
+	</div><!--end: postbox-->
+	</div><!--end: post-->
+
+
+
+
+	<!-- ---------------------------- 広告（中段） ----------------------------------------------- -->
+	
+	<div id="post">
+	<div id="postbox">
+		<h3><a href="https://dev.ontheroad.jp/archives/11485" rel="bookmark" title="Permanent Link to ブラジルワールドカップの見所（マラカナンの悲劇）">ブラジルワールドカップの見所（マラカナンの悲劇）</a></h3>
+		<div class="header">Posted by <a href="https://dev.ontheroad.jp/archives/author/hancock_jp" title="（ひ） の投稿" rel="author">（ひ）</a> on 2014年03月31日</div>
+				<div class="thumbnail">
+			<a href="https://dev.ontheroad.jp/archives/11485" rel="bookmark" title="Permanent Link to ブラジルワールドカップの見所（マラカナンの悲劇）">
+				<img width="110" height="110" src="https://dev.ontheroad.jp/wp-content/uploads/2014/01/40c1b847b4cd94a158eb3a017946e8cf-110x110.jpg" class="attachment-110x110 size-110x110 wp-post-image" alt="&quot;ブラジルワールドカップの見所（マラカナンの悲劇）&quot;" srcset="https://dev.ontheroad.jp/wp-content/uploads/2014/01/40c1b847b4cd94a158eb3a017946e8cf-110x110.jpg 110w, https://dev.ontheroad.jp/wp-content/uploads/2014/01/40c1b847b4cd94a158eb3a017946e8cf-50x50.jpg 50w, https://dev.ontheroad.jp/wp-content/uploads/2014/01/40c1b847b4cd94a158eb3a017946e8cf-82x82.jpg 82w, https://dev.ontheroad.jp/wp-content/uploads/2014/01/40c1b847b4cd94a158eb3a017946e8cf-80x80.jpg 80w, https://dev.ontheroad.jp/wp-content/uploads/2014/01/40c1b847b4cd94a158eb3a017946e8cf.jpg 350w" sizes="(max-width: 110px) 100vw, 110px" />			</a>
+		</div>
+		<div class="info">待ち遠しいですね、ワールドカップ。事前にまめ知識とか知ってるともっと楽しめると思います。</div>
+		<div class="clear"></div>
+		<div class="meta">
+			<span class="continue"> 
+				<a href="https://dev.ontheroad.jp/archives/11485" rel="bookmark" title="Continue reading ブラジルワールドカップの見所（マラカナンの悲劇）">Continue</a> 
+			</span> 
+			<span class="comment"><a href="https://dev.ontheroad.jp/archives/11485#respond">0 Comment</a><br /></span>
+		</div>
+
+	</div><!--end: postbox-->
+	</div><!--end: post-->
+
+
+
+
+	<!-- ---------------------------- 広告（中段） ----------------------------------------------- -->
+	
+	<div id="post">
+	<div id="postbox">
+		<h3><a href="https://dev.ontheroad.jp/archives/11468" rel="bookmark" title="Permanent Link to ブラジルワールドカップの予選リーグ組み合わせが決まった！">ブラジルワールドカップの予選リーグ組み合わせが決まった！</a></h3>
+		<div class="header">Posted by <a href="https://dev.ontheroad.jp/archives/author/hancock_jp" title="（ひ） の投稿" rel="author">（ひ）</a> on 2013年12月07日</div>
+				<div class="thumbnail">
+			<a href="https://dev.ontheroad.jp/archives/11468" rel="bookmark" title="Permanent Link to ブラジルワールドカップの予選リーグ組み合わせが決まった！">
+				<img width="110" height="110" src="https://dev.ontheroad.jp/wp-content/uploads/2013/12/world_cup-110x110.jpg" class="attachment-110x110 size-110x110 wp-post-image" alt="&quot;ブラジルワールドカップの予選リーグ組み合わせが決まった！&quot;" srcset="https://dev.ontheroad.jp/wp-content/uploads/2013/12/world_cup-110x110.jpg 110w, https://dev.ontheroad.jp/wp-content/uploads/2013/12/world_cup-50x50.jpg 50w, https://dev.ontheroad.jp/wp-content/uploads/2013/12/world_cup-82x82.jpg 82w, https://dev.ontheroad.jp/wp-content/uploads/2013/12/world_cup-80x80.jpg 80w, https://dev.ontheroad.jp/wp-content/uploads/2013/12/world_cup.jpg 350w" sizes="(max-width: 110px) 100vw, 110px" />			</a>
+		</div>
+		<div class="info">いよいよ来年にせまったブラジルワールドカップのグループ組み合わせ抽選会で、グループ組が決まりました。</div>
+		<div class="clear"></div>
+		<div class="meta">
+			<span class="continue"> 
+				<a href="https://dev.ontheroad.jp/archives/11468" rel="bookmark" title="Continue reading ブラジルワールドカップの予選リーグ組み合わせが決まった！">Continue</a> 
+			</span> 
+			<span class="comment"><a href="https://dev.ontheroad.jp/archives/11468#respond">0 Comment</a><br /></span>
+		</div>
+
+	</div><!--end: postbox-->
+	</div><!--end: post-->
+
+<div class="clear"></div>
+
+<!-- ---------------------------- 広告（下段） ----------------------------------------------- -->
+<div class="left adsense">
+		<iframe src="http://rcm-jp.amazon.co.jp/e/cm?t=ontheroad0a-22&o=9&p=12&l=ur1&category=kindle&banner=1JY4KG6QQSJKBPMGQWR2&f=ifr" width="300" height="250" scrolling="no" border="0" marginwidth="0" style="border:none;" frameborder="0"></iframe>
+</div>
+
+<div class="left adsense">
+
+	<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+	<!-- （dev）レクタングル（中） 300x250（アーカイブ_下_右） -->
+	<ins class="adsbygoogle"
+	     style="display:inline-block;width:300px;height:250px"
+	     data-ad-client="ca-pub-9420456297086074"
+	     data-ad-slot="5851475100"></ins>
+	<script>
+	(adsbygoogle = window.adsbygoogle || []).push({});
+	</script>
+
+</div>
+<div class="clear"></div>
+
+<!-- ---------------------------- Navi ---------------------------------------------- -->
+<div class="navigation"><div class='wp-pagenavi' role='navigation'>
+<span aria-current='page' class='current'>1</span>
+</div></div>
+<div class="to-pagetop"><a href="#wrapper"><img src="https://dev.ontheroad.jp/wp-content/themes/channel/images/pagetop.gif" /></a></div><br />
+<br /><br />
+
+<br /><br />
+
+
+
+</div><!--end: col1-->
+
+<div id="sidebar">
+
+<div class="widget">
+
+<!--end: subscribe-->
+
+
+<!-- ------------------------ Dynamic Widgets ---------------------- -->
+				<h3>最近の記事</h3><div class="box">		<ul>
+		
+		<li>
+			<div class="thumbnail">
+        		<a href="https://dev.ontheroad.jp/archives/13501" title="戦後70年は戦争前夜？安倍総理談話全文"><img width="80" height="80" src="https://dev.ontheroad.jp/wp-content/uploads/2015/08/ww2-80x80.jpg" class="attachment-80x80 size-80x80 wp-post-image" alt="&quot;&quot;" srcset="https://dev.ontheroad.jp/wp-content/uploads/2015/08/ww2-80x80.jpg 80w, https://dev.ontheroad.jp/wp-content/uploads/2015/08/ww2-50x50.jpg 50w, https://dev.ontheroad.jp/wp-content/uploads/2015/08/ww2-82x82.jpg 82w, https://dev.ontheroad.jp/wp-content/uploads/2015/08/ww2-110x110.jpg 110w, https://dev.ontheroad.jp/wp-content/uploads/2015/08/ww2-300x300.jpg 300w, https://dev.ontheroad.jp/wp-content/uploads/2015/08/ww2-150x150.jpg 150w, https://dev.ontheroad.jp/wp-content/uploads/2015/08/ww2-144x144.jpg 144w, https://dev.ontheroad.jp/wp-content/uploads/2015/08/ww2.jpg 551w" sizes="(max-width: 80px) 100vw, 80px" /></a>
+      		</div>
+
+			<a href="https://dev.ontheroad.jp/archives/13501" title="戦後70年は戦争前夜？安倍総理談話全文">
+				戦後70年は戦争前夜？安倍総理談話全文			</a><br>
+			<div style="margin:5px 0;">2015年08月14日</div>
+
+			<div class="clear"></div>
+
+		</li>
+
+		
+		<li>
+			<div class="thumbnail">
+        		<a href="https://dev.ontheroad.jp/archives/13491" title="git で簡単バックアップしてみる"><img width="80" height="80" src="https://dev.ontheroad.jp/wp-content/uploads/2015/06/Git-Icon-1788C-80x80.png" class="attachment-80x80 size-80x80 wp-post-image" alt="&quot;&quot;" srcset="https://dev.ontheroad.jp/wp-content/uploads/2015/06/Git-Icon-1788C-80x80.png 80w, https://dev.ontheroad.jp/wp-content/uploads/2015/06/Git-Icon-1788C-50x50.png 50w, https://dev.ontheroad.jp/wp-content/uploads/2015/06/Git-Icon-1788C-82x82.png 82w, https://dev.ontheroad.jp/wp-content/uploads/2015/06/Git-Icon-1788C-110x110.png 110w, https://dev.ontheroad.jp/wp-content/uploads/2015/06/Git-Icon-1788C-300x300.png 300w, https://dev.ontheroad.jp/wp-content/uploads/2015/06/Git-Icon-1788C-150x150.png 150w, https://dev.ontheroad.jp/wp-content/uploads/2015/06/Git-Icon-1788C-144x144.png 144w, https://dev.ontheroad.jp/wp-content/uploads/2015/06/Git-Icon-1788C.png 383w" sizes="(max-width: 80px) 100vw, 80px" /></a>
+      		</div>
+
+			<a href="https://dev.ontheroad.jp/archives/13491" title="git で簡単バックアップしてみる">
+				git で簡単バックアップしてみる			</a><br>
+			<div style="margin:5px 0;">2015年08月13日</div>
+
+			<div class="clear"></div>
+
+		</li>
+
+		
+		<li>
+			<div class="thumbnail">
+        		<a href="https://dev.ontheroad.jp/archives/13483" title="PHP 配列操作いろいろ"><img width="80" height="80" src="https://dev.ontheroad.jp/wp-content/uploads/2015/08/PHP_Logo1-80x80.png" class="attachment-80x80 size-80x80 wp-post-image" alt="&quot;&quot;" srcset="https://dev.ontheroad.jp/wp-content/uploads/2015/08/PHP_Logo1-80x80.png 80w, https://dev.ontheroad.jp/wp-content/uploads/2015/08/PHP_Logo1-50x50.png 50w, https://dev.ontheroad.jp/wp-content/uploads/2015/08/PHP_Logo1-82x82.png 82w, https://dev.ontheroad.jp/wp-content/uploads/2015/08/PHP_Logo1-110x110.png 110w, https://dev.ontheroad.jp/wp-content/uploads/2015/08/PHP_Logo1-300x300.png 300w, https://dev.ontheroad.jp/wp-content/uploads/2015/08/PHP_Logo1-150x150.png 150w, https://dev.ontheroad.jp/wp-content/uploads/2015/08/PHP_Logo1-144x144.png 144w, https://dev.ontheroad.jp/wp-content/uploads/2015/08/PHP_Logo1.png 350w" sizes="(max-width: 80px) 100vw, 80px" /></a>
+      		</div>
+
+			<a href="https://dev.ontheroad.jp/archives/13483" title="PHP 配列操作いろいろ">
+				PHP 配列操作いろいろ			</a><br>
+			<div style="margin:5px 0;">2015年08月12日</div>
+
+			<div class="clear"></div>
+
+		</li>
+
+		
+		<li>
+			<div class="thumbnail">
+        		<a href="https://dev.ontheroad.jp/archives/13478" title="Masonry + imagesLoaded でタイル状に要素を整列して並べる"><img width="80" height="80" src="https://dev.ontheroad.jp/wp-content/uploads/2015/06/JavaScript-logo-80x80.png" class="attachment-80x80 size-80x80 wp-post-image" alt="&quot;&quot;" srcset="https://dev.ontheroad.jp/wp-content/uploads/2015/06/JavaScript-logo-80x80.png 80w, https://dev.ontheroad.jp/wp-content/uploads/2015/06/JavaScript-logo-50x50.png 50w, https://dev.ontheroad.jp/wp-content/uploads/2015/06/JavaScript-logo-82x82.png 82w, https://dev.ontheroad.jp/wp-content/uploads/2015/06/JavaScript-logo-110x110.png 110w, https://dev.ontheroad.jp/wp-content/uploads/2015/06/JavaScript-logo-300x300.png 300w, https://dev.ontheroad.jp/wp-content/uploads/2015/06/JavaScript-logo-150x150.png 150w, https://dev.ontheroad.jp/wp-content/uploads/2015/06/JavaScript-logo-144x144.png 144w, https://dev.ontheroad.jp/wp-content/uploads/2015/06/JavaScript-logo-900x900.png 900w, https://dev.ontheroad.jp/wp-content/uploads/2015/06/JavaScript-logo.png 1052w" sizes="(max-width: 80px) 100vw, 80px" /></a>
+      		</div>
+
+			<a href="https://dev.ontheroad.jp/archives/13478" title="Masonry + imagesLoaded でタイル状に要素を整列して並べる">
+				Masonry + imagesLoaded でタイル状に要素を整列して並べる			</a><br>
+			<div style="margin:5px 0;">2015年06月08日</div>
+
+			<div class="clear"></div>
+
+		</li>
+
+		
+		<li>
+			<div class="thumbnail">
+        		<a href="https://dev.ontheroad.jp/archives/13475" title="言語設定が英語のまま Kindle for Mac で Kindle 本を読む方法"><img width="80" height="80" src="https://dev.ontheroad.jp/wp-content/uploads/2012/10/kindle_store-80x80.jpg" class="attachment-80x80 size-80x80 wp-post-image" alt="&quot;&quot;" srcset="https://dev.ontheroad.jp/wp-content/uploads/2012/10/kindle_store-80x80.jpg 80w, https://dev.ontheroad.jp/wp-content/uploads/2012/10/kindle_store-50x50.jpg 50w, https://dev.ontheroad.jp/wp-content/uploads/2012/10/kindle_store-82x82.jpg 82w, https://dev.ontheroad.jp/wp-content/uploads/2012/10/kindle_store-110x110.jpg 110w, https://dev.ontheroad.jp/wp-content/uploads/2012/10/kindle_store.jpg 350w" sizes="(max-width: 80px) 100vw, 80px" /></a>
+      		</div>
+
+			<a href="https://dev.ontheroad.jp/archives/13475" title="言語設定が英語のまま Kindle for Mac で Kindle 本を読む方法">
+				言語設定が英語のまま Kindle for Mac で Kindle 本を読む方法			</a><br>
+			<div style="margin:5px 0;">2015年06月07日</div>
+
+			<div class="clear"></div>
+
+		</li>
+
+				</ul>
+		</div>
+
+<h3>人気記事</h3><div class="box"><!-- cached -->
+<!-- WordPress Popular Posts -->
+
+<ul>
+<li style="height:60px"><a href="https://dev.ontheroad.jp/archives/5214" title="世界中で「カワイイ」日本が人気らしい" target="_self"><img src="https://dev.ontheroad.jp/wp-content/uploads/wordpress-popular-posts/5214-featured-45x45.jpg" width="45" height="45" alt="世界中で「カワイイ」日本が人気らしい" class="wpp-thumbnail wpp_cached_thumb wpp_featured" /></a> <a href="https://dev.ontheroad.jp/archives/5214" title="世界中で「カワイイ」日本が人気らしい" class="wpp-post-title" target="_self">世界中で「カワイイ」日本が人気らしい</a> <span class="wpp-date">2012/07/01 に投稿された</span></li>
+
+
+</ul>
+
+</div>
+<h3>記事カテゴリ</h3><div class="box">		<ul>
+		<li class='cat-item-all'><a href='https://dev.ontheroad.jp/'>HOME</a></li>	<li class="cat-item cat-item-117"><a href="https://dev.ontheroad.jp/archives/category/pc">PC</a> <a href="https://dev.ontheroad.jp/archives/category/pc/feed"><img src='https://dev.ontheroad.jp/wp-content/themes/channel/images/rss.gif' alt="PC に含まれるすべての投稿のフィード" /></a> (146)
+</li>
+	<li class="cat-item cat-item-334"><a href="https://dev.ontheroad.jp/archives/category/mobile">モバイル</a> <a href="https://dev.ontheroad.jp/archives/category/mobile/feed"><img src='https://dev.ontheroad.jp/wp-content/themes/channel/images/rss.gif' alt="モバイル に含まれるすべての投稿のフィード" /></a> (58)
+</li>
+	<li class="cat-item cat-item-244"><a href="https://dev.ontheroad.jp/archives/category/development-blog">開発・ブログ運営</a> <a href="https://dev.ontheroad.jp/archives/category/development-blog/feed"><img src='https://dev.ontheroad.jp/wp-content/themes/channel/images/rss.gif' alt="開発・ブログ運営 に含まれるすべての投稿のフィード" /></a> (141)
+</li>
+	<li class="cat-item cat-item-260"><a href="https://dev.ontheroad.jp/archives/category/camera">カメラ</a> <a href="https://dev.ontheroad.jp/archives/category/camera/feed"><img src='https://dev.ontheroad.jp/wp-content/themes/channel/images/rss.gif' alt="カメラ に含まれるすべての投稿のフィード" /></a> (53)
+</li>
+	<li class="cat-item cat-item-1"><a href="https://dev.ontheroad.jp/archives/category/etc">その他</a> <a href="https://dev.ontheroad.jp/archives/category/etc/feed"><img src='https://dev.ontheroad.jp/wp-content/themes/channel/images/rss.gif' alt="その他 に含まれるすべての投稿のフィード" /></a> (57)
+</li>
+		</ul>
+		</div><h3>管理人</h3><div class="box">			<div class="textwidget"><ul>
+
+<li>
+<div class="thumbnail">
+<a href="http://dev.ontheroad.jp/about">
+<img src="http://dev.ontheroad.jp/wp-content/themes/channel/images/company.jpg" style="vertical-align:middle"/></a>
+</div>
+（ひ）（@<a href="https://twitter.com/ontheroad_jp" target="_blank" rel="noopener noreferrer">ontheroad_jp</a>）と申します。<br>
+<br>
+15年ぶりの Mac （MacBook Air - Mid 2011）を購入したけど、完全に浦島太郎状態な30代後半のサラリーマン。いつ潰れるの？だった Apple  がここまで変貌するとは・・。いやはやなんとも感慨深いですね。<br>
+<br>
+ぼちぼち更新してますので宜しくお願いします。<br>
+<br>
+<a href="https://twitter.com/ontheroad_jp" class="twitter-follow-button" data-show-count="false" data-lang="ja">@ontheroad_jpさんをフォロー</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+<br />
+</li>
+
+<li>
+<div class="thumbnail">
+<a href="http://feeds.feedburner.com/devontheroadjp" target="_blank" rel="noopener noreferrer">
+<img src="http://dev.ontheroad.jp/wp-content/themes/channel/images/rss_60_60.png" style="vertical-align:middle" /></a></div>
+＜RSS＞<br>
+よろしければ <a href="http://feeds.feedburner.com/devontheroadjp" target="_blank" rel="noopener noreferrer">登録</a> してやってください
+<div class="clear"></div>
+</li>
+
+
+<li>
+<div class="thumbnail">
+<a href="http://www.rebelmouse.com/ontheroad_jp/" target="_blank" rel="noopener noreferrer">
+<img src="http://dev.ontheroad.jp/wp-content/themes/channel/images/RebelMouse.jpg" style="vertical-align:middle"/>
+</a></div>
+＜ソーシャルストリーム＞<br>
+<a href="http://www.rebelmouse.com/ontheroad_jp/" target="_blank" rel="noopener noreferrer">Rebel Mouse</a>
+<div class="clear"></div>
+</li>
+
+</ul>
+
+</div>
+		</div><h3>ギャラリー</h3><div class="box">			<div class="textwidget"><ul>
+
+<!--
+<li>
+<div class="thumbnail">
+<a href="http://shop.ontheroad.jp" target="_blank" rel="noopener noreferrer">
+<img src="http://dev.ontheroad.jp/wp-content/themes/channel/images/shopontheroadjp.jpg" style="vertical-align:middle"/>
+</a></div>
+
+＜WordPress で Amazon をつくってみた＞<br>
+<a href="http://shop.ontheroad.jp" target="_blank" rel="noopener noreferrer">SHOP@ONTHEROAD.JP</a>
+<div class="clear"></div>
+</li>
+
+-->
+
+
+<li>
+<div class="thumbnail">
+<a href="http://dadamore.ontheroad.jp/" target="_blank" rel="noopener noreferrer">
+<img src="http://dev.ontheroad.jp/wp-content/themes/channel/images/dadamore.gif" style="vertical-align:middle"/>
+</a></div>
+
+＜WordPress で iTunes をつくってみた＞<br>
+<a href="http://dadamore.ontheroad.jp/" target="_blank" rel="noopener noreferrer">DaDaMoRe</a>
+<div class="clear"></div>
+</li>
+
+
+<li>
+<div class="thumbnail">
+<a href="http://dev.ontheroad.jp/special/blackjack/index.php" target="_blank" rel="noopener noreferrer">
+<img src="http://dev.ontheroad.jp/wp-content/themes/channel/images/blackjack_42x42.jpg" style="vertical-align:middle"/>
+</a></div>
+
+＜漫画の無料配信を初めてみた＞<br>
+全13巻無料配信！ブラックジャックによろしく
+（<a href="http://dev.ontheroad.jp/special/blackjack/index.php?lang=ja" target="_blank" rel="noopener noreferrer">日本語版</a>） | 
+（<a href="http://dev.ontheroad.jp/special/blackjack/index.php?lang=en" target="_blank" rel="noopener noreferrer">英語版</a>）
+<div class="clear"></div>
+</li>
+
+<li>
+<div class="thumbnail">
+<a href="http://blog.ontheroad.jp" target="_blank" rel="noopener noreferrer">
+<img src="http://dev.ontheroad.jp/wp-content/themes/channel/images/blog.jpg" style="vertical-align:middle"/>
+</a></div>
+
+＜ブログ＞<br>
+<a href="http://blog.ontheroad.jp" target="_blank" rel="noopener noreferrer">海外移住を目的とした資産運用<br>+ A Place in the Sun +</a>
+<div class="clear"></div>
+</li>
+
+<li>
+<div class="thumbnail">
+<a href="http://world.ontheroad.jp" target="_blank" rel="noopener noreferrer">
+<img src="http://dev.ontheroad.jp/wp-content/themes/channel/images/worldontheroadjp.jpg" style="vertical-align:middle"/>
+</a></div>
+
+＜ニュースサイト＞<br>
+<a href="http://world.ontheroad.jp" target="_blank" rel="noopener noreferrer">海外分散投資で世界を知る！
+<div class="clear"></div>
+</li>
+
+</ul></div>
+		</div></div><!--end: widget-->
+
+
+<div class="widget"><div class="box">
+</div></div>
+
+<!-- ------------------------ Left Widget -------------------------- -->
+<div class="leftwidget">
+<h3>アーカイブ</h3><div class="box">		<ul>
+				<li><a href='https://dev.ontheroad.jp/archives/date/2015/08'>2015年8月</a>&nbsp;(3)</li>
+	<li><a href='https://dev.ontheroad.jp/archives/date/2015/06'>2015年6月</a>&nbsp;(8)</li>
+	<li><a href='https://dev.ontheroad.jp/archives/date/2015/05'>2015年5月</a>&nbsp;(4)</li>
+	<li><a href='https://dev.ontheroad.jp/archives/date/2015/04'>2015年4月</a>&nbsp;(1)</li>
+	<li><a href='https://dev.ontheroad.jp/archives/date/2014/09'>2014年9月</a>&nbsp;(39)</li>
+	<li><a href='https://dev.ontheroad.jp/archives/date/2014/08'>2014年8月</a>&nbsp;(31)</li>
+	<li><a href='https://dev.ontheroad.jp/archives/date/2014/05'>2014年5月</a>&nbsp;(5)</li>
+	<li><a href='https://dev.ontheroad.jp/archives/date/2014/04'>2014年4月</a>&nbsp;(11)</li>
+	<li><a href='https://dev.ontheroad.jp/archives/date/2014/03'>2014年3月</a>&nbsp;(1)</li>
+	<li><a href='https://dev.ontheroad.jp/archives/date/2014/01'>2014年1月</a>&nbsp;(7)</li>
+	<li><a href='https://dev.ontheroad.jp/archives/date/2013/12'>2013年12月</a>&nbsp;(30)</li>
+	<li><a href='https://dev.ontheroad.jp/archives/date/2013/11'>2013年11月</a>&nbsp;(15)</li>
+	<li><a href='https://dev.ontheroad.jp/archives/date/2013/04'>2013年4月</a>&nbsp;(36)</li>
+	<li><a href='https://dev.ontheroad.jp/archives/date/2013/03'>2013年3月</a>&nbsp;(13)</li>
+	<li><a href='https://dev.ontheroad.jp/archives/date/2012/12'>2012年12月</a>&nbsp;(11)</li>
+	<li><a href='https://dev.ontheroad.jp/archives/date/2012/11'>2012年11月</a>&nbsp;(12)</li>
+	<li><a href='https://dev.ontheroad.jp/archives/date/2012/10'>2012年10月</a>&nbsp;(32)</li>
+	<li><a href='https://dev.ontheroad.jp/archives/date/2012/09'>2012年9月</a>&nbsp;(2)</li>
+	<li><a href='https://dev.ontheroad.jp/archives/date/2012/08'>2012年8月</a>&nbsp;(19)</li>
+	<li><a href='https://dev.ontheroad.jp/archives/date/2012/07'>2012年7月</a>&nbsp;(31)</li>
+	<li><a href='https://dev.ontheroad.jp/archives/date/2012/06'>2012年6月</a>&nbsp;(63)</li>
+	<li><a href='https://dev.ontheroad.jp/archives/date/2012/05'>2012年5月</a>&nbsp;(22)</li>
+	<li><a href='https://dev.ontheroad.jp/archives/date/2012/04'>2012年4月</a>&nbsp;(18)</li>
+	<li><a href='https://dev.ontheroad.jp/archives/date/2012/03'>2012年3月</a>&nbsp;(2)</li>
+	<li><a href='https://dev.ontheroad.jp/archives/date/2012/02'>2012年2月</a>&nbsp;(10)</li>
+		</ul>
+			</div></div><!--end: left widget-->
+
+
+<!-- ----------------------- Right Widget ------------------------- -->
+<div class="rightwidget">
+<h3>キーワードで記事まとめ</h3><div class="box"><div class="tagcloud"><a href="https://dev.ontheroad.jp/archives/tag/alfred" class="tag-cloud-link tag-link-74 tag-link-position-1" style="font-size: 12.521739130435pt;" aria-label="Alfred (26個の項目)">Alfred</a>
+<a href="https://dev.ontheroad.jp/archives/tag/alfred-2" class="tag-cloud-link tag-link-270 tag-link-position-2" style="font-size: 12.313043478261pt;" aria-label="Alfred 2 (24個の項目)">Alfred 2</a>
+<a href="https://dev.ontheroad.jp/archives/tag/alfred-workflow" class="tag-cloud-link tag-link-292 tag-link-position-3" style="font-size: 9.1826086956522pt;" aria-label="Alfred workflow (8個の項目)">Alfred workflow</a>
+<a href="https://dev.ontheroad.jp/archives/tag/amazon" class="tag-cloud-link tag-link-57 tag-link-position-4" style="font-size: 11.130434782609pt;" aria-label="Amazon (16個の項目)">Amazon</a>
+<a href="https://dev.ontheroad.jp/archives/tag/ef-%e3%83%ac%e3%83%b3%e3%82%ba" class="tag-cloud-link tag-link-402 tag-link-position-5" style="font-size: 9.8086956521739pt;" aria-label="EF レンズ (10個の項目)">EF レンズ</a>
+<a href="https://dev.ontheroad.jp/archives/tag/eos" class="tag-cloud-link tag-link-257 tag-link-position-6" style="font-size: 11.895652173913pt;" aria-label="EOS ボディー (21個の項目)">EOS ボディー</a>
+<a href="https://dev.ontheroad.jp/archives/tag/facebook" class="tag-cloud-link tag-link-29 tag-link-position-7" style="font-size: 9.1826086956522pt;" aria-label="Facebook (8個の項目)">Facebook</a>
+<a href="https://dev.ontheroad.jp/archives/tag/finder" class="tag-cloud-link tag-link-62 tag-link-position-8" style="font-size: 11.130434782609pt;" aria-label="Finder(ファインダー) (16個の項目)">Finder(ファインダー)</a>
+<a href="https://dev.ontheroad.jp/archives/tag/google-chrome" class="tag-cloud-link tag-link-220 tag-link-position-9" style="font-size: 8.8347826086957pt;" aria-label="Google Chrome (7個の項目)">Google Chrome</a>
+<a href="https://dev.ontheroad.jp/archives/tag/google-analytics" class="tag-cloud-link tag-link-173 tag-link-position-10" style="font-size: 8.4869565217391pt;" aria-label="Google アナリティックス (6個の項目)">Google アナリティックス</a>
+<a href="https://dev.ontheroad.jp/archives/tag/google-%e6%a4%9c%e7%b4%a2" class="tag-cloud-link tag-link-330 tag-link-position-11" style="font-size: 8.8347826086957pt;" aria-label="Google 検索 (7個の項目)">Google 検索</a>
+<a href="https://dev.ontheroad.jp/archives/tag/ipad-applications" class="tag-cloud-link tag-link-359 tag-link-position-12" style="font-size: 8.4869565217391pt;" aria-label="iPadアプリ (6個の項目)">iPadアプリ</a>
+<a href="https://dev.ontheroad.jp/archives/tag/iphone-6" class="tag-cloud-link tag-link-406 tag-link-position-13" style="font-size: 8.8347826086957pt;" aria-label="iPhone 6 (7個の項目)">iPhone 6</a>
+<a href="https://dev.ontheroad.jp/archives/tag/iphone-applications" class="tag-cloud-link tag-link-354 tag-link-position-14" style="font-size: 10.573913043478pt;" aria-label="iPhoneアプリ (13個の項目)">iPhoneアプリ</a>
+<a href="https://dev.ontheroad.jp/archives/tag/ipod-touch" class="tag-cloud-link tag-link-188 tag-link-position-15" style="font-size: 11.130434782609pt;" aria-label="iPod touch (16個の項目)">iPod touch</a>
+<a href="https://dev.ontheroad.jp/archives/tag/macbook-air" class="tag-cloud-link tag-link-116 tag-link-position-16" style="font-size: 11.895652173913pt;" aria-label="MacBook Air (21個の項目)">MacBook Air</a>
+<a href="https://dev.ontheroad.jp/archives/tag/macosx" class="tag-cloud-link tag-link-46 tag-link-position-17" style="font-size: 12.382608695652pt;" aria-label="Mac OS X (25個の項目)">Mac OS X</a>
+<a href="https://dev.ontheroad.jp/archives/tag/mac-applications" class="tag-cloud-link tag-link-355 tag-link-position-18" style="font-size: 16pt;" aria-label="Macアプリ (84個の項目)">Macアプリ</a>
+<a href="https://dev.ontheroad.jp/archives/tag/nexus-5" class="tag-cloud-link tag-link-295 tag-link-position-19" style="font-size: 10.295652173913pt;" aria-label="Nexus 5 (12個の項目)">Nexus 5</a>
+<a href="https://dev.ontheroad.jp/archives/tag/sim-card" class="tag-cloud-link tag-link-329 tag-link-position-20" style="font-size: 9.5304347826087pt;" aria-label="SIMカード (9個の項目)">SIMカード</a>
+<a href="https://dev.ontheroad.jp/archives/tag/sim-free" class="tag-cloud-link tag-link-299 tag-link-position-21" style="font-size: 9.5304347826087pt;" aria-label="SIM フリー (9個の項目)">SIM フリー</a>
+<a href="https://dev.ontheroad.jp/archives/tag/ssh" class="tag-cloud-link tag-link-254 tag-link-position-22" style="font-size: 10.295652173913pt;" aria-label="SSH (12個の項目)">SSH</a>
+<a href="https://dev.ontheroad.jp/archives/tag/twitter" class="tag-cloud-link tag-link-30 tag-link-position-23" style="font-size: 9.5304347826087pt;" aria-label="Twitter (9個の項目)">Twitter</a>
+<a href="https://dev.ontheroad.jp/archives/tag/web-api" class="tag-cloud-link tag-link-372 tag-link-position-24" style="font-size: 11.130434782609pt;" aria-label="WEB API (16個の項目)">WEB API</a>
+<a href="https://dev.ontheroad.jp/archives/tag/customization" class="tag-cloud-link tag-link-11 tag-link-position-25" style="font-size: 13.495652173913pt;" aria-label="WordPress カスタマイズ (36個の項目)">WordPress カスタマイズ</a>
+<a href="https://dev.ontheroad.jp/archives/tag/wordpress-plugin" class="tag-cloud-link tag-link-374 tag-link-position-26" style="font-size: 11.75652173913pt;" aria-label="WordPress プラグイン (20個の項目)">WordPress プラグイン</a>
+<a href="https://dev.ontheroad.jp/archives/tag/wordpress-function" class="tag-cloud-link tag-link-353 tag-link-position-27" style="font-size: 9.8086956521739pt;" aria-label="WordPress 関数 (10個の項目)">WordPress 関数</a>
+<a href="https://dev.ontheroad.jp/archives/tag/romoure" class="tag-cloud-link tag-link-388 tag-link-position-28" style="font-size: 8.4869565217391pt;" aria-label="うわさ (6個の項目)">うわさ</a>
+<a href="https://dev.ontheroad.jp/archives/tag/development" class="tag-cloud-link tag-link-252 tag-link-position-29" style="font-size: 11.130434782609pt;" aria-label="つくってみた (16個の項目)">つくってみた</a>
+<a href="https://dev.ontheroad.jp/archives/tag/affiliate" class="tag-cloud-link tag-link-61 tag-link-position-30" style="font-size: 9.8086956521739pt;" aria-label="アフィリエイト (10個の項目)">アフィリエイト</a>
+<a href="https://dev.ontheroad.jp/archives/tag/event" class="tag-cloud-link tag-link-322 tag-link-position-31" style="font-size: 9.1826086956522pt;" aria-label="イベント (8個の項目)">イベント</a>
+<a href="https://dev.ontheroad.jp/archives/tag/install" class="tag-cloud-link tag-link-55 tag-link-position-32" style="font-size: 10.573913043478pt;" aria-label="インストール (13個の項目)">インストール</a>
+<a href="https://dev.ontheroad.jp/archives/tag/xserver" class="tag-cloud-link tag-link-154 tag-link-position-33" style="font-size: 11.130434782609pt;" aria-label="エックスサーバー (16個の項目)">エックスサーバー</a>
+<a href="https://dev.ontheroad.jp/archives/tag/server-and-networking-settings" class="tag-cloud-link tag-link-405 tag-link-position-34" style="font-size: 10.295652173913pt;" aria-label="サーバー・ネットワーク設定 (12個の項目)">サーバー・ネットワーク設定</a>
+<a href="https://dev.ontheroad.jp/archives/tag/security" class="tag-cloud-link tag-link-361 tag-link-position-35" style="font-size: 9.1826086956522pt;" aria-label="セキュリティ (8個の項目)">セキュリティ</a>
+<a href="https://dev.ontheroad.jp/archives/tag/sale-info" class="tag-cloud-link tag-link-358 tag-link-position-36" style="font-size: 9.8086956521739pt;" aria-label="セール情報 (10個の項目)">セール情報</a>
+<a href="https://dev.ontheroad.jp/archives/tag/truble" class="tag-cloud-link tag-link-144 tag-link-position-37" style="font-size: 12.034782608696pt;" aria-label="トラブル (22個の項目)">トラブル</a>
+<a href="https://dev.ontheroad.jp/archives/tag/review-article" class="tag-cloud-link tag-link-127 tag-link-position-38" style="font-size: 11.617391304348pt;" aria-label="レビュー記事 (19個の項目)">レビュー記事</a>
+<a href="https://dev.ontheroad.jp/archives/tag/%e5%8a%b9%e7%8e%87%e5%8c%96" class="tag-cloud-link tag-link-25 tag-link-position-39" style="font-size: 13.773913043478pt;" aria-label="効率化 (40個の項目)">効率化</a>
+<a href="https://dev.ontheroad.jp/archives/tag/%e6%b4%97%e6%bf%af%e4%b9%be%e7%87%a5%e6%a9%9f" class="tag-cloud-link tag-link-192 tag-link-position-40" style="font-size: 8.8347826086957pt;" aria-label="家電 (7個の項目)">家電</a>
+<a href="https://dev.ontheroad.jp/archives/tag/documents" class="tag-cloud-link tag-link-138 tag-link-position-41" style="font-size: 8pt;" aria-label="書籍・ドキュメント (5個の項目)">書籍・ドキュメント</a>
+<a href="https://dev.ontheroad.jp/archives/tag/free" class="tag-cloud-link tag-link-27 tag-link-position-42" style="font-size: 11.75652173913pt;" aria-label="無料 (20個の項目)">無料</a>
+<a href="https://dev.ontheroad.jp/archives/tag/automation" class="tag-cloud-link tag-link-368 tag-link-position-43" style="font-size: 9.8086956521739pt;" aria-label="自動化 (10個の項目)">自動化</a>
+<a href="https://dev.ontheroad.jp/archives/tag/settings" class="tag-cloud-link tag-link-41 tag-link-position-44" style="font-size: 14.052173913043pt;" aria-label="設定 (44個の項目)">設定</a>
+<a href="https://dev.ontheroad.jp/archives/tag/development_enviroment" class="tag-cloud-link tag-link-149 tag-link-position-45" style="font-size: 8.8347826086957pt;" aria-label="開発環境 (7個の項目)">開発環境</a></div>
+</div></div><!--end: right widget-->
+
+<div class="clear"></div>
+
+
+</div><!--end: sidebar-->
+
+<div class="clear"></div>
+
+<!-- ----------------------- #Footer ----------------------- -->
+<div id="footer">
+					<div class="left"><h3>最近の記事</h3><div class="box">		<ul>
+		
+		<li>
+			<div class="thumbnail">
+        		<a href="https://dev.ontheroad.jp/archives/13501" title="戦後70年は戦争前夜？安倍総理談話全文"><img width="80" height="80" src="https://dev.ontheroad.jp/wp-content/uploads/2015/08/ww2-80x80.jpg" class="attachment-80x80 size-80x80 wp-post-image" alt="&quot;&quot;" srcset="https://dev.ontheroad.jp/wp-content/uploads/2015/08/ww2-80x80.jpg 80w, https://dev.ontheroad.jp/wp-content/uploads/2015/08/ww2-50x50.jpg 50w, https://dev.ontheroad.jp/wp-content/uploads/2015/08/ww2-82x82.jpg 82w, https://dev.ontheroad.jp/wp-content/uploads/2015/08/ww2-110x110.jpg 110w, https://dev.ontheroad.jp/wp-content/uploads/2015/08/ww2-300x300.jpg 300w, https://dev.ontheroad.jp/wp-content/uploads/2015/08/ww2-150x150.jpg 150w, https://dev.ontheroad.jp/wp-content/uploads/2015/08/ww2-144x144.jpg 144w, https://dev.ontheroad.jp/wp-content/uploads/2015/08/ww2.jpg 551w" sizes="(max-width: 80px) 100vw, 80px" /></a>
+      		</div>
+
+			<a href="https://dev.ontheroad.jp/archives/13501" title="戦後70年は戦争前夜？安倍総理談話全文">
+				戦後70年は戦争前夜？安倍総理談話全文			</a><br>
+			<div style="margin:5px 0;">2015年08月14日</div>
+
+			<div class="clear"></div>
+
+		</li>
+
+		
+		<li>
+			<div class="thumbnail">
+        		<a href="https://dev.ontheroad.jp/archives/13491" title="git で簡単バックアップしてみる"><img width="80" height="80" src="https://dev.ontheroad.jp/wp-content/uploads/2015/06/Git-Icon-1788C-80x80.png" class="attachment-80x80 size-80x80 wp-post-image" alt="&quot;&quot;" srcset="https://dev.ontheroad.jp/wp-content/uploads/2015/06/Git-Icon-1788C-80x80.png 80w, https://dev.ontheroad.jp/wp-content/uploads/2015/06/Git-Icon-1788C-50x50.png 50w, https://dev.ontheroad.jp/wp-content/uploads/2015/06/Git-Icon-1788C-82x82.png 82w, https://dev.ontheroad.jp/wp-content/uploads/2015/06/Git-Icon-1788C-110x110.png 110w, https://dev.ontheroad.jp/wp-content/uploads/2015/06/Git-Icon-1788C-300x300.png 300w, https://dev.ontheroad.jp/wp-content/uploads/2015/06/Git-Icon-1788C-150x150.png 150w, https://dev.ontheroad.jp/wp-content/uploads/2015/06/Git-Icon-1788C-144x144.png 144w, https://dev.ontheroad.jp/wp-content/uploads/2015/06/Git-Icon-1788C.png 383w" sizes="(max-width: 80px) 100vw, 80px" /></a>
+      		</div>
+
+			<a href="https://dev.ontheroad.jp/archives/13491" title="git で簡単バックアップしてみる">
+				git で簡単バックアップしてみる			</a><br>
+			<div style="margin:5px 0;">2015年08月13日</div>
+
+			<div class="clear"></div>
+
+		</li>
+
+		
+		<li>
+			<div class="thumbnail">
+        		<a href="https://dev.ontheroad.jp/archives/13483" title="PHP 配列操作いろいろ"><img width="80" height="80" src="https://dev.ontheroad.jp/wp-content/uploads/2015/08/PHP_Logo1-80x80.png" class="attachment-80x80 size-80x80 wp-post-image" alt="&quot;&quot;" srcset="https://dev.ontheroad.jp/wp-content/uploads/2015/08/PHP_Logo1-80x80.png 80w, https://dev.ontheroad.jp/wp-content/uploads/2015/08/PHP_Logo1-50x50.png 50w, https://dev.ontheroad.jp/wp-content/uploads/2015/08/PHP_Logo1-82x82.png 82w, https://dev.ontheroad.jp/wp-content/uploads/2015/08/PHP_Logo1-110x110.png 110w, https://dev.ontheroad.jp/wp-content/uploads/2015/08/PHP_Logo1-300x300.png 300w, https://dev.ontheroad.jp/wp-content/uploads/2015/08/PHP_Logo1-150x150.png 150w, https://dev.ontheroad.jp/wp-content/uploads/2015/08/PHP_Logo1-144x144.png 144w, https://dev.ontheroad.jp/wp-content/uploads/2015/08/PHP_Logo1.png 350w" sizes="(max-width: 80px) 100vw, 80px" /></a>
+      		</div>
+
+			<a href="https://dev.ontheroad.jp/archives/13483" title="PHP 配列操作いろいろ">
+				PHP 配列操作いろいろ			</a><br>
+			<div style="margin:5px 0;">2015年08月12日</div>
+
+			<div class="clear"></div>
+
+		</li>
+
+		
+		<li>
+			<div class="thumbnail">
+        		<a href="https://dev.ontheroad.jp/archives/13478" title="Masonry + imagesLoaded でタイル状に要素を整列して並べる"><img width="80" height="80" src="https://dev.ontheroad.jp/wp-content/uploads/2015/06/JavaScript-logo-80x80.png" class="attachment-80x80 size-80x80 wp-post-image" alt="&quot;&quot;" srcset="https://dev.ontheroad.jp/wp-content/uploads/2015/06/JavaScript-logo-80x80.png 80w, https://dev.ontheroad.jp/wp-content/uploads/2015/06/JavaScript-logo-50x50.png 50w, https://dev.ontheroad.jp/wp-content/uploads/2015/06/JavaScript-logo-82x82.png 82w, https://dev.ontheroad.jp/wp-content/uploads/2015/06/JavaScript-logo-110x110.png 110w, https://dev.ontheroad.jp/wp-content/uploads/2015/06/JavaScript-logo-300x300.png 300w, https://dev.ontheroad.jp/wp-content/uploads/2015/06/JavaScript-logo-150x150.png 150w, https://dev.ontheroad.jp/wp-content/uploads/2015/06/JavaScript-logo-144x144.png 144w, https://dev.ontheroad.jp/wp-content/uploads/2015/06/JavaScript-logo-900x900.png 900w, https://dev.ontheroad.jp/wp-content/uploads/2015/06/JavaScript-logo.png 1052w" sizes="(max-width: 80px) 100vw, 80px" /></a>
+      		</div>
+
+			<a href="https://dev.ontheroad.jp/archives/13478" title="Masonry + imagesLoaded でタイル状に要素を整列して並べる">
+				Masonry + imagesLoaded でタイル状に要素を整列して並べる			</a><br>
+			<div style="margin:5px 0;">2015年06月08日</div>
+
+			<div class="clear"></div>
+
+		</li>
+
+		
+		<li>
+			<div class="thumbnail">
+        		<a href="https://dev.ontheroad.jp/archives/13475" title="言語設定が英語のまま Kindle for Mac で Kindle 本を読む方法"><img width="80" height="80" src="https://dev.ontheroad.jp/wp-content/uploads/2012/10/kindle_store-80x80.jpg" class="attachment-80x80 size-80x80 wp-post-image" alt="&quot;&quot;" srcset="https://dev.ontheroad.jp/wp-content/uploads/2012/10/kindle_store-80x80.jpg 80w, https://dev.ontheroad.jp/wp-content/uploads/2012/10/kindle_store-50x50.jpg 50w, https://dev.ontheroad.jp/wp-content/uploads/2012/10/kindle_store-82x82.jpg 82w, https://dev.ontheroad.jp/wp-content/uploads/2012/10/kindle_store-110x110.jpg 110w, https://dev.ontheroad.jp/wp-content/uploads/2012/10/kindle_store.jpg 350w" sizes="(max-width: 80px) 100vw, 80px" /></a>
+      		</div>
+
+			<a href="https://dev.ontheroad.jp/archives/13475" title="言語設定が英語のまま Kindle for Mac で Kindle 本を読む方法">
+				言語設定が英語のまま Kindle for Mac で Kindle 本を読む方法			</a><br>
+			<div style="margin:5px 0;">2015年06月07日</div>
+
+			<div class="clear"></div>
+
+		</li>
+
+				</ul>
+		</div></div><div class="left"><h3>記事カテゴリ</h3><div class="box">		<ul>
+			<li class='cat-item-all'><a href='https://dev.ontheroad.jp/'>HOME</a></li>	<li class="cat-item cat-item-293"><a href="https://dev.ontheroad.jp/archives/category/mobile/android">Android</a> <a href="https://dev.ontheroad.jp/archives/category/mobile/android/feed"><img src='https://dev.ontheroad.jp/wp-content/themes/channel/images/rss.gif' alt="Android に含まれるすべての投稿のフィード" /></a> (14)
+</li>
+	<li class="cat-item cat-item-5"><a href="https://dev.ontheroad.jp/archives/category/development-blog/html2">HTML/CSS</a> <a href="https://dev.ontheroad.jp/archives/category/development-blog/html2/feed"><img src='https://dev.ontheroad.jp/wp-content/themes/channel/images/rss.gif' alt="HTML/CSS に含まれるすべての投稿のフィード" /></a> (9)
+</li>
+	<li class="cat-item cat-item-72"><a href="https://dev.ontheroad.jp/archives/category/mobile/ios_iphone">iOS</a> <a href="https://dev.ontheroad.jp/archives/category/mobile/ios_iphone/feed"><img src='https://dev.ontheroad.jp/wp-content/themes/channel/images/rss.gif' alt="iOS に含まれるすべての投稿のフィード" /></a> (40)
+</li>
+	<li class="cat-item cat-item-124"><a href="https://dev.ontheroad.jp/archives/category/development-blog/javascript">JavaScript</a> <a href="https://dev.ontheroad.jp/archives/category/development-blog/javascript/feed"><img src='https://dev.ontheroad.jp/wp-content/themes/channel/images/rss.gif' alt="JavaScript に含まれるすべての投稿のフィード" /></a> (6)
+</li>
+	<li class="cat-item cat-item-18"><a href="https://dev.ontheroad.jp/archives/category/pc/mac">Mac</a> <a href="https://dev.ontheroad.jp/archives/category/pc/mac/feed"><img src='https://dev.ontheroad.jp/wp-content/themes/channel/images/rss.gif' alt="Mac に含まれるすべての投稿のフィード" /></a> (146)
+</li>
+	<li class="cat-item cat-item-13"><a href="https://dev.ontheroad.jp/archives/category/development-blog/php2">PHP</a> <a href="https://dev.ontheroad.jp/archives/category/development-blog/php2/feed"><img src='https://dev.ontheroad.jp/wp-content/themes/channel/images/rss.gif' alt="PHP に含まれるすべての投稿のフィード" /></a> (25)
+</li>
+	<li class="cat-item cat-item-264"><a href="https://dev.ontheroad.jp/archives/category/camera/develop_raw">RAW 現像</a> <a href="https://dev.ontheroad.jp/archives/category/camera/develop_raw/feed"><img src='https://dev.ontheroad.jp/wp-content/themes/channel/images/rss.gif' alt="RAW 現像 に含まれるすべての投稿のフィード" /></a> (4)
+</li>
+	<li class="cat-item cat-item-253"><a href="https://dev.ontheroad.jp/archives/category/development-blog/web_api">WEB API</a> <a href="https://dev.ontheroad.jp/archives/category/development-blog/web_api/feed"><img src='https://dev.ontheroad.jp/wp-content/themes/channel/images/rss.gif' alt="WEB API に含まれるすべての投稿のフィード" /></a> (10)
+</li>
+	<li class="cat-item cat-item-249"><a href="https://dev.ontheroad.jp/archives/category/development-blog/performance_tuning">WEB パフォーマンス</a> <a href="https://dev.ontheroad.jp/archives/category/development-blog/performance_tuning/feed"><img src='https://dev.ontheroad.jp/wp-content/themes/channel/images/rss.gif' alt="WEB パフォーマンス に含まれるすべての投稿のフィード" /></a> (10)
+</li>
+	<li class="cat-item cat-item-4"><a href="https://dev.ontheroad.jp/archives/category/development-blog/wordpress">WordPress</a> <a href="https://dev.ontheroad.jp/archives/category/development-blog/wordpress/feed"><img src='https://dev.ontheroad.jp/wp-content/themes/channel/images/rss.gif' alt="WordPress に含まれるすべての投稿のフィード" /></a> (55)
+</li>
+	<li class="cat-item cat-item-1"><a href="https://dev.ontheroad.jp/archives/category/etc">その他</a> <a href="https://dev.ontheroad.jp/archives/category/etc/feed"><img src='https://dev.ontheroad.jp/wp-content/themes/channel/images/rss.gif' alt="その他 に含まれるすべての投稿のフィード" /></a> (37)
+</li>
+	<li class="cat-item cat-item-109"><a href="https://dev.ontheroad.jp/archives/category/etc/tweet">つぶやき</a> <a href="https://dev.ontheroad.jp/archives/category/etc/tweet/feed"><img src='https://dev.ontheroad.jp/wp-content/themes/channel/images/rss.gif' alt="つぶやき に含まれるすべての投稿のフィード" /></a> (20)
+</li>
+	<li class="cat-item cat-item-260"><a href="https://dev.ontheroad.jp/archives/category/camera">カメラ</a> <a href="https://dev.ontheroad.jp/archives/category/camera/feed"><img src='https://dev.ontheroad.jp/wp-content/themes/channel/images/rss.gif' alt="カメラ に含まれるすべての投稿のフィード" /></a> (4)
+</li>
+	<li class="cat-item cat-item-382"><a href="https://dev.ontheroad.jp/archives/category/camera/photo_materials">カメラ機材</a> <a href="https://dev.ontheroad.jp/archives/category/camera/photo_materials/feed"><img src='https://dev.ontheroad.jp/wp-content/themes/channel/images/rss.gif' alt="カメラ機材 に含まれるすべての投稿のフィード" /></a> (34)
+</li>
+	<li class="cat-item cat-item-28"><a href="https://dev.ontheroad.jp/archives/category/development-blog/cloud_social">クラウド/ソーシャル</a> <a href="https://dev.ontheroad.jp/archives/category/development-blog/cloud_social/feed"><img src='https://dev.ontheroad.jp/wp-content/themes/channel/images/rss.gif' alt="クラウド/ソーシャル に含まれるすべての投稿のフィード" /></a> (10)
+</li>
+	<li class="cat-item cat-item-246"><a href="https://dev.ontheroad.jp/archives/category/development-blog/server">サーバー</a> <a href="https://dev.ontheroad.jp/archives/category/development-blog/server/feed"><img src='https://dev.ontheroad.jp/wp-content/themes/channel/images/rss.gif' alt="サーバー に含まれるすべての投稿のフィード" /></a> (19)
+</li>
+	<li class="cat-item cat-item-53"><a href="https://dev.ontheroad.jp/archives/category/development-blog/database">データベース</a> <a href="https://dev.ontheroad.jp/archives/category/development-blog/database/feed"><img src='https://dev.ontheroad.jp/wp-content/themes/channel/images/rss.gif' alt="データベース に含まれるすべての投稿のフィード" /></a> (8)
+</li>
+	<li class="cat-item cat-item-334"><a href="https://dev.ontheroad.jp/archives/category/mobile">モバイル</a> <a href="https://dev.ontheroad.jp/archives/category/mobile/feed"><img src='https://dev.ontheroad.jp/wp-content/themes/channel/images/rss.gif' alt="モバイル に含まれるすべての投稿のフィード" /></a> (12)
+</li>
+	<li class="cat-item cat-item-383"><a href="https://dev.ontheroad.jp/archives/category/camera/photo_data_management">写真データ管理</a> <a href="https://dev.ontheroad.jp/archives/category/camera/photo_data_management/feed"><img src='https://dev.ontheroad.jp/wp-content/themes/channel/images/rss.gif' alt="写真データ管理 に含まれるすべての投稿のフィード" /></a> (8)
+</li>
+	<li class="cat-item cat-item-384"><a href="https://dev.ontheroad.jp/archives/category/camera/photo_technich">撮影テクニック</a> <a href="https://dev.ontheroad.jp/archives/category/camera/photo_technich/feed"><img src='https://dev.ontheroad.jp/wp-content/themes/channel/images/rss.gif' alt="撮影テクニック に含まれるすべての投稿のフィード" /></a> (7)
+</li>
+	<li class="cat-item cat-item-244"><a href="https://dev.ontheroad.jp/archives/category/development-blog">開発・ブログ運営</a> <a href="https://dev.ontheroad.jp/archives/category/development-blog/feed"><img src='https://dev.ontheroad.jp/wp-content/themes/channel/images/rss.gif' alt="開発・ブログ運営 に含まれるすべての投稿のフィード" /></a> (16)
+</li>
+		</ul>
+			</div></div><div class="left"><h3>タグ</h3><div class="box"><div class="tagcloud"><a href="https://dev.ontheroad.jp/archives/tag/alfred" class="tag-cloud-link tag-link-74 tag-link-position-1" style="font-size: 12.521739130435pt;" aria-label="Alfred (26個の項目)">Alfred</a>
+<a href="https://dev.ontheroad.jp/archives/tag/alfred-2" class="tag-cloud-link tag-link-270 tag-link-position-2" style="font-size: 12.313043478261pt;" aria-label="Alfred 2 (24個の項目)">Alfred 2</a>
+<a href="https://dev.ontheroad.jp/archives/tag/alfred-workflow" class="tag-cloud-link tag-link-292 tag-link-position-3" style="font-size: 9.1826086956522pt;" aria-label="Alfred workflow (8個の項目)">Alfred workflow</a>
+<a href="https://dev.ontheroad.jp/archives/tag/amazon" class="tag-cloud-link tag-link-57 tag-link-position-4" style="font-size: 11.130434782609pt;" aria-label="Amazon (16個の項目)">Amazon</a>
+<a href="https://dev.ontheroad.jp/archives/tag/ef-%e3%83%ac%e3%83%b3%e3%82%ba" class="tag-cloud-link tag-link-402 tag-link-position-5" style="font-size: 9.8086956521739pt;" aria-label="EF レンズ (10個の項目)">EF レンズ</a>
+<a href="https://dev.ontheroad.jp/archives/tag/eos" class="tag-cloud-link tag-link-257 tag-link-position-6" style="font-size: 11.895652173913pt;" aria-label="EOS ボディー (21個の項目)">EOS ボディー</a>
+<a href="https://dev.ontheroad.jp/archives/tag/facebook" class="tag-cloud-link tag-link-29 tag-link-position-7" style="font-size: 9.1826086956522pt;" aria-label="Facebook (8個の項目)">Facebook</a>
+<a href="https://dev.ontheroad.jp/archives/tag/finder" class="tag-cloud-link tag-link-62 tag-link-position-8" style="font-size: 11.130434782609pt;" aria-label="Finder(ファインダー) (16個の項目)">Finder(ファインダー)</a>
+<a href="https://dev.ontheroad.jp/archives/tag/google-chrome" class="tag-cloud-link tag-link-220 tag-link-position-9" style="font-size: 8.8347826086957pt;" aria-label="Google Chrome (7個の項目)">Google Chrome</a>
+<a href="https://dev.ontheroad.jp/archives/tag/google-analytics" class="tag-cloud-link tag-link-173 tag-link-position-10" style="font-size: 8.4869565217391pt;" aria-label="Google アナリティックス (6個の項目)">Google アナリティックス</a>
+<a href="https://dev.ontheroad.jp/archives/tag/google-%e6%a4%9c%e7%b4%a2" class="tag-cloud-link tag-link-330 tag-link-position-11" style="font-size: 8.8347826086957pt;" aria-label="Google 検索 (7個の項目)">Google 検索</a>
+<a href="https://dev.ontheroad.jp/archives/tag/ipad-applications" class="tag-cloud-link tag-link-359 tag-link-position-12" style="font-size: 8.4869565217391pt;" aria-label="iPadアプリ (6個の項目)">iPadアプリ</a>
+<a href="https://dev.ontheroad.jp/archives/tag/iphone-6" class="tag-cloud-link tag-link-406 tag-link-position-13" style="font-size: 8.8347826086957pt;" aria-label="iPhone 6 (7個の項目)">iPhone 6</a>
+<a href="https://dev.ontheroad.jp/archives/tag/iphone-applications" class="tag-cloud-link tag-link-354 tag-link-position-14" style="font-size: 10.573913043478pt;" aria-label="iPhoneアプリ (13個の項目)">iPhoneアプリ</a>
+<a href="https://dev.ontheroad.jp/archives/tag/ipod-touch" class="tag-cloud-link tag-link-188 tag-link-position-15" style="font-size: 11.130434782609pt;" aria-label="iPod touch (16個の項目)">iPod touch</a>
+<a href="https://dev.ontheroad.jp/archives/tag/macbook-air" class="tag-cloud-link tag-link-116 tag-link-position-16" style="font-size: 11.895652173913pt;" aria-label="MacBook Air (21個の項目)">MacBook Air</a>
+<a href="https://dev.ontheroad.jp/archives/tag/macosx" class="tag-cloud-link tag-link-46 tag-link-position-17" style="font-size: 12.382608695652pt;" aria-label="Mac OS X (25個の項目)">Mac OS X</a>
+<a href="https://dev.ontheroad.jp/archives/tag/mac-applications" class="tag-cloud-link tag-link-355 tag-link-position-18" style="font-size: 16pt;" aria-label="Macアプリ (84個の項目)">Macアプリ</a>
+<a href="https://dev.ontheroad.jp/archives/tag/nexus-5" class="tag-cloud-link tag-link-295 tag-link-position-19" style="font-size: 10.295652173913pt;" aria-label="Nexus 5 (12個の項目)">Nexus 5</a>
+<a href="https://dev.ontheroad.jp/archives/tag/sim-card" class="tag-cloud-link tag-link-329 tag-link-position-20" style="font-size: 9.5304347826087pt;" aria-label="SIMカード (9個の項目)">SIMカード</a>
+<a href="https://dev.ontheroad.jp/archives/tag/sim-free" class="tag-cloud-link tag-link-299 tag-link-position-21" style="font-size: 9.5304347826087pt;" aria-label="SIM フリー (9個の項目)">SIM フリー</a>
+<a href="https://dev.ontheroad.jp/archives/tag/ssh" class="tag-cloud-link tag-link-254 tag-link-position-22" style="font-size: 10.295652173913pt;" aria-label="SSH (12個の項目)">SSH</a>
+<a href="https://dev.ontheroad.jp/archives/tag/twitter" class="tag-cloud-link tag-link-30 tag-link-position-23" style="font-size: 9.5304347826087pt;" aria-label="Twitter (9個の項目)">Twitter</a>
+<a href="https://dev.ontheroad.jp/archives/tag/web-api" class="tag-cloud-link tag-link-372 tag-link-position-24" style="font-size: 11.130434782609pt;" aria-label="WEB API (16個の項目)">WEB API</a>
+<a href="https://dev.ontheroad.jp/archives/tag/customization" class="tag-cloud-link tag-link-11 tag-link-position-25" style="font-size: 13.495652173913pt;" aria-label="WordPress カスタマイズ (36個の項目)">WordPress カスタマイズ</a>
+<a href="https://dev.ontheroad.jp/archives/tag/wordpress-plugin" class="tag-cloud-link tag-link-374 tag-link-position-26" style="font-size: 11.75652173913pt;" aria-label="WordPress プラグイン (20個の項目)">WordPress プラグイン</a>
+<a href="https://dev.ontheroad.jp/archives/tag/wordpress-function" class="tag-cloud-link tag-link-353 tag-link-position-27" style="font-size: 9.8086956521739pt;" aria-label="WordPress 関数 (10個の項目)">WordPress 関数</a>
+<a href="https://dev.ontheroad.jp/archives/tag/romoure" class="tag-cloud-link tag-link-388 tag-link-position-28" style="font-size: 8.4869565217391pt;" aria-label="うわさ (6個の項目)">うわさ</a>
+<a href="https://dev.ontheroad.jp/archives/tag/development" class="tag-cloud-link tag-link-252 tag-link-position-29" style="font-size: 11.130434782609pt;" aria-label="つくってみた (16個の項目)">つくってみた</a>
+<a href="https://dev.ontheroad.jp/archives/tag/affiliate" class="tag-cloud-link tag-link-61 tag-link-position-30" style="font-size: 9.8086956521739pt;" aria-label="アフィリエイト (10個の項目)">アフィリエイト</a>
+<a href="https://dev.ontheroad.jp/archives/tag/event" class="tag-cloud-link tag-link-322 tag-link-position-31" style="font-size: 9.1826086956522pt;" aria-label="イベント (8個の項目)">イベント</a>
+<a href="https://dev.ontheroad.jp/archives/tag/install" class="tag-cloud-link tag-link-55 tag-link-position-32" style="font-size: 10.573913043478pt;" aria-label="インストール (13個の項目)">インストール</a>
+<a href="https://dev.ontheroad.jp/archives/tag/xserver" class="tag-cloud-link tag-link-154 tag-link-position-33" style="font-size: 11.130434782609pt;" aria-label="エックスサーバー (16個の項目)">エックスサーバー</a>
+<a href="https://dev.ontheroad.jp/archives/tag/server-and-networking-settings" class="tag-cloud-link tag-link-405 tag-link-position-34" style="font-size: 10.295652173913pt;" aria-label="サーバー・ネットワーク設定 (12個の項目)">サーバー・ネットワーク設定</a>
+<a href="https://dev.ontheroad.jp/archives/tag/security" class="tag-cloud-link tag-link-361 tag-link-position-35" style="font-size: 9.1826086956522pt;" aria-label="セキュリティ (8個の項目)">セキュリティ</a>
+<a href="https://dev.ontheroad.jp/archives/tag/sale-info" class="tag-cloud-link tag-link-358 tag-link-position-36" style="font-size: 9.8086956521739pt;" aria-label="セール情報 (10個の項目)">セール情報</a>
+<a href="https://dev.ontheroad.jp/archives/tag/truble" class="tag-cloud-link tag-link-144 tag-link-position-37" style="font-size: 12.034782608696pt;" aria-label="トラブル (22個の項目)">トラブル</a>
+<a href="https://dev.ontheroad.jp/archives/tag/review-article" class="tag-cloud-link tag-link-127 tag-link-position-38" style="font-size: 11.617391304348pt;" aria-label="レビュー記事 (19個の項目)">レビュー記事</a>
+<a href="https://dev.ontheroad.jp/archives/tag/%e5%8a%b9%e7%8e%87%e5%8c%96" class="tag-cloud-link tag-link-25 tag-link-position-39" style="font-size: 13.773913043478pt;" aria-label="効率化 (40個の項目)">効率化</a>
+<a href="https://dev.ontheroad.jp/archives/tag/%e6%b4%97%e6%bf%af%e4%b9%be%e7%87%a5%e6%a9%9f" class="tag-cloud-link tag-link-192 tag-link-position-40" style="font-size: 8.8347826086957pt;" aria-label="家電 (7個の項目)">家電</a>
+<a href="https://dev.ontheroad.jp/archives/tag/documents" class="tag-cloud-link tag-link-138 tag-link-position-41" style="font-size: 8pt;" aria-label="書籍・ドキュメント (5個の項目)">書籍・ドキュメント</a>
+<a href="https://dev.ontheroad.jp/archives/tag/free" class="tag-cloud-link tag-link-27 tag-link-position-42" style="font-size: 11.75652173913pt;" aria-label="無料 (20個の項目)">無料</a>
+<a href="https://dev.ontheroad.jp/archives/tag/automation" class="tag-cloud-link tag-link-368 tag-link-position-43" style="font-size: 9.8086956521739pt;" aria-label="自動化 (10個の項目)">自動化</a>
+<a href="https://dev.ontheroad.jp/archives/tag/settings" class="tag-cloud-link tag-link-41 tag-link-position-44" style="font-size: 14.052173913043pt;" aria-label="設定 (44個の項目)">設定</a>
+<a href="https://dev.ontheroad.jp/archives/tag/development_enviroment" class="tag-cloud-link tag-link-149 tag-link-position-45" style="font-size: 8.8347826086957pt;" aria-label="開発環境 (7個の項目)">開発環境</a></div>
+</div></div><div class="left"><h3>このブログの広告について</h3><div class="box">			<div class="textwidget">当ブログ（MacBookAir と WordPress でこうなった）は、Amazon.co.jp または javari.jp を宣伝しリンクすることによってサイトが紹介料を獲得できる手段を提供することを目的に設定されたアフィリエイト宣伝プログラムである、Amazonアソシエイト・プログラムの参加者です。</div>
+		</div></div>
+<div class="clear"></div>
+</div><!--end: footer-->
+
+<div class="clear"></div>
+
+<!-- ----------------------- #Show Case --------------------- -->
+<div class="clear"></div>
+
+<!-- ----------------------- #Bottom ------------------------ -->
+<div id="bottom">
+<div class="left">Copyright &copy; 2012 - 2014 <a href="https://dev.ontheroad.jp">MacBook Air とWordPressでこうなった</a> All rights reserved</div>
+<div class="right">
+<!-- Designed by <a href="http://www.theme-junkie.com/" target="_blank">Theme Junkie</a>.  -->
+Powered by <a href="http://www.wordpress.org/" target="_blank">WordPress</a>.
+</div>
+<div class="clear"></div>
+</div><!--end: bottom-->
+
+</div><!--end: wrapper-->
+<div class="clear"></div>
+
+<!-- iTunes Affiliate -->
+<script type='text/javascript'>var _merchantSettings=_merchantSettings || [];_merchantSettings.push(['AT', '10lKgz']);(function(){var autolink=document.createElement('script');autolink.type='text/javascript';autolink.async=true; autolink.src= ('https:' == document.location.protocol) ? 'https://autolinkmaker.itunes.apple.com/js/itunes_autolinkmaker.js' : 'http://autolinkmaker.itunes.apple.com/js/itunes_autolinkmaker.js';var s=document.getElementsByTagName('script')[0];s.parentNode.insertBefore(autolink, s);})();</script>
+
+<!-- wp_footer() -->
+<!-- Powered by WPtouch: 4.3.37 --><script type='text/javascript' src='https://dev.ontheroad.jp/wp-includes/js/wp-embed.min.js?ver=5.2.2'></script>
+</body></html><!-- WP Super Cache is installed but broken. The constant WPCACHEHOME must be set in the file wp-config.php and point at the WP Super Cache plugin directory. -->
+<!-- Dynamic page generated in 1565594004.398 seconds. -->
+<!-- Cached page generated by WP-Super-Cache on 2019-08-12 16:13:24 -->
+
+<!-- Compression = gzip -->
+<!-- super cache -->

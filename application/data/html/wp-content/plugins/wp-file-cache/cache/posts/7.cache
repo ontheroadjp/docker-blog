@@ -1,0 +1,13 @@
+O:8:"stdClass":23:{s:2:"ID";s:1:"7";s:11:"post_author";s:1:"1";s:9:"post_date";s:19:"2012-02-12 15:22:57";s:13:"post_date_gmt";s:19:"2012-02-12 06:22:57";s:12:"post_content";s:1361:"<p>
+WordPress は<a href="http://wpdocs.sourceforge.jp/%E3%83%86%E3%83%B3%E3%83%97%E3%83%AC%E3%83%BC%E3%83%88%E9%9A%8E%E5%B1%A4" target="_blank">テンプレート階層</a>を理解すればとても簡単にカスタマイズができるようですが、<strong>XHTML</strong> と <strong>CSS</strong> で書かれているテンプレートがほとんどなので、それを理解しないとちょっと大変かも。私も <strong>CSS</strong> には難儀しています。とくにフロートとか・・。<br>
+<br>
+やっと、<strong>ブロック要素</strong>と<strong>インライン要素</strong>、<strong>ブロックボックス整形文脈</strong>と<strong>インライン整形文脈</strong>の存在などを理解した程度ですが、頭でわかっていても実際にはそうならかったり。<br>
+<br>
+こちらのブログではそのあたりがとても丁寧に説明されていてとても参考になります。<br>
+参考URL: <a href="http://webdesignrecipes.com/" target="_blank">WEB デザインレシピ</a><br>
+<br>
+CSS も一冊本を買って・・と以前から思ってはいるのですが、中途半端にここまで来てしまったので、今さら本に出費したくないとどうでも良い意地を張っていたりします（笑）。<br>
+<br>
+でわでわ。<br>
+</p><br>";s:10:"post_title";s:81:"フッターのレイアウトが崩れてちゃんと表示されない（泣）";s:12:"post_excerpt";s:371:"早速<a href="http://dev.ontheroad.jp/2012/02/wordpress3-%E3%81%AE%E3%83%86%E3%83%BC%E3%83%9E%E3%82%92%E5%A4%89%E6%9B%B4%E3%81%97%E3%81%BE%E3%81%97%E3%81%9F/">テーマを変更してみた</a>らフッターが上手く表示されません。色々と見てみると sidebar.php に余分な &lt;/div&gt; がありました。これを削除したら無事に解決。";s:11:"post_status";s:7:"publish";s:14:"comment_status";s:4:"open";s:11:"ping_status";s:4:"open";s:13:"post_password";s:0:"";s:9:"post_name";s:162:"%e3%83%95%e3%83%83%e3%82%bf%e3%83%bc%e3%81%8c%e3%81%a1%e3%82%83%e3%82%93%e3%81%a8%e8%a1%a8%e7%a4%ba%e3%81%95%e3%82%8c%e3%81%aa%e3%81%84%ef%bc%88%e6%b3%a3%ef%bc%89";s:7:"to_ping";s:0:"";s:6:"pinged";s:144:"
+http://dev.ontheroad.jp/2012/02/wordpress3-%E3%81%AE%E3%83%86%E3%83%BC%E3%83%9E%E3%82%92%E5%A4%89%E6%9B%B4%E3%81%97%E3%81%BE%E3%81%97%E3%81%9F/";s:13:"post_modified";s:19:"2012-06-11 19:31:57";s:17:"post_modified_gmt";s:19:"2012-06-11 10:31:57";s:21:"post_content_filtered";s:0:"";s:11:"post_parent";s:1:"0";s:4:"guid";s:28:"http://dev.ontheroad.jp/?p=7";s:10:"menu_order";s:1:"0";s:9:"post_type";s:4:"post";s:14:"post_mime_type";s:0:"";s:13:"comment_count";s:1:"0";}

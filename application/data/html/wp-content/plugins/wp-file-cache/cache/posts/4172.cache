@@ -1,0 +1,117 @@
+O:8:"stdClass":25:{s:2:"ID";i:4172;s:11:"post_author";s:1:"1";s:9:"post_date";s:19:"2012-06-14 22:32:12";s:13:"post_date_gmt";s:19:"2012-06-14 13:32:12";s:12:"post_content";s:6183:"<!--:ja--><p>
+先日の <a href="https://developer.apple.com/wwdc/" target="_blank">WWDC 2012</a> で <a href="http://www.apple.com/jp/macbookair/" target="_blank">新型の MacBook Air</a> が発表され、MacBook Air の購入を検討している人は、お買い得な<a href="http://store.apple.com/jp/browse/home/specialdeals/mac/macbook_air" target="_blank">旧型 MacBook Air</a> にするか新型にするか、新型にする場合は、メモリ 4GB にするか 8GB か、ということで色々と悩んでいるようです。<br>
+<br>
+個人的には、8GB メモリが必要だ！な人は新型一択で。4GB で充分！な人はお買い得な旧型が良いと思いますが。。<br>
+<br>
+そこで問題なのは、4GB で足りるのかどうかわからん！ということです。<br>
+<br>
+メモリが 4GB で足りるのか否かは人それぞれの使い方等によって一概には言えませんが、メモリーを大量消費する仮想化ソフトが、どれほど <a href="http://store.apple.com/jp/browse/home/specialdeals/mac/macbook_air" target="_blank">旧型の MacBook Air 4GB メモリ</a>でサクサク動くのか動かないのかっていうのは、ひとつのベンチマークになるんじゃないかと。
+<br>
+<br>
+ってことで、Web 上のレビューをピックアップしてみました。<br>
+<br>
+Google で「macbook air fusion 4」のキーワードの検索結果を上から順に紹介します。（インストール方法の紹介など、体感速度的なレビューがないものは省いてます）<br>
+<br>
+※ 思ったよりレビューは少ないんですね。<br>
+※ レビュー内容が、ポジティブ/ネガティブに関わらず上から順番にピックアップさせて頂きました。<br>
+※ 掲載してあるレビューは、VMware のバージョン、Windows のバージョンはマチマチです。<br>
+<br>
+それではどうぞ。<br>
+<br>
+
+＜うさうさブログ＞さん<br>
+<a href="http://www.usa2.jp/macbook_air/macbook_air_vmware_fusion4.html" target="_blank">Macbook AirでVMware Fusion 4 + Windows 7 64bitを動かしてみた</a><br>
+<br>
+
+
+＜Fの日常＞さん<br>
+<a href="http://fsama7.blog14.fc2.com/blog-entry-215.html" target="_blank">MacBookAirにVMware Fusion4を導入しました。</a><br>
+<br>
+
+＜競馬予想コラム『蛸坊主の赤鉛筆』＞さん<br>
+<a href="http://takobouzu.la.coocan.jp/index.php/2011/09/macbook-air%E3%81%A7target%E3%82%92%E5%8B%95%E3%81%8B%E3%81%99/" target="_blank">MacBook AIRでTARGETを動かす</a><br>
+<br>
+
+
+＜やねうらお－よっちゃんイカを食べながら、息子語録を書き綴る＞さん<br>
+<a href="http://d.hatena.ne.jp/yaneurao/20110922" target="_blank">VMWare Fusion 4速攻レビュー</a><br>
+<br>
+
+＜僕と彼女とAppleと…＞さん<br>
+<a href="http://d.hatena.ne.jp/kuromame_donguri/20120103/1325556398" target="_blank">VMware fusion4 でWindowsを使う（最近のエミュレーターはすごい！）</a><br>
+<br>
+
+＜夢いろblog＞さん<br>
+<a href="http://yumeiro.serio.jp/weblog/archives/2011/12/vmware_fusion4.html" target="_blank">VMware Fusion4お試し</a><br>
+<br>
+
+＜はっぴーまっくネット＞さん<br>
+<a href="http://happymac.net/archives/326" target="_blank">VMware Fusion 4 を早速購入、ちょっと使ってみました ～速報～</a><br>
+<br>
+
+＜MASA's Digital Life＞さん<br>
+<a href="http://masasdl.com/files/c1e522bb99d5a83810d206fe7e8ae09b-896.html" target="_blank">MacBook Air+Window 8+VMware Fusion</a><br>
+<br>
+
+<br />
+ついでなんで、キーワード「macbookair vmware 速度」でも検索してみた。<br>
+<br>
+
+＜Think88's Blog＞さん<br>
+<a href="http://think88.wordpress.com/2011/02/14/mac%E3%81%A7win7-part-2-vmware-fusion-3-1-2-%E3%83%AC%E3%83%93%E3%83%A5%E3%83%BC/" target="_blank">MacでWin7! Part-2 VMware Fusion 3.1.2 レビュー</a><br>
+<br>
+
+＜湘南画材研究所＞さん<br>
+<a href="http://tomono10g.com/2008/05/14/%E4%B8%8B%E6%9B%B8%E3%81%8Dmacbook-air-%E3%81%A7-vmware-fusion-%E9%9B%A3%E3%81%AA%E3%81%8F%E5%8B%95%E4%BD%9C/" target="_blank">[下書き]MacBook Air で VMware Fusion 難なく動作</a><br>
+<br>
+
+＜Tempus - 昨今明日＞さん<br>
+<a href="http://blogger.tempus.org/2010/11/macbook-airvmware-fusionwindows-xp.html" target="_blank">新型MacBook Air上のVMware FusionでWindows XPを稼働させる</a><br>
+<br>
+
+<br />
+
+VMware Fusion とは関係ないけど、旧型 MacBook Air のレビューを。<br>
+<br>
+
+＜彼女からは、おいちゃんと呼ばれています＞さん<br>
+<a href="http://d.hatena.ne.jp/inouetakuya/20110725/1311592231" target="_blank">MacBook Air（Late 2010）を使っていてよく訊かれた 10 の質問への回答</a><br>
+<br>
+
+
+＜404 Blog Not Found＞さん<br>
+<a href="http://blog.livedoor.jp/dankogai/archives/51539310.html" target="_blank">そろそろ MacBook Air (3,1) についてレポートしておくか</a><br>
+<br>
+
+
+
+最後に、私的レビューを簡単に。<br>
+<br>
+私自身も、旧型 MacBook Air（Mid 2011） 4GB メモリで <a href="http://www.vmware.com/jp/products/desktop_virtualization/fusion/overview" target="_blank">VMware Fusion</a> + Windows XP を使っている訳ですが、私的にはサクサク動いて何ら問題ありません。<br>
+<br>
+むかーし、PowerPC 時代の Mac には、Virtual PC とか Soft Windows というエミュレータがあって、マウスポインタの動きすらワンテンポずれる・・を知っている私からすれば、BootCamp はおろか、Windows メインでも Mac でいいじゃん、と思えるくらいサクサク動きます。<br>
+<br>
+MS Office を使う必要がある人は、Mac 版の Office を買うより、仮装ソフトで Windows 動かして、Windows 用の MS Office 使った方が断然良い、と言えるほど快適です。<br>
+<br>
+最終的な判断は、SSD 容量や、新型の USB は 3.0 だ、という違いも考慮してくださいね。<br>
+<br>
+でわでわ。
+</p><!--:-->";s:10:"post_title";s:207:"<!--:ja-->MacBook Air 4GB メモリーで VMware Fusion + Windows を動かした皆さんのレビュー<!--:--><!--:en-->Everyone ran a review of VMware Fusion + Windows with 4GB memory MacBook Air<!--:-->";s:12:"post_excerpt";s:339:"<!--:ja-->MacBook Air 購入に際して、メモリは 4GB　で足りるのか？について、仮装化ソフト（ VMware Fusion ）の使い勝手（どれほどサクサク動くか）はひとつのベンチマークになるのでは？と思います。<!--:--><!--:en-->Sorry, this article is only available in Japanese.<!--:-->";s:11:"post_status";s:7:"publish";s:14:"comment_status";s:4:"open";s:11:"ping_status";s:4:"open";s:13:"post_password";s:0:"";s:9:"post_name";s:165:"macbook-air-4gb-%e3%83%a1%e3%83%a2%e3%83%aa%e3%83%bc%e3%81%a7-vmware-fusion-windows-%e3%82%92%e5%8b%95%e3%81%8b%e3%81%97%e3%81%9f%e3%83%ac%e3%83%93%e3%83%a5%e3%83%bc";s:7:"to_ping";s:0:"";s:6:"pinged";s:1231:"http://happymac.net/archives/326
+http://tomono10g.com/2008/05/14/%E4%B8%8B%E6%9B%B8%E3%81%8Dmacbook-air-%E3%81%A7-vmware-fusion-%E9%9B%A3%E3%81%AA%E3%81%8F%E5%8B%95%E4%BD%9C/
+http://taste.blogmura.com/rpc/trackback/99661/cynbb1rfw5au
+http://blog.blogmura.com/rpc/trackback/74622
+http://blog.blogmura.com/rpc/trackback/92143/cynbb1rfw5au
+http://blog.blogmura.com/rpc/trackback/91961/cynbb1rfw5au
+http://it.blogmura.com/rpc/trackback/102332/cynbb1rfw5au
+http://blog.blogmura.com/rpc/trackback/104066/cynbb1rfw5au
+http://blog.blogmura.com/rpc/trackback/106152/cynbb1rfw5au
+http://it.blogmura.com/rpc/trackback/83788/cynbb1rfw5au
+http://internet.blogmura.com/rpc/trackback/69661/cynbb1rfw5au
+http://blog.blogmura.com/rpc/trackback/107158/cynbb1rfw5au
+http://pckaden.blogmura.com/rpc/trackback/100362/cynbb1rfw5au
+http://internet.blogmura.com/rpc/trackback/1220/cynbb1rfw5au
+http://internet.blogmura.com/rpc/trackback/1254/cynbb1rfw5au
+http://it.blogmura.com/rpc/trackback/98101/cynbb1rfw5au
+http://internet.blogmura.com/rpc/trackback/91956/cynbb1rfw5au
+http://internet.blogmura.com/rpc/trackback/1226/cynbb1rfw5au
+http://think88.wordpress.com/2011/02/14/mac%E3%81%A7win7-part-2-vmware-fusion-3-1-2-%E3%83%AC%E3%83%93%E3%83%A5%E3%83%BC/";s:13:"post_modified";s:19:"2012-10-25 09:07:26";s:17:"post_modified_gmt";s:19:"2012-10-25 00:07:26";s:21:"post_content_filtered";s:0:"";s:11:"post_parent";i:0;s:4:"guid";s:31:"http://dev.ontheroad.jp/?p=4172";s:10:"menu_order";i:0;s:9:"post_type";s:4:"post";s:14:"post_mime_type";s:0:"";s:13:"comment_count";s:1:"0";s:9:"ancestors";a:0:{}s:6:"filter";s:3:"raw";}

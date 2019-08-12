@@ -1,0 +1,39 @@
+RewriteEngine on
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)/(.*)/(.*)/index.html$ /special/blackjack/index.php?lang=$1&n=$2&epi=$3 [L]
+
+
+# BEGIN GZIP
+<ifmodule mod_deflate.c>
+AddOutputFilterByType DEFLATE text/text text/html text/plain text/xml text/css application/x-javascript application/javascript
+</ifmodule>
+# END GZIP
+
+
+# BEGIN CACHE(Browser Cache)
+<ifModule mod_expires.c>
+ExpiresActive On
+ExpiresByType image/gif "access plus 30 days"
+ExpiresByType image/jpeg "access plus 30 days"
+ExpiresByType image/png "access plus 30 days"
+ExpiresByType application/x-shockwave-flash "access plus 1 years"
+ExpiresByType application/rss+xml "access plus 30 minutes"
+ExpiresByType application/x-javascript "access plus 30 days"
+
+#ExpiresByType text/html "modification plus 1 days"
+ExpiresByType text/html "access plus 10 days"
+ExpiresByType application/xhtml+xml "access plus 10 days"
+ExpiresByType application/xml "access plus 10 days"
+
+ExpiresByType text/css "access plus 1 days"
+</ifModule>
+# END CACHE
+# http://www.ahref.org/tech/server/apacche/389.html
+
+
+FileEtag None
+
+
+
+

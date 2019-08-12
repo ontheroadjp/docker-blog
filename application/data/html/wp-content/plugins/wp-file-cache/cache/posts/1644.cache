@@ -1,0 +1,48 @@
+O:8:"stdClass":23:{s:2:"ID";s:4:"1644";s:11:"post_author";s:1:"1";s:9:"post_date";s:19:"2012-05-04 00:12:07";s:13:"post_date_gmt";s:19:"2012-05-03 15:12:07";s:12:"post_content";s:5412:"<p>
+私は未だに <a href="http://www.apple.com/jp/iphone/" target="_blank">iPhone</a>  を持ってません。っていうか <a href="http://www.apple.com/jp/ipodtouch/" target="_blank">iPod Touch</a> を愛用してるけどこれで十分です。常にオンラインに繋げる必要も無いし。<br>
+<br>
+と強がってみたところで、街中で <a href="http://www.apple.com/jp/iphone/" target="_blank">iPhone</a> で地図なんかを見てる人を見るとちょっと羨ましかったり。<br>
+<br>
+ということで、<a href="http://www.apple.com/jp/ipodtouch/" target="_blank">iPod Touch</a> ユーザーはとにかく、いかに快適なオフライン環境を整えるのかということが重要な訳です。<br>
+<br>
+関連記事：<a href="http://dev.ontheroad.jp/archives/7687">初めての iPod touch ユーザーのための iPod touch 流アプリの選び方（と使い方）</a><br>
+<br>
+っで、地図アプリ。<br>
+<br>
+ある程度の作業とかはオフライン主体でもあんまり支障はないけど、地図に関しては完全にダメ。<a href="http://www.apple.com/jp/ipodtouch/" target="_blank">iPod Touch</a> じゃダメダメ。<br>
+<br>
+オフライン環境を快適にするためにはローカルにデータを持っていないと何も出来ない。PC で <a href="http://maps.google.co.jp/" target="_blank">Google Map</a> を PDF 保存して <a href="http://www.apple.com/jp/ipodtouch/" target="_blank">iPod Touch</a> に入れてみたりもしたけど面倒くさい。<br>
+<br>
+やっぱり地図を丸ごと <a href="http://www.apple.com/jp/ipodtouch/" target="_blank">iPod Touch</a> に入れとかないと実用に耐えられない。<br>
+<br>
+MapFan for iPhone は、<a href="http://www.apple.com/jp/ipodtouch/" target="_blank">iPod Touch</a> 内に地図を丸ごと入れられるのでとても良さげ。その代わりアプリ容量が約1.5GBと大量ですが、むしろこのくらいのデータ量だと安心感があります。<br>
+<br>
+関連リンク：<a href="http://www.mapfan.com/mobile/iphone/area.html" target="_blank">詳細地図の収録エリア</a><br>
+<br>
+オフラインの環境で、住所検索（丁目まで）、駅名検索、ルート案内（事前にオンラインでルート設定が必要）など最低限の機能は使えるみたい。<br>
+<br>
+関連リンク：<a href="http://www.youtube.com/watch?v=JlRMnO1yc1I" target="_blank">MapFan for iPhone 操作デモ</a><br>
+関連リンク：<a href="http://www.mapfan.com/mobile/iphone/function.html" target="_blank">機能一覧</a><br>
+関連リンク：<a href="http://www.mapfan.com/mobile/iphone/howto.html" target="_blank">オフラインでの活用方法</a><br>
+<br>
+カーナビのようにも使えるようだけど、地図としての用途だけであれば、<a href="http://www.apple.com/jp/iphone/" target="_blank">iPhone</a> ユーザーには必要ないかも。
+</p>
+
+<div style="border:1px solid #DDDDDD; background:#F7F7F7; padding:10px"><img src="http://dev.ontheroad.jp/wp-content/uploads/2012/05/01.jpg"  style="float:left; width:80px; margin:0 10px 10px 0;" /><div style="float:left"><div style="font-weight:bold;"><a href="http://click.linksynergy.com/fs-bin/stat?id=kpUxOUJhVb0&offerid=94348&type=3&subid=0&tmpid=2192&RD_PARM1=http://itunes.apple.com/jp/app/mapfan-for-iphone/id354667360?mt=8&uo=4" target="_blank">MapFan for iPhone</a></div><div style="font-size:0.9em">( v1.6 - 1609.431895MB )</div><div style="font-size:0.9em;margin:5px 0;line-height:1.2em">カテゴリ:ナビゲーション<br>リリース:2010-03-09<br>販売元:INCREMENT P CORPORATION<br>価格:900円（5/14まで）</div><a href="http://click.linksynergy.com/fs-bin/stat?id=kpUxOUJhVb0&offerid=94348&type=3&subid=0&tmpid=2192&RD_PARM1=http://itunes.apple.com/jp/app/mapfan-for-iphone/id354667360?mt=8&uo=4" target="_blank"><img src="http://dev.ontheroad.jp/tools/apple/img/viewinitunes_jp.png" /></a></div><div style="clear:both"></div></div><br />
+
+<p>
+ちなみに、iPhone3G、iPod touch 第1世代、第2世代、第3世代の8Gバイトモデルには非対応とのことなので注意してください。<br>
+<br>
+関連リンク：<a href="http://www.mapfan.com/mobile/iphone/topics.html" target="_blank">「iPhone3G」「iPod touch 第1世代/第2世代/第3世代8GBモデル」ご利用の方へ</a><br>
+<br>
+<a href="http://dev.ontheroad.jp/wp-content/uploads/2012/05/02.gif"><img src="http://dev.ontheroad.jp/wp-content/uploads/2012/05/02.gif" alt="" title="02" width="295" height="465" class="alignnone size-full wp-image-1705" /></a>
+
+<a href="http://dev.ontheroad.jp/wp-content/uploads/2012/05/03.gif"><img src="http://dev.ontheroad.jp/wp-content/uploads/2012/05/03.gif" alt="" title="03" width="295" height="465" class="alignnone size-full wp-image-1707" /></a>
+
+<a href="http://dev.ontheroad.jp/wp-content/uploads/2012/05/04.jpg"><img src="http://dev.ontheroad.jp/wp-content/uploads/2012/05/04.jpg" alt="" title="04" width="295" height="465" class="alignnone size-full wp-image-1708" /></a>
+
+<a href="http://dev.ontheroad.jp/wp-content/uploads/2012/05/05.jpg"><img src="http://dev.ontheroad.jp/wp-content/uploads/2012/05/05.jpg" alt="" title="05" width="295" height="465" class="alignnone size-full wp-image-1709" /></a>
+<br>
+でわでわ。
+</p>";s:10:"post_title";s:121:"オフラインでも利用できる地図アプリ「MapFan for iPhone」が 900円（60% OFF）キャンペーン中！";s:12:"post_excerpt";s:543:"<!--:ja-->オフラインでも利用できる地図アプリ「MapFan for iPhone」が通常 2,300円のところ 5月14日まで、900円（60% Off）で販売中です。<!--:--><!--:en-->オフラインでも利用できる地図アプリ「MapFan for iPhone」が通常 2,300円のところ 5月14日まで、900円（60% Off）で販売中です。<!--:--><!--:zu-->オフラインでも利用できる地図アプリ「MapFan for iPhone」が通常 2,300円のところ 5月14日まで、900円（60% Off）で販売中です。<!--:-->";s:11:"post_status";s:7:"publish";s:14:"comment_status";s:4:"open";s:11:"ping_status";s:4:"open";s:13:"post_password";s:0:"";s:9:"post_name";s:200:"%e3%82%aa%e3%83%95%e3%83%a9%e3%82%a4%e3%83%b3%e3%81%a7%e3%82%82%e5%88%a9%e7%94%a8%e3%81%a7%e3%81%8d%e3%82%8b%e5%9c%b0%e5%9b%b3%e3%82%a2%e3%83%97%e3%83%aa%e3%80%8cmapfan-for-iphone%e3%80%8d%e3%81%8c-90";s:7:"to_ping";s:0:"";s:6:"pinged";s:38:"
+http://dev.ontheroad.jp/archives/7687";s:13:"post_modified";s:19:"2012-10-12 12:04:15";s:17:"post_modified_gmt";s:19:"2012-10-12 03:04:15";s:21:"post_content_filtered";s:0:"";s:11:"post_parent";s:1:"0";s:4:"guid";s:31:"http://dev.ontheroad.jp/?p=1644";s:10:"menu_order";s:1:"0";s:9:"post_type";s:4:"post";s:14:"post_mime_type";s:0:"";s:13:"comment_count";s:1:"0";}

@@ -1,0 +1,110 @@
+O:8:"stdClass":25:{s:2:"ID";i:4285;s:11:"post_author";s:1:"1";s:9:"post_date";s:19:"2012-06-15 18:22:13";s:13:"post_date_gmt";s:19:"2012-06-15 09:22:13";s:12:"post_content";s:4214:"<!--:ja--><p>
+先日の <a href="https://developer.apple.com/wwdc/" target="_blank">WWDC 2012</a> で、<a href="http://www.apple.com/jp/macbookair/" target="_blank">新型 MacBook Air</a> が発表されました。なんと言っても最大 8GB メモリが魅力です。<br>
+<br>
+ただ買い替えか？見送りか？で悩んでいる人も多いようで、友人からも相談がありました。ってことで余計なお世話ですが、買い替えか？見送りか？の個人的な意見を。<br>
+<br>
+まず簡単に、MacBook Air の歴史について。あくまで私見です。事実関係に間違いがあればご指摘ください。（世代の言い方が違うかもしれません。良く分かんない。ってかこんなに世代進んでないと思う）<br>
+</p>
+
+<ol>
+<li>初代 MacBook Air（Early 2008）<br>
+<br>
+・ kernel_task 熱暴走問題で使い物にならず。<br>
+・ ほとんど不良品のレベル。<br>
+・ ちなみに私も大いに悩まされた。<br>
+・ ドライブが PATA 接続で、SSD が遅い。<br>
+・ メモリはオンボード 2GB で増設不可。<br>
+<br>
+参考：<a href="http://support.apple.com/kb/SP8?viewlocale=ja_JP" target="_blank">MacBook Air (Late 2008) - 技術仕様 | Apple</a><br>
+<br></li>
+
+
+<li>第二世代 MacBook Air（Late 2008）<br>
+<br>
+・ グラフィックが GeForce 9400M に変更され 3D 処理性能が大幅向上。<br>
+・ メモリ規格が DD3 へ変更。<br>
+・ HDD 規格が PATA から SATA へ変更。SSD 速くなる。<br>
+・ MacBook Air がまともに使えるようになる。<br>
+・ でもメモリはオンボード 2GB で増設不可。<br>
+<br>
+参考：<a href="http://support.apple.com/kb/SP501?viewlocale=ja_JP" target="_blank">MacBook Air (Late 2008) - 技術仕様 | Apple</a><br>
+
+<br></li>
+
+<li>第三世代 MacBook Air（Mid 2009）<br>
+<br>
+・ スペック的な変更はほとんどなし。<br>
+・ 価格改定で、第一世代と比較すると約半額となる。<br>
+<br>
+参考：<a href="http://support.apple.com/kb/SP548?viewlocale=ja_JP" target="_blank">MacBook Air (Mid 2009) - 技術仕様 | Apple</a><br>
+
+<br></li>
+
+
+<li>第四世代 MacBook Air（Late 2010）<br>
+<br>
+・ 11.6 インチが加わる。<br>
+・ キーボードバックライトが無くなる。<br>
+・ メモリ最大 4GB 搭載可能になる。<br>
+<br>
+参考:<a href="http://support.apple.com/kb/SP617?viewlocale=ja_JP" target="_blank">MacBook Air (11-inch, Late 2010) - 技術仕様 | Apple</a><br>
+
+参考:<a href="http://support.apple.com/kb/SP618?viewlocale=ja_JP" target="_blank">MacBook Air (13-inch, Late 2010) - 技術仕様 | Apple</a><br>
+<br></li>
+
+<li>第五世代 MacBook Air（Mid 2011）<br>
+<br>
+・ Sandy Bridgeこと第2世代Core iプロセッサを採用。<br>
+・ SSD 性能と合間見合って爆速。<br>
+・ Thunderbolt 搭載。<br>
+・ キーボードバックライトが復活。<br>
+・ <del>東日本大震災の 3日後に娘が生まれる。</del><br>
+<br>
+参考：<a href="http://support.apple.com/kb/SP631?viewlocale=ja_JP" target="_blank">MacBook Air (11-inch and 13-inch, Mid 2011) - 技術仕様 | Apple</a><br>
+
+<br></li>
+
+<li>第六世代 MacBook Air（Mid 2012） ← いまここ<br>
+<br>
+・ メモリ最大 8GB 搭載可能になる。<br>
+・ USB 3.0搭載。<br>
+<br>
+参考：<a href="" target="_blank">MacBook Air (11-inch and 13-inch, Mid 2012) - 技術仕様 | Apple</a><br>
+
+<br></li>
+
+<li>第七世代 MacBook Air<br>
+<br>
+・ Retina ディスプレイ搭載（？）<br>
+<br></li>
+
+</ol>
+
+<p>
+ということなので、第三世代以前のユーザーは問答無用で買い替え。第五世代ユーザーは見送り、第四世代ユーザーはびみょーって感じでしょうか。<br>
+<br>
+初めて MacBook Air の購入を検討している人は、メモリ 4GB のお買い得な旧型（第五世代）（Mid 2011）一択で。<br>
+<br>
+いやいや最新が良い、という方は迷わずメモリ 8GB にしといた方が幸せになれると思います。<br>
+
+<br>
+でわでわ。
+</p><!--:-->";s:10:"post_title";s:189:"<!--:ja-->新型 MacBook Air（Mid 2012）に買い替えるかどうかお悩みの人へ<!--:--><!--:en-->To people worries whether replace the new MacBook Air (Mid 2012)  or not.<!--:-->";s:12:"post_excerpt";s:140:"<!--:ja-->MacBook Air の歴史で振り返る買い替え時。<!--:--><!--:en-->Sorry, this article is only available in Japanese.<!--:-->";s:11:"post_status";s:7:"publish";s:14:"comment_status";s:4:"open";s:11:"ping_status";s:4:"open";s:13:"post_password";s:0:"";s:9:"post_name";s:200:"%e6%96%b0%e5%9e%8b-macbook-air%ef%bc%88mid-2012%ef%bc%89%e3%81%ab%e8%b2%b7%e3%81%84%e6%9b%bf%e3%81%88%e3%82%8b%e3%81%8b%e3%81%a9%e3%81%86%e3%81%8b%e3%81%8a%e6%82%a9%e3%81%bf%e3%81%ae%e4%ba%ba%e3%81%b8";s:7:"to_ping";s:0:"";s:6:"pinged";s:1011:"
+http://dev.ontheroad.jp/archives/3979
+http://internet.blogmura.com/rpc/trackback/1226/cynbb1rfw5au
+http://taste.blogmura.com/rpc/trackback/99661/cynbb1rfw5au
+http://blog.blogmura.com/rpc/trackback/74622
+http://blog.blogmura.com/rpc/trackback/92143/cynbb1rfw5au
+http://blog.blogmura.com/rpc/trackback/91961/cynbb1rfw5au
+http://it.blogmura.com/rpc/trackback/102332/cynbb1rfw5au
+http://blog.blogmura.com/rpc/trackback/104066/cynbb1rfw5au
+http://blog.blogmura.com/rpc/trackback/106152/cynbb1rfw5au
+http://it.blogmura.com/rpc/trackback/83788/cynbb1rfw5au
+http://internet.blogmura.com/rpc/trackback/69661/cynbb1rfw5au
+http://blog.blogmura.com/rpc/trackback/107158/cynbb1rfw5au
+http://pckaden.blogmura.com/rpc/trackback/100362/cynbb1rfw5au
+http://internet.blogmura.com/rpc/trackback/1220/cynbb1rfw5au
+http://internet.blogmura.com/rpc/trackback/1254/cynbb1rfw5au
+http://it.blogmura.com/rpc/trackback/98101/cynbb1rfw5au
+http://internet.blogmura.com/rpc/trackback/91956/cynbb1rfw5au
+http://dev.ontheroad.jp/archives/4031";s:13:"post_modified";s:19:"2012-10-25 09:06:42";s:17:"post_modified_gmt";s:19:"2012-10-25 00:06:42";s:21:"post_content_filtered";s:0:"";s:11:"post_parent";i:0;s:4:"guid";s:31:"http://dev.ontheroad.jp/?p=4285";s:10:"menu_order";i:0;s:9:"post_type";s:4:"post";s:14:"post_mime_type";s:0:"";s:13:"comment_count";s:1:"0";s:9:"ancestors";a:0:{}s:6:"filter";s:3:"raw";}

@@ -1,0 +1,41 @@
+O:8:"stdClass":25:{s:2:"ID";i:6437;s:11:"post_author";s:1:"1";s:9:"post_date";s:19:"2012-07-27 10:10:46";s:13:"post_date_gmt";s:19:"2012-07-27 01:10:46";s:12:"post_content";s:3468:"<p>
+自宅では Mac を使っているけど職場では Windows って人は多いと思いますが、そんな人にとっては VMware Fusion などの仮想環境は手放せないわけで。<br>
+<br>
+<a href="http://dev.ontheroad.jp/wp-content/uploads/2012/07/vmware_mountain_lion2.jpg"><img src="http://dev.ontheroad.jp/wp-content/uploads/2012/07/vmware_mountain_lion2.jpg" alt="" title="vmware_mountain_lion2" width="580" height="363" class="alignnone size-full wp-image-6455" /></a><br>
+<br>
+っで、今でも VMware Fusion 3 を使っている人も多いと思いますが、<a href="http://click.linksynergy.com/fs-bin/stat?id=cSxHJqdiAjg&offerid=94348&type=3&subid=0&tmpid=2192&RD_PARM1=http://itunes.apple.com/jp/app/os-x-mountain-lion/id537386512?mt=12&uo=4" target="_blank">OS X Mountain Lion</a> では動かないようです。<br>
+<br>
+VMware の公式サイトによると
+</p>
+
+<blockquote>
+No. VMware Fusion 3 was released in October 2009 and was optimized for Mac OS X Leopard and Snow Leopard.  VMware Fusion 3 is no longer being updated for newer versions of Mac OS. Customers wishing to run VMware Fusion on Mountain Lion should use <a href="http://www.act2.com/fusion/" target="_blank">VMware Fusion 4</a>. <br>
+<br>
+出所：<a href="http://blogs.vmware.com/teamfusion/2012/07/vmware-fusion-and-os-x-mountain-lion-faq.html" target="_blank">VMware: VMware Fusion Blog: VMware Fusion and OS X Mountain Lion FAQ</a>
+</blockquote>
+
+
+<p>
+だそうで、VMware Fusion 3 は、Mountain Lion 対応のアップデートの予定も無いとのことなので、Windows 環境が必用な人は、<a href="http://www.act2.com/fusion/" target="_blank">VMware Fusion 4</a> へアップグレードするしかなさそうです。<br>
+<br>
+しかも、VMware Fusion 3 から 4 へのアップグレード販売はなし。<br>
+<br>
+<a href="http://click.linksynergy.com/fs-bin/stat?id=cSxHJqdiAjg&offerid=94348&type=3&subid=0&tmpid=2192&RD_PARM1=http://itunes.apple.com/jp/app/os-x-mountain-lion/id537386512?mt=12&uo=4" target="_blank">OS X Mountain Lion</a> 自体は、1,700円とリーズナブルだけど、VMware Fusion 4 は、5～6,000円くらいでしたっけ。<br>
+<br>
+総額、1万円弱。<br>
+<br>
+頻繁に行われるキャンペーンとかで安く買えたりもするので、それまで待ってみるのも良いかも。<br>
+<br>
+関連：<a href="http://dev.ontheroad.jp/archives/431" target="_blank">VMWare Fusion 4 + ソフト10本で $49.99 でとってもお得♪ | MacBook Air とWordPressでこうなった</a><br>
+<br>
+なお、<a href="http://www.act2.com/fusion/" target="_blank">VMware Fusion 4</a> の方は、<a href="http://click.linksynergy.com/fs-bin/stat?id=cSxHJqdiAjg&offerid=94348&type=3&subid=0&tmpid=2192&RD_PARM1=http://itunes.apple.com/jp/app/os-x-mountain-lion/id537386512?mt=12&uo=4" target="_blank">OS X Mountain Lion</a> 完全対応。<br>
+<br>
+参考：<a href="http://www.act2.com/fusion/repletion/" target="_blank">VMware Fusion 4 - Mac/Windows ソフト・iPhone/Android ガジェット＆アクセサリ act2.com</a><br>
+<br>
+
+Windows 環境を構築するだけなら、VMware などの仮想環境がなくても、Bootcamp で出来ますが、VMware Fusion 速すぎなので、Bootcamp よりも仮想環境の方が全然快適なので、一度、仮想化環境になれちゃうと離れられませんね。<br>
+<br>
+でわでわ。
+</p>";s:10:"post_title";s:124:"VMware Fusion 3 は、Mountain Lion では動かないので、VMware Fusion 4 へのアップグレード必須なんだね";s:12:"post_excerpt";s:176:"<!--:ja-->Windows 環境が必要な人にとっては欠かせない仮想化環境ですが、VMware Fusion 3 だと、Mountain Lion じゃ動かないようです。<!--:-->";s:11:"post_status";s:7:"publish";s:14:"comment_status";s:4:"open";s:11:"ping_status";s:4:"open";s:13:"post_password";s:0:"";s:9:"post_name";s:199:"vmware-fusion-3-%e3%81%af%e3%80%81mountain-lion-%e3%81%a7%e3%81%af%e5%8b%95%e3%81%8b%e3%81%aa%e3%81%84%e3%81%ae%e3%81%a7%e3%80%81vmware-fusion-4-%e3%81%b8%e3%81%ae%e3%82%a2%e3%83%83%e3%83%97%e3%82%b0";s:7:"to_ping";s:0:"";s:6:"pinged";s:4038:"http://anchortag.jp/archives/225.htmlhttp://internet.blogmura.com/rpc/trackback/1226/cynbb1rfw5auhttp://taste.blogmura.com/rpc/trackback/99661/cynbb1rfw5auhttp://blog.blogmura.com/rpc/trackback/74622http://blog.blogmura.com/rpc/trackback/92143/cynbb1rfw5auhttp://blog.blogmura.com/rpc/trackback/91961/cynbb1rfw5auhttp://it.blogmura.com/rpc/trackback/102332/cynbb1rfw5auhttp://blog.blogmura.com/rpc/trackback/104066/cynbb1rfw5auhttp://blog.blogmura.com/rpc/trackback/106152/cynbb1rfw5auhttp://it.blogmura.com/rpc/trackback/83788/cynbb1rfw5auhttp://internet.blogmura.com/rpc/trackback/69661/cynbb1rfw5auhttp://blog.blogmura.com/rpc/trackback/107158/cynbb1rfw5auhttp://pckaden.blogmura.com/rpc/trackback/100362/cynbb1rfw5auhttp://internet.blogmura.com/rpc/trackback/1220/cynbb1rfw5auhttp://internet.blogmura.com/rpc/trackback/1254/cynbb1rfw5auhttp://it.blogmura.com/rpc/trackback/98101/cynbb1rfw5auhttp://internet.blogmura.com/rpc/trackback/91956/cynbb1rfw5auhttp://liginc.co.jp/designer/archives/2266http://www.df-cue.com/wp/2009/11/30/newmark/
+http://dev.ontheroad.jp/archives/431
+http://taichistereo.net/xmlrpc/http://serennz.cool.ne.jp/sblog/rep.cgihttp://serenebach.net/rep.cgihttp://rpc.weblogs.com/RPC2http://rpc.reader.livedoor.com/pinghttp://rpc.pingomatic.com/http://rpc.blogrolling.com/pinger/http://rpc.bloghackers.net/newsokuhttp://rpc.atblogs.com/http://r.hatena.ne.jp/rpchttp://ping.weblogs.se/http://ping.weblogalot.com/rpc.phphttp://ping.rootblog.com/rpc.phphttp://ping.myblog.jphttp://ping.gpost.info/xmlrpchttp://ping.blogmura.jp/rpc/http://ping.bloggers.jp/rpc/http://ping.blo.gs/http://ping.amagle.com/http://jugem.jp/?mode=NEWENTRYhttp://blog-world.webhop.biz/RPC2/http://blogsearch.google.com/ping/RPC2http://blog.goo.ne.jp/XMLRPChttp://bitacoras.net/ping/http://api.my.yahoo.co.jp/RPC2http://api.my.yahoo.com/RPC2http://www.blogoole.com/ping/http://www.blogoon.net/ping/http://www.blogpeople.net/servlet/weblogUpdateshttp://www.blogpeople.net/ping/http://www.weblogues.com/RPC/http://liginc.co.jp/designer/archives/2266http://anchortag.jp/archives/225.htmlhttp://internet.blogmura.com/rpc/trackback/1226/cynbb1rfw5auhttp://taste.blogmura.com/rpc/trackback/99661/cynbb1rfw5auhttp://blog.blogmura.com/rpc/trackback/74622http://blog.blogmura.com/rpc/trackback/92143/cynbb1rfw5auhttp://blog.blogmura.com/rpc/trackback/91961/cynbb1rfw5auhttp://it.blogmura.com/rpc/trackback/102332/cynbb1rfw5auhttp://blog.blogmura.com/rpc/trackback/104066/cynbb1rfw5auhttp://blog.blogmura.com/rpc/trackback/106152/cynbb1rfw5auhttp://it.blogmura.com/rpc/trackback/83788/cynbb1rfw5auhttp://internet.blogmura.com/rpc/trackback/69661/cynbb1rfw5auhttp://blog.blogmura.com/rpc/trackback/107158/cynbb1rfw5auhttp://pckaden.blogmura.com/rpc/trackback/100362/cynbb1rfw5auhttp://internet.blogmura.com/rpc/trackback/1220/cynbb1rfw5auhttp://internet.blogmura.com/rpc/trackback/1254/cynbb1rfw5auhttp://it.blogmura.com/rpc/trackback/98101/cynbb1rfw5auhttp://internet.blogmura.com/rpc/trackback/91956/cynbb1rfw5auhttp://anchortag.jp/archives/225.htmlhttp://internet.blogmura.com/rpc/trackback/1226/cynbb1rfw5auhttp://taste.blogmura.com/rpc/trackback/99661/cynbb1rfw5auhttp://blog.blogmura.com/rpc/trackback/74622http://blog.blogmura.com/rpc/trackback/92143/cynbb1rfw5auhttp://blog.blogmura.com/rpc/trackback/91961/cynbb1rfw5auhttp://it.blogmura.com/rpc/trackback/102332/cynbb1rfw5auhttp://blog.blogmura.com/rpc/trackback/104066/cynbb1rfw5auhttp://blog.blogmura.com/rpc/trackback/106152/cynbb1rfw5auhttp://it.blogmura.com/rpc/trackback/83788/cynbb1rfw5auhttp://internet.blogmura.com/rpc/trackback/69661/cynbb1rfw5auhttp://blog.blogmura.com/rpc/trackback/107158/cynbb1rfw5auhttp://pckaden.blogmura.com/rpc/trackback/100362/cynbb1rfw5auhttp://internet.blogmura.com/rpc/trackback/1220/cynbb1rfw5auhttp://internet.blogmura.com/rpc/trackback/1254/cynbb1rfw5auhttp://it.blogmura.com/rpc/trackback/98101/cynbb1rfw5auhttp://internet.blogmura.com/rpc/trackback/91956/cynbb1rfw5auhttp://liginc.co.jp/designer/archives/2266http://www.df-cue.com/wp/2009/11/30/newmark/";s:13:"post_modified";s:19:"2012-07-27 15:12:37";s:17:"post_modified_gmt";s:19:"2012-07-27 06:12:37";s:21:"post_content_filtered";s:0:"";s:11:"post_parent";i:0;s:4:"guid";s:31:"http://dev.ontheroad.jp/?p=6437";s:10:"menu_order";i:0;s:9:"post_type";s:4:"post";s:14:"post_mime_type";s:0:"";s:13:"comment_count";s:1:"0";s:9:"ancestors";a:0:{}s:6:"filter";s:3:"raw";}

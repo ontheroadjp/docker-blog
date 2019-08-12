@@ -1,0 +1,192 @@
+O:8:"stdClass":23:{s:2:"ID";s:4:"9538";s:11:"post_author";s:1:"1";s:9:"post_date";s:19:"2012-11-21 13:38:57";s:13:"post_date_gmt";s:19:"2012-11-21 04:38:57";s:12:"post_content";s:14487:"<p>
+いまさらながら、ブラウザキャッシュを設定してみました。ブラウザキャッシュとは、アクセスした WEB サイトのデータ（CSSや画像など）をブラウザ側で保持するキャッシュのこと。<br>
+<br>
+ブラウザキャッシュが有効になると、ブラウザは一度アクセスした WEB サイトのデータをキャッシュとして保持し、同じサイトへのアクセスはサーバーに問い合わせることなくキャッシュからデータを読み込むことによって、表示を高速化させる、という仕組み。<br>
+<br>
+ブラウザ側でキャッシュの仕組みがあるのは昔から知っていましたが、単純にアクセスした WEB サイトのデータをキャッシュして、単純に次回以降はそのキャッシュを読み込む、という訳ではないみたい。<br>
+<br>
+どうやらいちいち WEB サーバーに問い合わせをして、WEB サーバーのデータがキャッシュファイルよりも新しければ、WEB サーバーからデータを取得し、そうじゃなければキャッシュファイルを読み込むそうな。<br>
+<br>
+なので、キャッシュしているとはいえイチイチ WEB サーバーに問い合わせるため通信環境やサーバー性能によっては遅い。<br>
+<br>
+ってことで、expires ヘッダなるものを設定してあげると、イチイチ WEB サーバーに問い合わせをすることなく、キャッシュがあればキャッシュファイルを読み込むようにできるみたい。
+</p>
+
+<h3>WEB サーバーによっては expires ヘッダの設定が大変</h3>
+<p>
+このブログはレンタルサーバー（<A href="http://px.a8.net/svt/ejp?a8mat=15UUUH+39VWVE+CO4+609HU" target="_blank">エックスサーバー</A>
+<img border="0" width="1" height="1" src="http://www15.a8.net/0.gif?a8mat=15UUUH+39VWVE+CO4+609HU" alt="">）で動いている訳ですが、多くのレンタルサーバーでは WEB サーバーとして Apache が使われていることが多い。<br>
+<br>
+っで、expires ヘッダは、Apache の mod_expires というエクステンションを利用すると簡単に設定できるけど、レンタルサーバーの Apache に mod_expires が組み込まれていない（有効になっていない）場合は、PHP とかでゴリゴリしなければならないので大変（っぽい）。<br>
+<br>
+今まで気にしたこともなかったけど、レンタルサーバー選びでは mod_expires が使えるかどうかって結構重要かも。<br>
+<br>
+自分のレンタルサーバーで mod_expires が使えるかどうかわからない場合は、とりあえず設定だけでもしちゃってください（笑）。<br>
+<br>
+別に壊れたりするわけじゃないので。<br>
+<br>
+設定した後、WEB サーバーへのアクセスが発生してるかどうかを確認して、アクセスが発生していたら、あぁ mod_expires が使えないんだな・・と、その時にあきらめる、と。単純に設定をミスってるだけの可能性もありますが・・。<br>
+<br>
+ちなみに人気の<a href="http://www.sakura.ne.jp/" target="_blank">さくらのレンタルサーバー</a>でも、2012年7月より mod_expires が使えるようになったみたいです。<br>
+<br>
+参考：<a href="http://did2memo.net/2012/07/21/sakura-rental-server-mod-expires/" target="_blank">遂にさくらのレンタルサーバでmod_expiresが使用可能に！さっそく試してみた | 情報科学屋さんを目指す人のメモ</a><br>
+<br>
+もちろん、<A href="http://px.a8.net/svt/ejp?a8mat=15UUUH+39VWVE+CO4+609HU" target="_blank">エックスサーバー</A>
+<img border="0" width="1" height="1" src="http://www15.a8.net/0.gif?a8mat=15UUUH+39VWVE+CO4+609HU" alt="">でも mod_expires は使えます。
+</p>
+
+<h3>expires ヘッダを設定するファイルの対象</h3>
+<p>
+動的に生成される WEB サイトでは、WEB ページ（HTML）自体がキャッシュされてしまうと、その WEB ページを更新した際にもブラウザは更新前にキャッシュしたページ（HTML）を読み込んでしまうため、原則、画像ファイルや CSS、Javascript などの静的なファイルのみをキャッシュするようにするようです。<br>
+<br>
+そりゃそうだ。<br>
+<br>
+WordPress で構築した WEB サイト（ブログ）は PHP によって動的に生成される訳ですが、記事の修正等をしない限り毎回同じ内容で生成されるので、WEB ページ（動的に生成された HTML）自体をキャッシュしてしまっても良いかもしれません。<br>
+<br>
+ただ、このブログのように「人気の記事」などをサイドバーに表示してたり、コメント欄を設けてたりする場合、WEB ページ自体をキャッシュする設定にしていると、それら変更が反映しなくなっちゃうので、やっぱり原則は画像などの静的なファイルのみをキャッシュする方が無難かも。<br>
+<br>
+ただ、やってみるとわかりますが、WEB サーバーへのアクセスをスキップして、勅ｋ節キャッシュファイルが読み込まれると圧倒的に速いです。天と地の差がある。<br>
+<br>
+なので、動的に変化する部分についてもリアルタイムで変化しなければならないのか、別にタイムラグがあっても問題がない場合も多いと思うので、それらを吟味しながら極力 expires ヘッダを設定する方向で。
+</p>
+
+<h3>さっそく設定してみた</h3>
+<p>
+expires ヘッダを追加すべく .htaccess に以下を追加しました。<br>
+</p>
+
+<blockquote>
+# BEGIN CACHE(Browser Cache)<br>
+&lt;ifModule mod_expires.c><br>
+ExpiresActive On<br>
+ExpiresByType image/gif "access plus 14 days"<br>
+ExpiresByType image/jpeg "access plus 14 days"<br>
+ExpiresByType image/png "access plus 14 days"<br>
+<br>
+ExpiresByType text/html "access plus 1 seconds"<br>
+ExpiresByType text/css "access plus 60 minutes"<br>
+ExpiresByType application/x-javascript "access plus 60 minutes"<br>
+<br>
+ExpiresByType application/xhtml+xml "access plus 30 minutes"<br>
+ExpiresByType application/xml "access plus 30 minutes"<br>
+ExpiresByType application/rss+xml "access plus 30 minutes"<br>
+&lt;/ifModule>
+# END CACHE
+</blockquote>
+
+<p>
+この設定だと、画像ファイル（gif、jpeg、pne）はアクセスされてから14日間、css ファイルは 1時間、Javascript も 1時間キャッシュされます。（WEB サーバーへのアクセスが無くなります）<br>
+<br>
+さらに、rss などは アクセスされてから 30分間キャッシュされます。<br>
+<br>
+css とか Javascript を 1時間キャッシュするなら、rss とかも最低 1時間キャッシュしちゃえば良いような気もしますが、とりあえずこんな感じで。<br>
+<br>
+また、HTML ファイル（PHP も含む）については、
+</p>
+
+<blockquote>
+ExpiresByType text/html "access plus 1 seconds"<br>
+</blockquote>
+
+<p>
+と、1秒だけキャッシュするような設定になっているけど、何故こうするのか良く分からない。<br>
+<br>
+多くのサンプルがこうなってたから真似してみた。<br>
+</p>
+
+<h3>ちゃんと expires ヘッダが追加されているかどうかを確認してみる</h3>
+<p>
+設定が終わったら、ちゃんとexpires ヘッダが追加されているかどうかを <a href="https://developers.google.com/chrome-developer-tools/?hl=ja" target="_blank">Chrome Developer Tools</a> で確認してみます。<br>
+</p>
+
+<ol>
+<li>
+<a href="https://developers.google.com/chrome-developer-tools/?hl=ja" target="_blank">Chrome Developer Tools</a> を起動して、Network を開きます。<br>
+<br>
+<img src="http://dev.ontheroad.jp/wp-content/uploads/2012/11/dev_dools_network.jpg" alt="" title="dev_dools_network" width="600" height="661" class="alignnone size-full wp-image-9548" /><br>
+</li><br>
+
+<li>
+ブラウザで自分のブログにアクセスします。そうすると、設定した対象のファイルがキャッシュされたはず。<br>
+<br>
+そして、ブラウザでリンクをクリックします（リロードはNG）。サイドバーに使っている画像など、1回目にアクセスしたページと同じファイルで表示されていて、かつ .htaccess でキャッシュ対象として設定したファイル（gif, jpeg など）は、WEB サーバーからではなくて、キャッシュから読み込まれているはず。<br>
+<br>
+<a href="https://developers.google.com/chrome-developer-tools/?hl=ja" target="_blank">Chrome Developer Tools</a> にずらずらーっと表示された中で、キャッシュ対象のファイルの Size が （from cache）となっていれば成功です。<br>
+<br>
+<img src="http://dev.ontheroad.jp/wp-content/uploads/2012/11/dev_dools_network_cache1.jpg" alt="" title="dev_dools_network_cache" width="600" height="661" class="alignnone size-full wp-image-9553" /><br>
+</li>
+</ol>
+
+<p>なんか、ちょっとうれしい。</p>
+
+
+
+<h3>もうちょっと詳しく確認してみる</h3>
+<p>キャッシュから読み込まれていることは確認できたけど、ちゃんと指定した通りの期間、キャッシュが有効になっているかどうかを確認してみます。<br>
+</p>
+
+<ol>
+<li>左側からキャッシュ対象のファイルをクリックすると、右側に HTTP Response Header が表示されます。（下までスクロールしてください。）<br>
+<br>
+下の画像のように数行しか表示されない場合は、一度元の画面に戻って別のファイルを選択し直してください。<br>
+<br>
+<img src="http://dev.ontheroad.jp/wp-content/uploads/2012/11/response_header_close.jpg" alt="" title="response_header_close" width="600" height="515" class="alignnone size-full wp-image-9563" /><br>
+<br>
+Response Header とは、対象ファイル（この場合は png ファイル）が WEB サーバーから送られてくるときに、WEB サーバーから一緒に送られる情報です。<br>
+<br>
+っで、Response Header が表示されたらその中に、
+</p>
+
+<blockquote>
+Cache-Control:max-age=1209600<br>
+Expires:Wed, 05 Dec 2012 02:48:01 GMT
+</blockquote>
+
+<p>
+があることを確認します。これは png ファイルの Response Header の内容ですが、上記 .htaccess で設定したとおり、Cache-Control の max-age が、1,209,600秒（14 days）になっています。<br>
+<br>
+Expires は、表示されている日時までキャッシュが有効ですよ、という意味。ちゃんと約2週間後になってます。<br>
+<br>
+当然、.htaccess でキャッシュ有効期間を再設定すれば、Cache-Control などの値は変わりますので、.htaccess を修正した場合は、Response Header を確認してちゃんと意図通りの設定が反映されているか確認すると安心。<br>
+<br>
+なんかプロっぽくなってきた（笑）。
+</p>
+
+
+<h3>実際の効果</h3>
+<p>
+サイトの作り方（画像ファイルなどの量）にもよりますが、このブログでは ページの読み込み速度が 0.5秒～0.8秒ほど早くなりました。<br>
+<br>
+たった、0.5～0.8秒かよ、と思うかもしれませんが、0.5秒の差は大きいです。体感できるレベル。モッサリ感も多少無くなった。<br>
+<br>
+ページの表示速度（読み込み速度）の確認方法については <a href="http://dev.ontheroad.jp/archives/9270">Google の Chrome Developer Tools で サイトの表示速度を計測してみた</a> をご覧ください。
+</p>
+
+<h3>キャッシュ管理の難しさ</h3>
+<p>
+キャッシュっていうのは仕組みは単純だけどそれを管理するのは大変。なんでもかんでもキャッシュすれば表示は速くなるけどページごとに人気記事ランキングの順序が変わっちゃったり、CSS をいじったりすると、修正が反映されているページと修正が反映されていないページに分かれちゃったり。<br>
+<br>
+また、キャッシュといっても今回のブラウザキャッシュ以外にも、PHP の処理過程をキャッシュしたり、データーベース接続の内容をキャッシュしたりと、キャッシュが出てくる場面は多い。<br>
+<br>
+WEB ページの表示速度を高める上で、いかにキャッシュを効果的に利用するか？というのはとても重要なことだと思いますが、それぞれのキャッシュの挙動を理解していないと、とにかくハマル。<br>
+<br>
+泣きたいくらいにはまります。<br>
+<br>
+なので、何が、どのタイミングで、どんな条件の時には、いつまで、キャッシュされるのかなどを常に意識（理解）しながら、キャッシュの管理ができるようになれば良いなぁと。<br>
+</p>
+
+<h3>まとめ</h3>
+今回は、.htaccess でブラウザキャッシュの設定を対象ファイルやキャッシュの有効期間を指定しつつ設定してみたわけですが、WordPress のプラグインでチェックボックスにチェックを入れるだけでブラウザキャッシュを有効にできたりするものも沢山あります。<br>
+<br>
+なんだけど、このようなプラグインはキャッシュの挙動を理解している人にはお手軽な存在だったりもするけど、私のような初心者はひとつづつ、キャッシュの挙動を理解、確認しながら進めていった方が、結局その方が楽ちんだったよね、となるんじゃないかと。<br>
+<br>
+いずれにしても、WEB ページの表示速度とキャッシュは切っても切り離せない関係にあるので、キャッシュの挙動を理解しておいて損は無いと思います。<br>
+<br>
+なんかブログがモッサリしてきたなぁ、という人は是非チャレンジしてみてください。<br>
+<br>
+でわでわ。
+</p>
+";s:10:"post_title";s:132:"WordPress がもっさりしてきたので、ブラウザキャッシュ（Expires ヘッダ）を設定して高速化してみた";s:12:"post_excerpt";s:332:"<!--:ja-->キャッシュ、きゃっしゅ、cache、→　これはキャッチェじゃないよ。キャッシュだよ。<br>
+<br>
+というわけで、表示速度がモッサリしてきたこのブログをブラウザキャッシュを有効にすることによって表示速度の改善をしてみました。<!--:-->";s:11:"post_status";s:7:"private";s:14:"comment_status";s:4:"open";s:11:"ping_status";s:4:"open";s:13:"post_password";s:0:"";s:9:"post_name";s:199:"wordpress-%e3%81%8c%e3%82%82%e3%81%a3%e3%81%95%e3%82%8a%e3%81%97%e3%81%a6%e3%81%8d%e3%81%9f%e3%81%ae%e3%81%a7%e3%80%81%e3%83%96%e3%83%a9%e3%82%a6%e3%82%b6%e3%82%ad%e3%83%a3%e3%83%83%e3%82%b7%e3%83%a5";s:7:"to_ping";s:0:"";s:6:"pinged";s:38:"
+http://dev.ontheroad.jp/archives/9270";s:13:"post_modified";s:19:"2012-11-21 16:44:24";s:17:"post_modified_gmt";s:19:"2012-11-21 07:44:24";s:21:"post_content_filtered";s:0:"";s:11:"post_parent";s:1:"0";s:4:"guid";s:31:"http://dev.ontheroad.jp/?p=9538";s:10:"menu_order";s:1:"0";s:9:"post_type";s:4:"post";s:14:"post_mime_type";s:0:"";s:13:"comment_count";s:1:"0";}

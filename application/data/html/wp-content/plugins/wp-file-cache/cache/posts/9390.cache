@@ -1,0 +1,66 @@
+O:8:"stdClass":23:{s:2:"ID";s:4:"9390";s:11:"post_author";s:1:"1";s:9:"post_date";s:19:"2012-11-19 12:00:27";s:13:"post_date_gmt";s:19:"2012-11-19 03:00:27";s:12:"post_content";s:3654:"<p>
+なんか Facebook の「いいね」ボタンを押してもらった時に、タイムラインに表示される内容が文字化けする場合があるみたいです。「シェア」ボタンも同じ。<br>
+<br>
+関連記事：<a href="http://dev.ontheroad.jp/archives/9239">Facebook の「シェアボタン」を復活させる方法</a><br>
+<br>
+それだとせっかく「いいね」してもらっても意味が無いし、「いいね」してくれた人にとってもオイオイ、となる訳でけで。<br>
+<br>
+また、文字化けする場合は常に文字化けしてくれれば、文字化けする事に気が付くのですが、特定の記事だけで文字化けする場合があるのでわかりにくい。<br>
+<br>
+という事で、文字化けする場合の対処法を。
+</p>
+
+<h3>&lt;meta>タグで charset を指定する。</h3>
+<p>
+まず、&lt;head>タグ内に、charset を指定する &lt;meta> タグがあるかどうかを確認します。<br>
+<br>
+自分のブログ文章の文字コードに合わせて以下のどれかを指定します。
+</p>
+
+<blockquote>
+&lt;meta http-equiv="Content-Type" content="text/html; charset=Shift_JIS"><br>
+&lt;meta http-equiv="Content-Type" content="text/html; charset=euc-jp"><br>
+&lt;meta http-equiv="Content-Type" content="text/html; charset=iso-2022-jp"><br>
+&lt;meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+</blockquote>
+
+<p>また、HTML 5 では以下の書式で指定します。</p>
+
+<blockquote>
+&lt;meta charset="Shift_JIS"><br>
+&lt;meta charset="euc-jp"><br>
+&lt;meta charset="iso-2022-jp"><br>
+&lt;meta charset="UTF-8">
+</blockquote>
+
+<p>
+なお、charset は、はじめの 1,024バイト以内にある必要があるみたいなので、&lt;head>タグの初めの方に書いておけば安心です。<br>
+<br>
+ちなみに WordPress の場合は
+</p>
+
+<blockquote style="white-space: nowrap;">
+&lt;meta http-equiv="Content-Type" content="&lt;?php bloginfo('html_type'); ?>; charset=&lt;?php bloginfo('charset'); ?>" />　// HTML5 以外の場合<br>
+
+&lt;meta charset="UTF-8">　// HTML5 の場合
+</blockquote>
+
+<p>
+としておけば、WordPress の設定が反映されるので簡単です。これで文字化けは直るはず。
+</p>
+
+<h3>それでも直らない場合は・・</h3>
+<p>
+すでに文字化け状態で「いいね」をしてもらった記事については、文字化けした状態で Facebook の方にキャッシュされちゃっているようなので、そのキャッシュをクリアしてあげれば直るみたいです。<br>
+<br>
+キャッシュクリアの方法は、Facebook の<a href="http://developers.facebook.com/tools/debug" target="_blank">デバッグツール</a>にアクセスして、キャッシュクリアしたいページの URL を入力した後、デバッグボタンをクリックすればキャッシュクリアされます。<br>
+<br>
+「オブジェクトのプロパティ」に文字化けせずに表示されればおっけー。<br>
+<br>
+<img src="http://dev.ontheroad.jp/wp-content/uploads/2012/11/fb_debug_tool.jpg" alt="" title="fb_debug_tool" width="604" height="322" class="alignnone size-full wp-image-9406" /><br>
+<br>
+というわけで、文字化けなんかしてないもんねーな人も &lt;head> タグ内をいじったりした後は、ちゃんと確認しておかないと全力で文字化けっている可能性もあるので（これ私）、念のため確認しておいた方が良いと思いかも、です。<br>
+<br>
+でわでわ。
+</p>";s:10:"post_title";s:72:"Facebook の「いいね」ボタンとかの文字化けを直す方法";s:12:"post_excerpt";s:255:"<!--:ja-->いつも悩まされる文字化け問題。せっかくの「いいね」ボタンも文字化けしては意味が無い。ってことで、せっかく「いいね」を設置したのに文字化けしちゃう場合の対策を。<!--:-->";s:11:"post_status";s:7:"publish";s:14:"comment_status";s:4:"open";s:11:"ping_status";s:4:"open";s:13:"post_password";s:0:"";s:9:"post_name";s:198:"facebook-%e3%81%ae%e3%80%8c%e3%81%84%e3%81%84%e3%81%ad%e3%80%8d%e3%83%9c%e3%82%bf%e3%83%b3%e3%81%a8%e3%81%8b%e3%81%ae%e6%96%87%e5%ad%97%e5%8c%96%e3%81%91%e3%82%92%e7%9b%b4%e3%81%99%e6%96%b9%e6%b3%95";s:7:"to_ping";s:0:"";s:6:"pinged";s:38:"
+http://dev.ontheroad.jp/archives/9239";s:13:"post_modified";s:19:"2012-11-19 12:03:22";s:17:"post_modified_gmt";s:19:"2012-11-19 03:03:22";s:21:"post_content_filtered";s:0:"";s:11:"post_parent";s:1:"0";s:4:"guid";s:31:"http://dev.ontheroad.jp/?p=9390";s:10:"menu_order";s:1:"0";s:9:"post_type";s:4:"post";s:14:"post_mime_type";s:0:"";s:13:"comment_count";s:1:"0";}

@@ -1,0 +1,37 @@
+O:8:"stdClass":23:{s:2:"ID";s:4:"9109";s:11:"post_author";s:1:"1";s:9:"post_date";s:19:"2012-11-12 22:55:14";s:13:"post_date_gmt";s:19:"2012-11-12 13:55:14";s:12:"post_content";s:3105:"<p>
+すべてのApple製ハードウェアには、製品購入後1年間のハードウェア製品保証と90日間の無償電話サポートがついていて、別途 <a href="http://www.apple.com/jp/support/products/mac.html" target="_blank">Apple Care Protection Plan</a> に加入（購入）することによって保証期間を3年間（iPhone, iPad, iPod & Apple TV は2年間）まで延長することができるみたいです。<br>
+<br>
+ただ、対象製品の購入日から 1年以内（製品保証期間内）じゃないと <a href="http://www.apple.com/jp/support/products/mac.html" target="_blank">Apple Care Protection Plan</a> に加入（購入）することができないそうな。<br>
+<br>
+ということで、自分の Mac の製品保証がいつまでなのかを確認して、それまでに <a href="http://www.apple.com/jp/support/products/mac.html" target="_blank">Apple Care Protection Plan</a> の購入をするかどうか決めなきゃならん訳ですが、そもそも購入日なんか覚えてないし。<br>
+<br>
+ということで、自分の Mac や iPad とかの保証期間がいつまであるのか？を調べる方法をシェアします。
+</p>
+
+<h3>保証状況の調べ方</h3>
+<p>
+<a href="http://dev.ontheroad.jp/archives/9069">先日のエントリ</a>で自分の Mac のスペックを調べるためにシリアル番号を用いた訳ですが、シリアル番号がわかると Apple 保証の状況も確認する事ができます。<br>
+<br>
+自分の Mac のシリアル番号の確認方法は「<a href="http://dev.ontheroad.jp/archives/9069" target="_blank">自分の Mac の技術仕様（スペック）を確実に確認する方法</a>」を参考にしてください。<br>
+<br>
+っで、シリアル番号がわかったら以下のページにアクセスをして、シリアル番号で検索すれば、製品保証期間の有無や Apple Care の案内などが表示されます。
+</p>
+
+<div><a href="https://selfsolve.apple.com/agreementWarrantyDynamic.do" target="_blank"><img class="alignleft" align="left" border="0" src="http://capture.heartrails.com/150x130/shadow?https://selfsolve.apple.com/agreementWarrantyDynamic.do" alt="" width="150" height="130" /> </a> <a style="color:#0070C5;" href="https://selfsolve.apple.com/agreementWarrantyDynamic.do" target="_blank">アップル - サポート - サービスとサポート期間を確認する</a></div><div style="clear:both"></div><br />
+
+<h3>MacBook Air の保証期間を調べてみた</h3>
+<p>
+ということで早速、自分の MacBook Air の製品保証期間を調べてみました。<br>
+<br>
+<img src="http://dev.ontheroad.jp/wp-content/uploads/2012/11/apple_support-1.jpg" alt="" title="apple_support-1" width="600" height="387" class="alignnone size-full wp-image-9196" /><br>
+<br>
+どうやら私の MacBook Air の保証期間は今年の12月22日までのようです。<br>
+<br>
+それまでに Apple Care を購入するかどうか決めなくてちゃ。<br>
+<br>
+でわでわ。
+</p>
+
+";s:10:"post_title";s:80:"自分の Mac の Apple保証（メーカー保証）状況を確認する方法";s:12:"post_excerpt";s:328:"<!--:ja-->形あるものはいつか壊れるわけで、大切に使っていても壊れるときは壊れます。Apple 製品は購入から1年間の製品保証がついてるけど、Apple Care Protection Plan を購入することによって3年（Apple TVとかは2年）まで延長できるようです。
+<!--:-->";s:11:"post_status";s:7:"publish";s:14:"comment_status";s:4:"open";s:11:"ping_status";s:4:"open";s:13:"post_password";s:0:"";s:9:"post_name";s:200:"%e8%87%aa%e5%88%86%e3%81%ae-mac-%e3%81%ae-apple%e4%bf%9d%e8%a8%bc%ef%bc%88%e3%83%a1%e3%83%bc%e3%82%ab%e3%83%bc%e4%bf%9d%e8%a8%bc%ef%bc%89%e7%8a%b6%e6%b3%81%e3%82%92%e7%a2%ba%e8%aa%8d%e3%81%99%e3%82%8b";s:7:"to_ping";s:0:"";s:6:"pinged";s:38:"
+http://dev.ontheroad.jp/archives/9069";s:13:"post_modified";s:19:"2012-11-12 22:55:53";s:17:"post_modified_gmt";s:19:"2012-11-12 13:55:53";s:21:"post_content_filtered";s:0:"";s:11:"post_parent";s:1:"0";s:4:"guid";s:31:"http://dev.ontheroad.jp/?p=9109";s:10:"menu_order";s:1:"0";s:9:"post_type";s:4:"post";s:14:"post_mime_type";s:0:"";s:13:"comment_count";s:1:"0";}
