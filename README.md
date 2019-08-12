@@ -11,79 +11,73 @@ Docker containers management by dynamic proxy.
 
 ### Installation
 
-* Download the latest release of docker-toybox.
+* Download the latest release of docker-blog.
 
 ```
 $ cd /path/to/download
-$ git clone https://github.com/ontheroadjp/docker-toybox.git
+$ git clone https://github.com/ontheroadjp/docker-blog.git
 ```
+### Settings
 
-* Set environment variables in your ``~/.bash_profile``
+Edit ''path/to/installdir/application/bin/.env''.
+example below.
 
 ```bash
-$ export TOYBOX_HOME=/path/to/download/docker-toybox
-$ export PATH=$TOYBOX_HOME/bin:$PATH
+# ---------------------------------------------
+# Application Settings
+# ---------------------------------------------
+APPLICATION_HOME=/path/to/installdir/docker-blog/application
+UID=1000
+GID=1000
 ```
 
-* If you set ``TOYBOX_DOMAIN`` optional environment valiable, you can access application with your own domain.
+```bash
+# ---------------------------------------------
+# Nginx(Web Server) settings
+# ---------------------------------------------
+SITE_URL=www.sample.com
+LETSENCRYPT_EMAIL=sample@sample.com
+PROXY_CACHE=true
+```
 
 ```bash
-$ export TOYBOX_DOMAIN=yourdomain.com
+# ---------------------------------------------
+# DB settings
+# ---------------------------------------------
+DB_ROOT_PASSWORD=root
+DB_NAME=wordpress
+DB_USER=sakura
+DB_PASSWORD=sakura_password
+DB_TABLE_PREFIX=wp_
 ```
 
 ### Usage
 
+#### Start Proxy Container
 ```bash
-$ toybox <application> <command>
+$ cd docker-blog/proxy/bin
+$ docker-compose up -d
 ```
 
-available applications are shown as below
+It will start three containers. Nginx, docker-gen and letsencrypt-nginx-proxy-companion container.
 
-* wordpress
-* owncloud
+Nginx: Proxy Server enabled the proxy cache
+docker-gen: Generate nginx conf files dynamically.
+letsencrypt-nginx-proxy-companion: create and update TLS cirtification.
 
-available commands are shown as below
-
-* ``start`` to boot the application.
-* ``stop`` to shutdown the application.
-* ``status`` to show the application status
-* ``clear`` to shutdown the application and remove all of containers related.
-* ``backup`` to save containers data.
-* ``restore`` to restore containers data.
-
-## Example
-
-* By command as below to boot WordPress and you can access ``http://wordpress.docker-toybox.com``.
-* If you set ``TOYBOX_DOMAIN`` environment valiable before, you can access ``http://wordpress.yourdomain.com``
-
+#### Start WordPress Container
 ```bash
-$ toybox wordpress start
+$ cd docker-blog/application/bin
+$ docker-compose up -d
 ```
 
-* Command to stop WordPress as below.
+It will start three containers. Nginx, PHP-FPM and MariaDB container.
 
-```bash
-$ toybox wordpress stop
-```
-
-### Sub domain name
-
-* You can use ``-s`` option to assign sub domain name you like when booting application and you can access ``http://blog.docker-toybox.com``.
-* If you set ``TOYBOX_DOMAIN`` environment valiable before, you can access ``http://blog.yourdomain.com``
-
-```bash
-$ toybox -s blog wordpress start
-```
-
-* Command to stop WordPress that sub domain name is specified.
-
-```bash
-$ toybox -s wp wordpress stop
-```
-
-* If you don't use ``-s`` option, application name will assign as sub domain name.
+Nginx: Web Server
+PHP-FPM: PHP-FPM module that is installed WordPress.
+MariaDB: Database for WordPress.
 
 ## License
 
-* [jwilder/nginx-proxy](echo "<h1>Helo world!</h1>") - 
- MIT
+* [jwilder/docker-gen](https://github.com/jwilder/docker-gen) - MIT
+* [jwilder/docker-letsencrypt-nginx-proxy-companion](https://github.com/jwilder/docker-letsencrypt-nginx-proxy-companion) - MIT
