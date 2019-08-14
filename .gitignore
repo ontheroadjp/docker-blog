@@ -1,6 +1,7 @@
 .DS_Store
+backup/
 application/bin/.env
-#application/data/
+application/data/
 proxy/data/
 proxy/conf/conf.d/*.conf
 proxy/conf/certs/*.crt
