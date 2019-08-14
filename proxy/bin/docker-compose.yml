@@ -13,8 +13,8 @@ nginx:
         max-size: "3m"
         max-file: "7"
     environment:
-        - TOYBOX_UID=1000
-        - TOYBOX_GID=1000
+        - TOYBOX_UID=1314
+        - TOYBOX_GID=1314
         - PROXY_CACHE=true
     ports:
         - "80:80"

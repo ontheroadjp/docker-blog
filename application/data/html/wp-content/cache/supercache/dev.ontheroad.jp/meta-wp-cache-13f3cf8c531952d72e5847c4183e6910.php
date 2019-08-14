@@ -1,1 +1,0 @@
-<?php die(); ?>{"headers":{"Vary":"Vary: Accept-Encoding, Cookie","Last-Modified":"Last-Modified: Thu, 25 Feb 2016 10:00:48 GMT","ETag":"ETag: \"04477011dc0e5678e825006b7d6868a5\"","Link":"Link: <https:\/\/dev.ontheroad.jp\/wp-json\/>; rel=\"https:\/\/api.w.org\/\"","Content-Type":"Content-Type: application\/rss+xml; charset=UTF-8"},"uri":"","blog_id":1,"post":0,"key":"443"}

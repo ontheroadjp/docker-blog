@@ -4,7 +4,7 @@ dev.ontheroad.jp-wordpress:
         - /etc/localtime:/etc/localtime:ro
         #- ~/workspace/docker-blog/application/data/html:/usr/share/nginx/html
         #- ~/workspace/docker-blog/application/conf/conf.d:/etc/nginx/conf.d
-        - ${APPLICATION_HOME}/data/html:/usr/share/nginx/html
+        - ${APPLICATION_HOME}/data/nginx:/usr/share/nginx
         - ${APPLICATION_HOME}/conf/conf.d:/etc/nginx/conf.d
     links:
         - php-fpm
@@ -24,7 +24,7 @@ dev.ontheroad.jp-wordpress:
         - VIRTUAL_HOST=${SITE_URL}
         - LETSENCRYPT_HOST=${SITE_URL}
         - LETSENCRYPT_EMAIL=${LETSENCRYPT_EMAIL}
-        - PHP_FPM_HOST=php-fpm:9000 
+        - PHP_FPM_HOST=php-fpm:9000
         - PROXY_CACHE=${PROXY_CACHE}
 
         #- DOCROOT=/usr/share/nginx/html
@@ -39,7 +39,7 @@ php-fpm:
     volumes:
         - /etc/localtime:/etc/localtime:ro
         #- ~/workspace/docker-blog/application/data/html:/usr/share/nginx/html
-        - ${APPLICATION_HOME}/data/html:/usr/share/nginx/html
+        - ${APPLICATION_HOME}/data/nginx:/usr/share/nginx
     links:
         - wordpress-db:mysql
     environment:
