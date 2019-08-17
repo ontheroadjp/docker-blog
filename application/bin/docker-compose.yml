@@ -1,83 +1,48 @@
-dev.ontheroad.jp-wordpress:
+starton.jp-wordpress:
     image: nutsllc/toybox-nginx:1.15.7-alpine
     volumes:
         - /etc/localtime:/etc/localtime:ro
-        #- ~/workspace/docker-blog/application/data/html:/usr/share/nginx/html
-        #- ~/workspace/docker-blog/application/conf/conf.d:/etc/nginx/conf.d
         - ${APPLICATION_HOME}/data/nginx:/usr/share/nginx
         - ${APPLICATION_HOME}/conf/conf.d:/etc/nginx/conf.d
     links:
-        - php-fpm
-
-    log_driver: "json-file"
-    log_opt:
-        max-size: "3m"
-        max-file: "7"
+        - starton.jp-php-fpm
     environment:
-        #- TOYBOX_UID=1000
-        #- TOYBOX_GID=1000
         - TOYBOX_UID=${UID}
         - TOYBOX_GID=${GID}
-        #- VIRTUAL_HOST=dev.ontheroad.jp
-        #- LETSENCRYPT_HOST=dev.ontheroad.jp
-        #- LETSENCRYPT_EMAIL=dev@ontheroad.jp
         - VIRTUAL_HOST=${SITE_URL}
-        - LETSENCRYPT_HOST=${SITE_URL}
-        - LETSENCRYPT_EMAIL=${LETSENCRYPT_EMAIL}
+        #- LETSENCRYPT_HOST=${SITE_URL}
+        #- LETSENCRYPT_EMAIL=${LETSENCRYPT_EMAIL}
         - PHP_FPM_HOST=php-fpm:9000
         - PROXY_CACHE=${PROXY_CACHE}
-
-        #- DOCROOT=/usr/share/nginx/html
-        #- EXEC_REPLACE_DB=0
-        #- FQDN_REPLACED=
-        #- REMOTE_WP_DIR=
     ports:
         - "80"
 
-php-fpm:
+starton.jp-php-fpm:
     image: nutsllc/toybox-php:7.0-fpm
     volumes:
         - /etc/localtime:/etc/localtime:ro
-        #- ~/workspace/docker-blog/application/data/html:/usr/share/nginx/html
         - ${APPLICATION_HOME}/data/nginx:/usr/share/nginx
     links:
-        - wordpress-db:mysql
+        - starton.jp-wordpress-db:mysql
     environment:
-        #- TOYBOX_UID=1000
-        #- TOYBOX_GID=1000
         - TOYBOX_UID=${UID}
         - TOYBOX_GID=${GID}
         - ALL_PHP_MODULES=enable
-        #- WORDPRESS_DB_NAME=toybox_wordpress
-        #- WORDPRESS_DB_USER=toybox
-        #- WORDPRESS_DB_PASSWORD=toybox
-        #- WORDPRESS_TABLE_PREFIX=wp_dev_
         - WORDPRESS_DB_NAME=${DB_NAME}
         - WORDPRESS_DB_USER=${DB_NAME}
         - WORDPRESS_DB_PASSWORD=${DB_PASSWORD}
         - WORDPRESS_TABLE_PREFIX=${DB_TABLE_PREFIX}
 
-wordpress-db:
+starton.jp-wordpress-db:
     image: nutsllc/toybox-mariadb:10.1.14
     volumes:
         - /etc/localtime:/etc/localtime:ro
-        #- ~/workspace/docker-blog/application/data/mariadb:/var/lib/mysql
         - ${APPLICATION_HOME}/data/mariadb:/var/lib/mysql
-    log_driver: "json-file"
-    log_opt:
-        max-size: "3m"
-        max-file: "7"
     environment:
-        #- TOYBOX_UID=1000
-        #- TOYBOX_GID=1000
         - TOYBOX_UID=${UID}
         - TOYBOX_GID=${GID}
-        #- MYSQL_ROOT_PASSWORD=root
-        #- MYSQL_DATABASE=toybox_wordpress
-        #- MYSQL_USER=toybox
-        #- MYSQL_PASSWORD=toybox
         - MYSQL_ROOT_PASSWORD=${DB_ROOT_PASSWORD}
         - MYSQL_DATABASE=${DB_NAME}
-        - MYSQL_USER=${DB_NAME}
+        - MYSQL_USER=${DB_USER}
         - MYSQL_PASSWORD=${DB_PASSWORD}
         - TERM=xterm
