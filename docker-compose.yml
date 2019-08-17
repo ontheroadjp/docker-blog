@@ -10,8 +10,8 @@ starton.jp-wordpress:
         - TOYBOX_UID=${UID}
         - TOYBOX_GID=${GID}
         - VIRTUAL_HOST=${SITE_URL}
-        #- LETSENCRYPT_HOST=${SITE_URL}
-        #- LETSENCRYPT_EMAIL=${LETSENCRYPT_EMAIL}
+          #- LETSENCRYPT_HOST=${SITE_URL}
+          #- LETSENCRYPT_EMAIL=${LETSENCRYPT_EMAIL}
         - PHP_FPM_HOST=php-fpm:9000
         - PROXY_CACHE=${PROXY_CACHE}
     ports:
